@@ -166,6 +166,22 @@
     padding-top: 30px;
     padding-bottom: 50px;
     margin: 0 6px;
+    .text {
+        text-align: center;
+        span {
+            color: #0084ff;
+            background-color: #fff;
+            font: 700 36px / 60px Exo2;
+            text-transform: uppercase;
+            padding: 20px;
+        }
+    }
+    .attention-top {
+        margin-top: -60px
+    }
+    .attention-bottom {
+        margin-bottom: -85px;
+    }
     .title {
         color: #303030;
         font: 700 18px / 24px Exo2;
@@ -227,8 +243,69 @@
         text-transform: none;
     }
 }
-.send-btn  {
+
+.send-btn {
     color: #202020;
     font: 700 18px / 60px Exo2!important;
     padding: 0px 20px!important;
+}
+
+.s-get-calc {
+    text-transform: uppercase;
+    padding-top: 36px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: url(../images/bg_s-get-calc.png);
+    margin: 0 auto;
+    .f-get-calc {
+        background-color: rgba(51, 153, 255, 0.7);
+        padding: 10px 10px;
+        border-radius: 3px;
+        text-align: justify;
+        max-width: 320px;
+        .title {
+            color: #303030;
+            font: 700 18px / 30px Exo2;
+        }
+        .inp {
+            display: inline-block;
+        }
+        &:second-child input {
+            margin: 0 4px;
+        }
+        .input_small {
+            height: 62px;
+            width: 92px;
+            display: inline-block;
+        }
+        input {
+            height: 62px;
+            padding-left: 13px;
+            border-radius: 3px;
+        }
+        p {
+            text-align: center;
+        }
+    }
+    span {
+        color: $blue;
+        font: 700 18px / 30px Exo2;
+    }
+    .today {
+        color: #303030;
+        font: 700 18px / 30px Exo2;
+        .color_blue {
+            color: $blue;
+            font: 700 24px / 30px Exo2;
+            text-transform: uppercase;
+        }
+        .color_yellow {
+            color: $yellow;
+            font: 700 24px / 30px Exo2;
+            text-transform: uppercase;
+        }
+    }
+    .send-btn {
+        padding: 0px 10px !important;
+    }
 }
