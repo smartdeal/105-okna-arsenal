@@ -97,6 +97,7 @@
     background: url(../images/bg_s_main-mob.png);
     padding-top: 63px;
     padding-bottom: 30px;
+    background-size: cover;
     .s-commercial_top {
         background: rgba(255, 255, 255, 0.8);
         padding-top: 17px;
@@ -115,16 +116,47 @@
             font: 500 18px / 24px Exo2;
             line-height: 12px;
             span {
-                color: #0078ff;
+                color: $blue;
                 font: 700 18px / 24px Exo2;
                 text-decoration: underline;
             }
         }
     }
 }
-.s-bullets {
+
+.s-bullets_top {
+    background-color: #fff;
+    font-size: 0;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    padding-bottom: 35px;
     .item {
-        
+        display: inline-block;
+        width: 105px;
+        color: #303030;
+        font: 600 14px / 18px OpenSans;
+        vertical-align: top;
+        margin: 15px 20px;
     }
-    
+    .icon {
+        width: 108px;
+        height: 108px;
+        display: block;
+    }
+    .item1 {
+        background: url(../images/icon_s-bullets_top_i3.png);
+    }
+    .item2 {
+        background: url(../images/icon_s-bullets_top_i4.png);
+    }
+    .item3 {
+        background: url(../images/icon_s-bullets_top_i2.png);
+    }
+    .item4 {
+        background: url(../images/icon_s-bullets_top_i1.png);
+    }
+    span {
+        text-align: center;
+    }
 }
