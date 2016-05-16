@@ -125,6 +125,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/icon_s-stock_i1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1815,
+		"inputAbbreviatedPath": "\/images\/icon_s-stock_i1.png",
+		"outputAbbreviatedPath": "\/images\/icon_s-stock_i1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icon_s-stock_i2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2218,
+		"inputAbbreviatedPath": "\/images\/icon_s-stock_i2.png",
+		"outputAbbreviatedPath": "\/images\/icon_s-stock_i2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icon_s-stock_i3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2019,
+		"inputAbbreviatedPath": "\/images\/icon_s-stock_i3.png",
+		"outputAbbreviatedPath": "\/images\/icon_s-stock_i3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icon_s-stock_i4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2355,
+		"inputAbbreviatedPath": "\/images\/icon_s-stock_i4.png",
+		"outputAbbreviatedPath": "\/images\/icon_s-stock_i4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/icon_tel.png": {
 		"fileType": 32768,
 		"ignore": 0,
