@@ -1,0 +1,92 @@
+//@import '../vendor/_reset.scss';
+//@import '../vendor/fonts.css';
+@import '_variables.scss';
+#stickyheader {
+    box-shadow: 0px 4px 5px 0.00px rgba(0, 0, 0, 0.19);
+    display: none;
+    //    position: absolute;
+    //    top: 0;
+    ul {
+        width: 100%;
+        text-align: center;
+        li {
+            display: inline-block;
+            width: 24%;
+            border-right: 1px solid #ededed;
+            &:last-child {
+                border-right: none;
+            }
+            a {
+                color: #303030;
+                font: 400 14px / 18px Exo2;
+                padding-top: 13px;
+                padding-bottom: 13px;
+                display: block;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.b_info {
+    background-color: #fff;
+    position: relative;
+    padding-top: 33px;
+    padding-bottom: 27px;
+    .logo {
+        background: url(../images/logo.png);
+        width: 125px;
+        height: 63px;
+        display: inline-block;
+        margin-right: 15px;
+        text-align: left;
+    }
+    .title {
+        color: #0084ff;
+        font: 600 14px / 14px Exo2;
+        position: absolute;
+        top: 12px;
+        display: block;
+    }
+    .info-tel {
+        width: 150px;
+        display: inline-block;
+        .time {
+            color: #606060;
+            font: 300 12px / 18px Exo2;
+            span {
+                color: #202020;
+                font: 600 12px / 18px Exo2;
+            }
+        }
+        .tel {
+            position: relative;
+            a {
+                color: #0084ff;
+                font: 600 14px / 18px Exo2;
+                text-align: left;
+                padding-left: 37px;
+                position: relative;
+                text-decoration: none;
+            }
+            &:before {
+                background: url(../images/icon_tel.png);
+                content: "";
+                display: block;
+                width: 30px;
+                height: 31px;
+                position: absolute;
+                left: 0;
+                top: 5px;
+            }
+        }
+    }
+    .btn-blue {
+        color: #ffffff;
+        font: 600 18px / 24px Exo2;
+        background-color: $blue;
+        box-shadow: 0 3px 0 0 #0057b9;
+        padding: 18px 40px;
+        margin-top: 20px;
+    }
+}
