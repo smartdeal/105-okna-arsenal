@@ -70,6 +70,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/bg_s_main-mob.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 124823,
+		"inputAbbreviatedPath": "\/images\/bg_s_main-mob.png",
+		"outputAbbreviatedPath": "\/images\/bg_s_main-mob.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/icon_tel.png": {
 		"fileType": 32768,
 		"ignore": 0,
