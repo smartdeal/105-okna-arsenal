@@ -62,7 +62,7 @@
         .tel {
             position: relative;
             a {
-                color: #0084ff;
+                color: $blue;
                 font: 600 14px / 18px Exo2;
                 text-align: left;
                 padding-left: 37px;
@@ -89,4 +89,40 @@
         padding: 18px 40px;
         margin-top: 20px;
     }
+}
+
+.s-commercial {
+    background: url(../images/bg_s_main-mob.png);
+    padding-top: 63px;
+    padding-bottom: 30px;
+    .s-commercial_top {
+        background: rgba(255, 255, 255, 0.8);
+        padding-top: 17px;
+        padding-bottom: 13px;
+        .s-commercial_top_title {
+            font: 700 24px / 30px Exo2;
+            text-transform: uppercase;
+            color: $blue;
+            span {
+                color: #303030;
+                font: 700 24px / 30px Exo2;
+            }
+        }
+        p {
+            color: #303030;
+            font: 500 18px / 24px Exo2;
+            line-height: 12px;
+            span {
+                color: #0078ff;
+                font: 700 18px / 24px Exo2;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+.s-bullets {
+    .item {
+        
+    }
+    
 }

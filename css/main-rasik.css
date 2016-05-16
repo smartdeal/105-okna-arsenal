@@ -70,3 +70,27 @@
     box-shadow: 0 3px 0 0 #0057b9;
     padding: 18px 40px;
     margin-top: 20px; }
+
+.s-commercial {
+  background: url(../images/bg_s_main-mob.png);
+  padding-top: 63px;
+  padding-bottom: 30px; }
+  .s-commercial .s-commercial_top {
+    background: rgba(255, 255, 255, 0.8);
+    padding-top: 17px;
+    padding-bottom: 13px; }
+    .s-commercial .s-commercial_top .s-commercial_top_title {
+      font: 700 24px / 30px Exo2;
+      text-transform: uppercase;
+      color: #0084ff; }
+      .s-commercial .s-commercial_top .s-commercial_top_title span {
+        color: #303030;
+        font: 700 24px / 30px Exo2; }
+    .s-commercial .s-commercial_top p {
+      color: #303030;
+      font: 500 18px / 24px Exo2;
+      line-height: 12px; }
+      .s-commercial .s-commercial_top p span {
+        color: #0078ff;
+        font: 700 18px / 24px Exo2;
+        text-decoration: underline; }
