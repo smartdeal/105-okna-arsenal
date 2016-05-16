@@ -22,7 +22,9 @@
   background-color: #fff;
   position: relative;
   padding-top: 33px;
-  padding-bottom: 27px; }
+  padding-bottom: 27px;
+  width: 320px;
+  margin: 0 auto; }
   .b_info .logo {
     background: url(../images/logo.png);
     width: 125px;
