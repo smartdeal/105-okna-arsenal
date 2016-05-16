@@ -1,0 +1,22 @@
+#stickyheader {
+  box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.19);
+  display: none; }
+  #stickyheader ul {
+    width: 100%;
+    text-align: center; }
+    #stickyheader ul li {
+      display: inline-block;
+      width: 24%;
+      border-right: 1px solid #ededed; }
+      #stickyheader ul li:first-child {
+        border-left: 1px solid #ededed; }
+      #stickyheader ul li a {
+        color: #303030;
+        font: 400 14px / 18px Exo2Regular;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        display: block; }
+
+.s-hesder h1 {
+  color: #0084ff;
+  font: 600 14px / 14px Exo2; }
