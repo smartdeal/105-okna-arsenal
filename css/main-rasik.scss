@@ -125,7 +125,7 @@
 }
 
 .s-bullets_top {
-//    background-color: #fff;
+    //    background-color: #fff;
     font-size: 0;
     margin: 0 auto;
     text-align: center;
@@ -568,6 +568,17 @@ input[type="text"]::-webkit-input-placeholder {
     }
     .s-stock {
         margin-top: 480px;
+    }
+    .s-bullets_top {
+        .b-bullets {
+            span {
+                color: $blue;
+                font: 600 15.79px / 18px OpenSans;
+            }
+            .icon {
+                margin-bottom: 5px;
+            }
+        }
     }
 }
 

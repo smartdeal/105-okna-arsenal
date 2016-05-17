@@ -456,4 +456,10 @@ input[type="text"]::-webkit-input-placeholder {
       text-decoration: underline; }
 
   .s-stock {
-    margin-top: 480px; } }
+    margin-top: 480px; }
+
+  .s-bullets_top .b-bullets span {
+    color: #0084ff;
+    font: 600 15.79px / 18px OpenSans; }
+  .s-bullets_top .b-bullets .icon {
+    margin-bottom: 5px; } }
