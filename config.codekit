@@ -81,6 +81,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/bg-s-main.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 898404,
+		"inputAbbreviatedPath": "\/images\/bg-s-main.png",
+		"outputAbbreviatedPath": "\/images\/bg-s-main.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/bg_s-main-form.png": {
 		"fileType": 32768,
 		"ignore": 0,
