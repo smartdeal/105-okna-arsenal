@@ -403,3 +403,74 @@
         }
     }
 }
+
+.b-map-adr {
+    background-color: $blue;
+    color: #fff;
+    padding: 31px;
+    padding-top: 24px;
+    text-align: left;
+    .title {
+        font: 400 18px / 30px Exo2;
+        color: #ffc000;
+        text-align: center;
+        margin-bottom: 34px;
+    }
+    .adr,
+    .tel,
+    .mail {
+        padding-left: 34px;
+    }
+    .b-adr-item {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .adr {
+        position: relative;
+        margin-bottom: 22px;
+        &:before {
+            background: url(../images/icon_map.png);
+            content: "";
+            width: 17px;
+            height: 26px;
+            position: absolute;
+            display: block;
+            left: 0;
+            top: 5px;
+        }
+    }
+    .tel {
+        position: relative;
+        font: 500 24px / 24px Exo2;
+        margin-bottom: 23px;
+        
+        &:before {
+            background: url(../images/icon_tel_small.png);
+            content: "";
+            width: 20px;
+            height: 21px;
+            position: absolute;
+            display: block;
+            left: 0;
+            top: 15px;
+        }
+    }
+    .mail {
+        position: relative;
+        font: 400 18px / 18px OpenSans;
+        margin-bottom: 18px;
+        &:before {
+            background: url(../images/icon_mail.png);
+            content: "";
+            width: 23px;
+            height: 17px;
+            position: absolute;
+            display: block;
+            left: 0;
+            top: 2px;
+        }
+    }
+    p {
+        font: 400 18px / 24px Exo2;
+    }
+}

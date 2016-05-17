@@ -136,6 +136,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/icon_mail.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 791,
+		"inputAbbreviatedPath": "\/images\/icon_mail.png",
+		"outputAbbreviatedPath": "\/images\/icon_mail.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icon_map.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 857,
+		"inputAbbreviatedPath": "\/images\/icon_map.png",
+		"outputAbbreviatedPath": "\/images\/icon_map.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/icon_s-bullets_top_i1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -231,6 +253,17 @@
 		"initialSize": 1495,
 		"inputAbbreviatedPath": "\/images\/icon_tel.png",
 		"outputAbbreviatedPath": "\/images\/icon_tel.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icon_tel_small.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 677,
+		"inputAbbreviatedPath": "\/images\/icon_tel_small.png",
+		"outputAbbreviatedPath": "\/images\/icon_tel_small.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
