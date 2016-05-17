@@ -168,6 +168,10 @@ if (checkWidth > 750) {
             item:1,
             loop:true,
     });
+    $('.b-sert').lightSlider({
+            item:1,
+            loop:true,
+    });
 }
 // $(window).resize(size());
 if (checkWidth < 975) {
