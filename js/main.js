@@ -164,15 +164,7 @@ var checkHeight = $(window).height();
 if (checkWidth > 750) {
     var s_vid_max_slides = 2;
 } else {
-    $('.b-spectr').lightSlider({
-            item:1,
-            loop:true,
-    });
-    $('.b-sert').lightSlider({
-            item:1,
-            loop:true,
-    });
-    $('.b-types-list').lightSlider({
+    $('.b-spectr, .b-adv-list, .b-sert, .b-types-list').lightSlider({
             item:1,
             loop:true,
     });

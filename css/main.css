@@ -165,12 +165,13 @@ form .field_error {
 .section {
   padding: 20px 0; }
 
-.section .title {
-  font-family: "exo2";
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.33;
-  text-transform: uppercase; }
+.s-title {
+    color: #0084ff;
+    font: 700 24px/30px Exo2;
+    text-transform: uppercase;
+    padding-top: 27px;
+    margin-bottom: 19px;
+}
 
 .dark {
   position: fixed;
