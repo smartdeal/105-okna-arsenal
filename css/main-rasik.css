@@ -217,14 +217,15 @@
       display: inline-block; }
     .s-get-calc .f-get-calc:second-child input {
       margin: 0 4px; }
+    .s-get-calc .f-get-calc input {
+      height: 62px;
+      padding-left: 23px;
+      border-radius: 3px; }
     .s-get-calc .f-get-calc .input_small {
       height: 62px;
       width: 92px;
-      display: inline-block; }
-    .s-get-calc .f-get-calc input {
-      height: 62px;
-      padding-left: 13px;
-      border-radius: 3px; }
+      display: inline-block;
+      padding-left: 13px; }
     .s-get-calc .f-get-calc p {
       text-align: center; }
   .s-get-calc span {
@@ -232,14 +233,91 @@
     font: 700 18px / 30px Exo2; }
   .s-get-calc .today {
     color: #303030;
-    font: 700 18px / 30px Exo2; }
-    .s-get-calc .today .color_blue {
+    font: 700 18px / 30px Exo2;
+    text-transform: none; }
+    .s-get-calc .today .c_blue {
       color: #0084ff;
       font: 700 24px / 30px Exo2;
       text-transform: uppercase; }
-    .s-get-calc .today .color_yellow {
+    .s-get-calc .today .c_yellow {
       color: #ffc000;
       font: 700 24px / 30px Exo2;
       text-transform: uppercase; }
   .s-get-calc .send-btn {
-    padding: 0px 10px !important; }
+    padding: 0px 5px !important; }
+
+.blu_bg {
+  background-color: rgba(51, 153, 255, 0.7);
+  padding: 5px 10px;
+  border-radius: 3px; }
+  .blu_bg input {
+    margin-bottom: 10px;
+    padding-left: 23px; }
+
+.s-main-form {
+  padding-left: 5px;
+  padding-right: 5px;
+  background: url(../images/bg_s-main-form.png) no-repeat; }
+  .s-main-form .tit {
+    color: #0084ff;
+    font: 700 18px / 24px Exo2;
+    text-transform: uppercase;
+    margin-bottom: 10px; }
+    .s-main-form .tit span {
+      text-transform: none;
+      color: #303030;
+      font: 700 18px / 24px Exo2; }
+  .s-main-form .gift {
+    color: #0084ff;
+    font: 700 24px / 24px Exo2;
+    text-transform: uppercase;
+    margin-bottom: 12px; }
+    .s-main-form .gift span {
+      color: #ffc000;
+      font: 700 24px / 30px Exo2; }
+  .s-main-form img {
+    margin-bottom: 28px; }
+
+.s-about {
+  background: url(../images/bg_s-about.png);
+  padding: 0 5px 50px; }
+  .s-about .tit {
+    color: #0084ff;
+    font: 700 24px / 30px Exo2;
+    text-transform: uppercase;
+    padding-top: 27px;
+    margin-bottom: 19px; }
+  .s-about .image {
+    background: url(../images/mob_line.png);
+    height: 12px;
+    width: 300px;
+    margin: 0 auto 20px; }
+  .s-about p {
+    color: #303030;
+    font: 400 18px / 24px Exo2;
+    margin-bottom: 17px; }
+  .s-about ul {
+    margin: 0 auto; }
+    .s-about ul a {
+      text-decoration: none;
+      color: #303030;
+      font: 300 14px / 18px Exo2; }
+    .s-about ul li {
+      position: relative;
+      padding-left: 50px;
+      line-height: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      text-align: left; }
+      .s-about ul li:before {
+        content: url(../images/mark.png);
+        display: inline-block;
+        width: 37px;
+        height: 37px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        text-align: center;
+        line-height: 40px; }
