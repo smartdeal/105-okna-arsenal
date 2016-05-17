@@ -202,7 +202,7 @@
   padding-top: 36px;
   padding-left: 5px;
   padding-right: 5px;
-  background: url(../images/bg_s-get-calc.png);
+  background: url(../images/bg_structure.png);
   margin: 0 auto; }
   .s-get-calc .f-get-calc {
     background-color: rgba(51, 153, 255, 0.7);
@@ -279,7 +279,7 @@
     margin-bottom: 28px; }
 
 .s-about {
-  background: url(../images/bg_s-about.png);
+  background: url(../images/bg_structure.png);
   padding: 0 5px 50px; }
   .s-about .tit {
     color: #0084ff;
@@ -332,7 +332,8 @@
     font: 400 18px / 30px Exo2;
     color: #ffc000;
     text-align: center;
-    margin-bottom: 34px; }
+    margin-bottom: 34px;
+    text-transform: uppercase; }
   .b-map-adr .adr,
   .b-map-adr .tel,
   .b-map-adr .mail {
@@ -380,3 +381,26 @@
       top: 2px; }
   .b-map-adr p {
     font: 400 18px / 24px Exo2; }
+
+.s-footer-form {
+  background: url(../images/bg_structure.png);
+  padding-bottom: 50px; }
+  .s-footer-form input {
+    background-color: #ffffff;
+    padding-left: 23px;
+    margin-bottom: 15px;
+    height: 62px; }
+  .s-footer-form input + input {
+    margin-bottom: 27px; }
+  .s-footer-form .title {
+    margin-bottom: 19px;
+    text-transform: none;
+    color: #303030;
+    font: 600 24px / 30px Exo2; }
+
+input[type="text"]::-webkit-input-placeholder {
+  color: #808080;
+  font: 300 18px / 18px Exo2; }
+
+.s-footer-info .title {
+  text-transform: none; }

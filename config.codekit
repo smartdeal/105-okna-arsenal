@@ -81,28 +81,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/images\/bg_s-about.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 73194,
-		"inputAbbreviatedPath": "\/images\/bg_s-about.png",
-		"outputAbbreviatedPath": "\/images\/bg_s-about.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/bg_s-get-calc.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 48401,
-		"inputAbbreviatedPath": "\/images\/bg_s-get-calc.png",
-		"outputAbbreviatedPath": "\/images\/bg_s-get-calc.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/bg_s-main-form.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -121,6 +99,17 @@
 		"initialSize": 124823,
 		"inputAbbreviatedPath": "\/images\/bg_s_main-mob.png",
 		"outputAbbreviatedPath": "\/images\/bg_s_main-mob.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg_structure.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73194,
+		"inputAbbreviatedPath": "\/images\/bg_structure.png",
+		"outputAbbreviatedPath": "\/images\/bg_structure.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
