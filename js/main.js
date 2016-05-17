@@ -172,6 +172,10 @@ if (checkWidth > 750) {
             item:1,
             loop:true,
     });
+    $('.b-types-list').lightSlider({
+            item:1,
+            loop:true,
+    });
 }
 // $(window).resize(size());
 if (checkWidth < 975) {
@@ -226,6 +230,11 @@ $('.b-bull-list').lightSlider({
                   }
             }
         ]    
+});
+
+$('.b-reviews-list').lightSlider({
+        item:1,
+        loop:true,
 });
 
 $(".polit-popup").css('height', checkHeight*.7);
