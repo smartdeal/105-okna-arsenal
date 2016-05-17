@@ -85,7 +85,7 @@
     }
     .btn-blue {
         color: #ffffff;
-        font: 600 18px / 24px Exo2;
+        font: 400 18px / 24px Exo2;
         background-color: $blue;
         box-shadow: 0 3px 0 0 #0057b9;
         padding: 18px 40px;
@@ -125,7 +125,7 @@
 }
 
 .s-bullets_top {
-    background-color: #fff;
+    //    background-color: #fff;
     font-size: 0;
     margin: 0 auto;
     text-align: center;
@@ -499,8 +499,87 @@ input[type="text"]::-webkit-input-placeholder {
     color: #808080;
     font: 300 18px / 18px Exo2;
 }
+
 .s-footer-info {
     .title {
         text-transform: none;
     }
 }
+
+@media (min-width: 480px) {}
+
+@media (min-width: 768px) {
+    .hidden-md {
+        display: none;
+    }
+    .hidden-sm {
+        display: block!important;
+    }
+    .b_info {
+        width: 100%;
+        padding-top: 5px;
+    }
+    .btn-blue {
+        margin-top: 5px!important;
+        vertical-align: top;
+        width: 249px;
+        padding: 18px 15px!important;
+        color: #ffffff;
+    }
+    .b_info {
+        .logo {
+            margin-right: 26px;
+        }
+        .title {
+            position: relative;
+            display: inline-block;
+            width: 122px;
+            vertical-align: top;
+            text-align: left;
+            margin-right: 15px;
+        }
+        .info-tel {
+            margin-right: 20px;
+        }
+    }
+    .s-main-top {
+        background: url(../images/bg-s-main.png);
+    }
+    .s-top-title {
+        color: $blue;
+        font: 700 34px / 30px Exo2;
+        text-transform: uppercase;
+        margin-bottom: 36px;
+        .text_1 {
+            color: #404040;
+            font: 700 24px / 30px Exo2;
+            text-transform: none;
+        }
+        .text_2 {
+            color: #404040;
+            font: 700 24px / 30px Exo2;
+            text-transform: none;
+        }
+        i {
+            color: $blue;
+            font: 700 24px / 30px Exo2;
+            text-decoration: underline;
+        }
+    }
+    .s-stock {
+        margin-top: 480px;
+    }
+    .s-bullets_top {
+        .b-bullets {
+            span {
+                color: $blue;
+                font: 600 15.79px / 18px OpenSans;
+            }
+            .icon {
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {}
