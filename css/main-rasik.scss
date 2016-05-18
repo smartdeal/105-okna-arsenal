@@ -139,7 +139,7 @@ input {
         display: inline-block;
         width: 105px;
         color: #303030;
-        font: 600 14px / 18px OpenSans;
+        font: 600 14px / 18px Open Sans;
         vertical-align: top;
         margin: 15px 20px;
         box-sizing: border-box;
@@ -172,7 +172,7 @@ input {
     border: 4px solid #ffc000;
     padding-top: 30px;
     padding-bottom: 50px;
-    margin: 0 6px;
+    margin: 20px 6px;
     .text {
         text-align: center;
         span {
@@ -180,7 +180,7 @@ input {
             background-color: #fff;
             font: 700 36px / 60px Exo2;
             text-transform: uppercase;
-            padding: 20px;
+            padding: 0 20px;
         }
     }
     .attention-top {
@@ -198,12 +198,19 @@ input {
         padding: 0 40px;
         margin-bottom: 25px;
     }
+}
+.b-stock-list{
+    font-size: 0;
     .item {
         display: inline-block;
         text-align: center;
         vertical-align: top;
         margin-bottom: 25px;
-        width: 49%;
+        width: 50%;
+        font-size: 16px;
+        font-weight: 700;
+        font-family: exo2;
+        line-height: 2;
     }
     .icon {
         width: 46px;
@@ -464,7 +471,7 @@ input {
     }
     .mail {
         position: relative;
-        font: 400 18px / 18px OpenSans;
+        font: 400 18px / 18px Open Sans;
         margin-bottom: 18px;
         &:before {
             background: url(../images/icon_mail.png);
@@ -554,10 +561,10 @@ input[type="text"]::-webkit-input-placeholder {
         }
     }
     .s-main-top {
-        background: url(../images/bg-s-main.png);
+        background: url(../images/bg-s-main.jpg) bottom no-repeat;
         padding-top: 54px;
-        background-position: top;
-        background-repeat: no-repeat;
+        min-height: 800px;
+        background-size: cover;
     }
     .s-top-title {
         color: $blue;
@@ -581,7 +588,7 @@ input[type="text"]::-webkit-input-placeholder {
         }
     }
     .s-stock {
-        margin: 450px auto 0;
+        margin: 20px auto 0;
         width: 450px;
         border: 6px solid #ffc000;
         margin-bottom: 30px;
@@ -612,7 +619,7 @@ input[type="text"]::-webkit-input-placeholder {
             z-index: 20;
             span {
                 color: $blue;
-                font: 600 15.79px / 18px OpenSans;
+                font: 600 15.79px / 18px Open Sans;
             }
             .icon {
                 margin-bottom: 5px;
