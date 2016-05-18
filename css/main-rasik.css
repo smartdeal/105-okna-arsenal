@@ -437,7 +437,7 @@ input[type="text"]::-webkit-input-placeholder {
   .s-main-top {
     background: url(../images/bg-s-main.png);
     padding-top: 54px;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat; }
 
   .s-top-title {
@@ -455,10 +455,11 @@ input[type="text"]::-webkit-input-placeholder {
     .s-top-title i {
       color: #0084ff;
       font: 700 24px / 30px Exo2;
-      text-decoration: underline; }
+      text-decoration: underline;
+      background: url(../images/MergedLayers.png); }
 
   .s-stock {
-    margin: 380px auto 0;
+    margin: 450px auto 0;
     width: 450px;
     border: 6px solid #ffc000; }
     .s-stock .container {
@@ -477,4 +478,7 @@ input[type="text"]::-webkit-input-placeholder {
     color: #0084ff;
     font: 600 15.79px / 18px OpenSans; }
   .s-bullets_top .b-bullets .icon {
-    margin-bottom: 5px; } }
+    margin-bottom: 5px; }
+
+  .b-map-adr {
+    max-width: 420px; } }
