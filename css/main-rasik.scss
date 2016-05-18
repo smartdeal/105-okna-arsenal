@@ -617,6 +617,7 @@ input[type="text"]::-webkit-input-placeholder {
         position: relative;
         .b-bullets {
             z-index: 20;
+            border: 3px solid blue;
             span {
                 color: $blue;
                 font: 600 15.79px / 18px Open Sans;
@@ -642,8 +643,9 @@ input[type="text"]::-webkit-input-placeholder {
 
             }
             .item {
-                                background-size: contain;
-
+                background-size: contain;
+                position: relative;
+                top: -60px;
             }
         }
     }
