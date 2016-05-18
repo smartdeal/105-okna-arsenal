@@ -435,13 +435,15 @@ input[type="text"]::-webkit-input-placeholder {
     margin-right: 20px; }
 
   .s-main-top {
-    background: url(../images/bg-s-main.png); }
+    background: url(../images/bg-s-main.png);
+    padding-top: 54px;
+    background-position: center;
+    background-repeat: no-repeat; }
 
   .s-top-title {
     color: #0084ff;
     font: 700 34px / 30px Exo2;
-    text-transform: uppercase;
-    margin-bottom: 36px; }
+    text-transform: uppercase; }
     .s-top-title .text_1 {
       color: #404040;
       font: 700 24px / 30px Exo2;
@@ -456,7 +458,20 @@ input[type="text"]::-webkit-input-placeholder {
       text-decoration: underline; }
 
   .s-stock {
-    margin-top: 480px; }
+    margin: 380px auto 0;
+    width: 450px;
+    border: 6px solid #ffc000; }
+    .s-stock .container {
+      width: 400px; }
+    .s-stock .b-item-list .item span {
+      vertical-align: middle; }
+    .s-stock .icon {
+      display: inline-block;
+      margin-right: 16px;
+      vertical-align: middle; }
+    .s-stock .attention-top,
+    .s-stock .attention-bottom {
+      text-align: left; }
 
   .s-bullets_top .b-bullets span {
     color: #0084ff;

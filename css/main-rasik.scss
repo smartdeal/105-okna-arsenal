@@ -544,12 +544,14 @@ input[type="text"]::-webkit-input-placeholder {
     }
     .s-main-top {
         background: url(../images/bg-s-main.png);
+        padding-top: 54px;
+        background-position: center;
+        background-repeat: no-repeat;
     }
     .s-top-title {
         color: $blue;
         font: 700 34px / 30px Exo2;
         text-transform: uppercase;
-        margin-bottom: 36px;
         .text_1 {
             color: #404040;
             font: 700 24px / 30px Exo2;
@@ -567,7 +569,28 @@ input[type="text"]::-webkit-input-placeholder {
         }
     }
     .s-stock {
-        margin-top: 480px;
+        margin: 380px auto 0;
+        width: 450px;
+        border: 6px solid #ffc000;
+        .container {
+            width: 400px;
+        }
+        .b-item-list {
+            .item {
+                span {
+                    vertical-align: middle;
+                }
+            }
+        }
+        .icon {
+            display: inline-block;
+            margin-right: 16px;
+            vertical-align: middle;
+        }
+        .attention-top,
+        .attention-bottom {
+            text-align: left;
+        }
     }
     .s-bullets_top {
         .b-bullets {
