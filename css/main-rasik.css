@@ -137,7 +137,11 @@ input {
     color: #303030;
     font: 600 14px/18px Open Sans;
     vertical-align: top;
-    margin: 15px 20px; }
+    margin: 15px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    background-size: contain; }
+/*    margin: 15px 20px; }*/
   /* line 146, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .s-bullets_top .icon {
     width: 108px;
@@ -596,6 +600,33 @@ input[type="text"]::-webkit-input-placeholder {
     .s-stock .attention-top,
     .s-stock .attention-bottom {
       text-align: left; }
+
+  .s-bullets_top {
+    position: relative; }
+    .s-bullets_top .b-bullets {
+      z-index: 20; }
+      .s-bullets_top .b-bullets span {
+        color: #0084ff;
+        font: 600 15.79px / 18px OpenSans; }
+      .s-bullets_top .b-bullets .icon {
+        margin-bottom: 5px; }
+      .s-bullets_top .b-bullets .b-frame {
+        width: 750px;
+        height: 111px;
+        border: 3px solid #0084ff;
+        top: 120px;
+        z-index: 1;
+        background-color: rgba(255, 255, 255, 0.5);
+        margin: 0 auto;
+        margin-top: -150px; }
+      .s-bullets_top .b-bullets .icon {
+        width: 97px;
+        height: 96px;
+        box-sizing: border-box;
+        background-size: contain; }
+      .s-bullets_top .b-bullets .item {
+        background-size: contain; }
+
   /* line 615, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .s-bullets_top .b-bullets span {
     color: #0084ff;
