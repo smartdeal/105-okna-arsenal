@@ -1,4 +1,5 @@
 @import "fonts.css";
+@import '_variables.scss';
 ::-moz-selection {background: #b3d4fc; text-shadow: none; }
 ::selection {background: #b3d4fc; text-shadow: none; }
 ::-webkit-input-placeholder {color: #afafaf; font-family: "Open Sans"; font-size: 18px; font-weight: 300;}
@@ -23,10 +24,8 @@ body {font-family: "Open Sans", Arial, sans-serif; font-size: 14px; color: #1b23
 .cf:before, .cf:after {content: " "; display: table; }
 .cf:after {clear: both; }
 .cf {*zoom: 1; }
-.yel {color: #ff8a00;}
 
-.btn {color: #202020;
-            font: 700 18px / 20px Exo2; display: inline-block; padding: 13px 18px; max-width: 100%; white-space: nowrap; font-weight: 600; background-color: #ffc000; box-shadow: 1px 2px 2px #c39509; border-radius: 5px; -webkit-appearance: none; -moz-appearance: none; appearance: none; border: 0; cursor: pointer; position: relative;}
+.btn {font-size: 16px; display: inline-block; padding: 7px 10px; max-width: 100%; white-space: nowrap; font-weight: 600; background-color: #ff8a00; box-shadow: 1px 2px 2px #9A5100; border-radius: 5px; -webkit-appearance: none; -moz-appearance: none; appearance: none; border: 0; cursor: pointer; position: relative;}
 
 form { max-width: 365px; margin: 5px auto; font-size: 0;}
 form input{border: 0; padding: 10px 10px 10px 70px; margin-bottom: 5px; width: 100%; outline: none; background: #eee; border-radius: 5px; border: 2px solid transparent; /*box-shadow: inset 0.5px 0.9px 1px rgba(0, 0, 0, 0.14);*/}
