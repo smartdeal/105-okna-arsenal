@@ -174,30 +174,30 @@ if (checkWidth < 975) {
 
 }
 
-$('.b-stock-list').lightSlider({
-        item:3,
-        loop:true,
-        slideMove:1,
-        easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
-        speed:600,
-        responsive : [
-            {
-                breakpoint:768,
-                settings: {
-                    item:2,
-                    slideMove:1,
-                    slideMargin:6,
-                  }
-            },
-            {
-                breakpoint:480,
-                settings: {
-                    item:1,
-                    slideMove:1
-                  }
-            }
-        ]    
-});
+// $('.b-stock-list').lightSlider({
+//         item:3,
+//         loop:true,
+//         slideMove:1,
+//         easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
+//         speed:600,
+//         responsive : [
+//             {
+//                 breakpoint:768,
+//                 settings: {
+//                     item:2,
+//                     slideMove:1,
+//                     slideMargin:6,
+//                   }
+//             },
+//             {
+//                 breakpoint:480,
+//                 settings: {
+//                     item:1,
+//                     slideMove:1
+//                   }
+//             }
+//         ]    
+// });
     
 $('.b-bull-list').lightSlider({
         item:3,
