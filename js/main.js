@@ -80,7 +80,7 @@ $('form').each(function() {
 $(".fancybox").fancybox();
 $(".f-tel").mask("8(999) 999-99-99");
 
-$(".form-popup, .form-calc, .f-rehau, .f-zamer").append("<input type='hidden' name='ref' value='"+referer+"'/><input type='hidden' name='utm_source' value='"+utm_source+"'/><input type='hidden' name='utm_medium' value='"+utm_medium+"'/><input type='hidden' name='utm_campaign' value='"+utm_campaign+"'/><input type='hidden' name='block' value='"+block+"'/><input type='hidden' name='utm_term' value='"+utm_term+"'/><input type='hidden' name='utm_content' value='"+utm_content+"'/><input type='hidden' name='position' value='"+position+"'/><input type='hidden' name='keyword' value='"+keyword+"'/>");
+//$(".form-popup, .form-calc, .f-rehau, .f-zamer").append("<input type='hidden' name='ref' value='"+referer+"'/><input type='hidden' name='utm_source' value='"+utm_source+"'/><input type='hidden' name='utm_medium' value='"+utm_medium+"'/><input type='hidden' name='utm_campaign' value='"+utm_campaign+"'/><input type='hidden' name='block' value='"+block+"'/><input type='hidden' name='utm_term' value='"+utm_term+"'/><input type='hidden' name='utm_content' value='"+utm_content+"'/><input type='hidden' name='position' value='"+position+"'/><input type='hidden' name='keyword' value='"+keyword+"'/>");
 
 $(".closepopup, .ok-btn").click(function(){
     $(".dark, .popup, .popup-success, .popup-error, .form-popup, .polit-popup").hide();
@@ -164,25 +164,69 @@ var checkHeight = $(window).height();
 if (checkWidth > 750) {
     var s_vid_max_slides = 2;
 } else {
-    var s_vid_max_slides = 1;
-    $('.b-sert').bxSlider({pager: false });
-    $('.b-pay-items').bxSlider({pager: false });
+    $('.b-spectr, .b-adv-list, .b-sert, .b-types-list').lightSlider({
+            item:1,
+            loop:true,
+    });
 }
 // $(window).resize(size());
 if (checkWidth < 975) {
-    $('.b-vid').bxSlider({
-        adaptiveHeight: true,
-        pager: false,
-        maxSlides: s_vid_max_slides,
-        slideWidth: 300,
-        slideMargin: 10    
-    });
+
 }
 
-slider_rev = $('.b-rev').bxSlider({
-    // mode: 'fade',
-    adaptiveHeight: true,
-    pager: false
+$('.b-stock-list').lightSlider({
+        item:3,
+        loop:true,
+        slideMove:1,
+        easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
+        speed:600,
+        responsive : [
+            {
+                breakpoint:768,
+                settings: {
+                    item:2,
+                    slideMove:1,
+                    slideMargin:6,
+                  }
+            },
+            {
+                breakpoint:480,
+                settings: {
+                    item:1,
+                    slideMove:1
+                  }
+            }
+        ]    
+});
+    
+$('.b-bull-list').lightSlider({
+        item:3,
+        loop:true,
+        slideMove:1,
+        easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
+        speed:600,
+        responsive : [
+            {
+                breakpoint:768,
+                settings: {
+                    item:2,
+                    slideMove:1,
+                    slideMargin:6,
+                  }
+            },
+            {
+                breakpoint:480,
+                settings: {
+                    item:1,
+                    slideMove:1
+                  }
+            }
+        ]    
+});
+
+$('.b-reviews-list').lightSlider({
+        item:1,
+        loop:true,
 });
 
 $(".polit-popup").css('height', checkHeight*.7);
