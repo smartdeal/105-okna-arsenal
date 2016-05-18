@@ -195,12 +195,19 @@ input {
         padding: 0 40px;
         margin-bottom: 25px;
     }
+}
+.b-stock-list{
+    font-size: 0;
     .item {
         display: inline-block;
         text-align: center;
         vertical-align: top;
         margin-bottom: 25px;
-        width: 49%;
+        width: 50%;
+        font-size: 16px;
+        font-weight: 700;
+        font-family: exo2;
+        line-height: 2;
     }
     .icon {
         width: 46px;
@@ -554,6 +561,7 @@ input[type="text"]::-webkit-input-placeholder {
         background: url(../images/bg-s-main.jpg) bottom no-repeat;
         padding-top: 54px;
         min-height: 800px;
+        background-size: cover;
     }
     .s-top-title {
         color: $blue;
@@ -647,8 +655,8 @@ input[type="text"]::-webkit-input-placeholder {
         }
         .f-get-calc {
             input {
-            padding-left: 24px;
-        }
+                padding-left: 24px;
+            }
         }
     }
 }

@@ -190,64 +190,72 @@ input {
     text-align: center;
     padding: 0 40px;
     margin-bottom: 25px; }
-  /* line 198, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
-  .s-stock .item {
+
+/* line 199, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+.b-stock-list {
+  font-size: 0; }
+  /* line 201, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  .b-stock-list .item {
     display: inline-block;
     text-align: center;
     vertical-align: top;
     margin-bottom: 25px;
-    width: 49%; }
-  /* line 205, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
-  .s-stock .icon {
+    width: 50%;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: exo2;
+    line-height: 2; }
+  /* line 212, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  .b-stock-list .icon {
     width: 46px;
     height: 46px;
     display: block;
     text-align: center;
     background-repeat: no-repeat;
     margin: 0 auto; }
-  /* line 213, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
-  .s-stock .item1 {
+  /* line 220, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  .b-stock-list .item1 {
     background: url(../images/icon_s-stock_i1.png) no-repeat; }
-  /* line 216, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
-  .s-stock .item2 {
+  /* line 223, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  .b-stock-list .item2 {
     background: url(../images/icon_s-stock_i2.png) no-repeat; }
-  /* line 219, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
-  .s-stock .item3 {
+  /* line 226, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  .b-stock-list .item3 {
     background: url(../images/icon_s-stock_i3.png) no-repeat; }
-  /* line 222, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
-  .s-stock .item4 {
+  /* line 229, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  .b-stock-list .item4 {
     background: url(../images/icon_s-stock_i4.png) no-repeat; }
 
-/* line 227, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+/* line 234, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
 .s-discount {
   color: #0084ff;
   font: 700 18px/30px Exo2;
   text-transform: uppercase;
   background-color: #fff;
   padding-top: 40px; }
-  /* line 233, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 240, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .s-discount .text {
     margin-bottom: 13px; }
-    /* line 235, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+    /* line 242, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
     .s-discount .text .text_1 {
       color: #ffc000;
       font: 700 28px/30px Exo2; }
-    /* line 239, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+    /* line 246, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
     .s-discount .text .text_2 {
       font: 700 24px/30px Exo2; }
-  /* line 244, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 251, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .s-discount p {
     color: #303030;
     font: 300 18px/18px Exo2;
     text-transform: none; }
 
-/* line 251, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+/* line 258, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
 .send-btn {
   color: #202020;
   font: 700 18px/60px Exo2 !important;
   padding: 0px 20px !important; }
 
-/* line 257, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+/* line 264, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
 .s-get-calc {
   text-transform: uppercase;
   padding-top: 36px;
@@ -255,131 +263,131 @@ input {
   padding-right: 5px;
   background: url(../images/bg_structure.png);
   margin: 0 auto; }
-  /* line 264, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 271, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .s-get-calc .f-get-calc {
     background-color: rgba(51, 153, 255, 0.7);
     padding: 10px 10px;
     border-radius: 3px;
     text-align: justify;
     max-width: 320px; }
-    /* line 270, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+    /* line 277, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
     .s-get-calc .f-get-calc .title {
       color: #303030;
       font: 700 18px/30px Exo2; }
-    /* line 274, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+    /* line 281, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
     .s-get-calc .f-get-calc .inp {
       display: inline-block; }
-    /* line 277, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+    /* line 284, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
     .s-get-calc .f-get-calc:second-child input {
       margin: 0 4px; }
-    /* line 280, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+    /* line 287, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
     .s-get-calc .f-get-calc input {
       height: 62px;
       padding-left: 23px;
       border-radius: 3px; }
-    /* line 285, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+    /* line 292, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
     .s-get-calc .f-get-calc .input_small {
       height: 62px;
       width: 92px;
       display: inline-block;
       padding-left: 13px; }
-    /* line 291, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+    /* line 298, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
     .s-get-calc .f-get-calc p {
       text-align: center; }
-  /* line 295, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 302, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .s-get-calc span {
     color: #0084ff;
     font: 700 18px/30px Exo2; }
-  /* line 299, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 306, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .s-get-calc .today {
     color: #303030;
     font: 700 18px/30px Exo2;
     text-transform: none; }
-    /* line 303, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+    /* line 310, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
     .s-get-calc .today .c_blue {
       color: #0084ff;
       font: 700 24px/30px Exo2;
       text-transform: uppercase; }
-    /* line 308, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+    /* line 315, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
     .s-get-calc .today .c_yellow {
       color: #ffc000;
       font: 700 24px/30px Exo2;
       text-transform: uppercase; }
-  /* line 314, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 321, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .s-get-calc .send-btn {
     padding: 0px 5px !important; }
 
-/* line 319, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+/* line 326, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
 .blu_bg {
   background-color: rgba(51, 153, 255, 0.7);
   padding: 5px 10px;
   border-radius: 3px; }
-  /* line 323, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 330, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .blu_bg input {
     margin-bottom: 10px;
     padding-left: 23px; }
 
-/* line 329, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+/* line 336, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
 .s-main-form {
   padding-left: 5px;
   padding-right: 5px;
   background: url(../images/bg_s-main-form.png) no-repeat; }
-  /* line 333, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 340, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .s-main-form .tit {
     color: #0084ff;
     font: 700 18px/24px Exo2;
     text-transform: uppercase;
     margin-bottom: 10px; }
-    /* line 338, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+    /* line 345, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
     .s-main-form .tit span {
       text-transform: none;
       color: #303030;
       font: 700 18px/24px Exo2; }
-  /* line 344, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 351, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .s-main-form .gift {
     color: #0084ff;
     font: 700 24px/24px Exo2;
     text-transform: uppercase;
     margin-bottom: 12px; }
-    /* line 349, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+    /* line 356, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
     .s-main-form .gift span {
       color: #ffc000;
       font: 700 24px/30px Exo2; }
-  /* line 354, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 361, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .s-main-form img {
     margin-bottom: 28px; }
 
-/* line 359, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+/* line 366, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
 .s-about {
   background: url(../images/bg_structure.png);
   padding: 0 5px 50px; }
-  /* line 362, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 369, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .s-about .tit {
     color: #0084ff;
     font: 700 24px/30px Exo2;
     text-transform: uppercase;
     padding-top: 27px;
     margin-bottom: 19px; }
-  /* line 369, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 376, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .s-about .image {
     background: url(../images/mob_line.png);
     height: 12px;
     width: 300px;
     margin: 0 auto 20px; }
-  /* line 375, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 382, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .s-about p {
     color: #303030;
     font: 400 18px/24px Exo2;
     margin-bottom: 17px; }
-  /* line 380, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 387, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .s-about ul {
     margin: 0 auto; }
-    /* line 382, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+    /* line 389, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
     .s-about ul a {
       text-decoration: none;
       color: #303030;
       font: 300 14px/18px Exo2; }
-    /* line 387, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+    /* line 394, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
     .s-about ul li {
       position: relative;
       padding-left: 50px;
@@ -387,7 +395,7 @@ input {
       padding-top: 10px;
       padding-bottom: 10px;
       text-align: left; }
-      /* line 394, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+      /* line 401, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
       .s-about ul li:before {
         content: url(../images/mark.png);
         display: inline-block;
@@ -401,34 +409,34 @@ input {
         text-align: center;
         line-height: 40px; }
 
-/* line 411, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+/* line 418, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
 .b-map-adr {
   background-color: #0084ff;
   color: #fff;
   padding: 31px;
   padding-top: 24px;
   text-align: left; }
-  /* line 417, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 424, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .b-map-adr .title {
     font: 400 18px/30px Exo2;
     color: #ffc000;
     text-align: center;
     margin-bottom: 34px;
     text-transform: uppercase; }
-  /* line 426, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 433, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .b-map-adr .adr,
   .b-map-adr .tel,
   .b-map-adr .mail {
     padding-left: 34px; }
-  /* line 429, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 436, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .b-map-adr .b-adr-item {
     display: inline-block;
     vertical-align: middle; }
-  /* line 433, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 440, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .b-map-adr .adr {
     position: relative;
     margin-bottom: 22px; }
-    /* line 436, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+    /* line 443, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
     .b-map-adr .adr:before {
       background: url(../images/icon_map.png);
       content: "";
@@ -438,12 +446,12 @@ input {
       display: block;
       left: 0;
       top: 5px; }
-  /* line 447, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 454, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .b-map-adr .tel {
     position: relative;
     font: 500 24px/24px Exo2;
     margin-bottom: 23px; }
-    /* line 451, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+    /* line 458, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
     .b-map-adr .tel:before {
       background: url(../images/icon_tel_small.png);
       content: "";
@@ -453,12 +461,12 @@ input {
       display: block;
       left: 0;
       top: 15px; }
-  /* line 462, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 469, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .b-map-adr .mail {
     position: relative;
     font: 400 18px/18px Open Sans;
     margin-bottom: 18px; }
-    /* line 466, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+    /* line 473, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
     .b-map-adr .mail:before {
       background: url(../images/icon_mail.png);
       content: "";
@@ -468,65 +476,65 @@ input {
       display: block;
       left: 0;
       top: 2px; }
-  /* line 477, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 484, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .b-map-adr p {
     font: 400 18px/24px Exo2; }
 
-/* line 482, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+/* line 489, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
 .s-footer-form {
   background: url(../images/bg_structure.png);
   padding-bottom: 50px; }
-  /* line 485, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 492, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .s-footer-form input {
     background-color: #ffffff;
     padding-left: 23px;
     margin-bottom: 15px;
     height: 62px; }
-  /* line 491, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 498, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .s-footer-form input + input {
     margin-bottom: 27px; }
-  /* line 494, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 501, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .s-footer-form .title {
     margin-bottom: 19px;
     text-transform: none;
     color: #303030;
     font: 600 24px/30px Exo2; }
 
-/* line 502, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+/* line 509, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
 input[type="text"]::-webkit-input-placeholder {
   color: #808080;
   font: 300 18px/18px Exo2; }
 
-/* line 508, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+/* line 515, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
 .s-footer-info .title {
   text-transform: none; }
 
-/* line 513, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+/* line 520, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
 .hidden-sm {
   display: none !important; }
 
 @media (min-width: 768px) {
-  /* line 520, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 527, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .hidden-sm {
     display: block !important; }
-  /* line 523, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 530, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .hidden-md {
     display: none; }
-  /* line 526, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 533, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .b_info {
     width: 100%;
     padding-top: 5px; }
-  /* line 530, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 537, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .btn-blue {
     margin-top: 5px !important;
     vertical-align: top;
     width: 249px;
     padding: 18px 15px !important;
     color: #ffffff; }
-  /* line 538, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 545, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .b_info .logo {
     margin-right: 26px; }
-  /* line 541, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 548, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .b_info .title {
     position: relative;
     display: inline-block;
@@ -534,97 +542,98 @@ input[type="text"]::-webkit-input-placeholder {
     vertical-align: top;
     text-align: left;
     margin-right: 15px; }
-  /* line 549, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 556, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .b_info .info-tel {
     margin-right: 20px; }
-  /* line 553, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 560, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .s-main-top {
     background: url(../images/bg-s-main.jpg) bottom no-repeat;
     padding-top: 54px;
-    min-height: 800px; }
-  /* line 558, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+    min-height: 800px;
+    background-size: cover; }
+  /* line 566, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .s-top-title {
     color: #0084ff;
     font: 700 34px/30px Exo2;
     text-transform: uppercase; }
-    /* line 562, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+    /* line 570, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
     .s-top-title .text_1 {
       color: #404040;
       font: 700 24px/30px Exo2;
       text-transform: none; }
-    /* line 567, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+    /* line 575, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
     .s-top-title .text_2 {
       color: #404040;
       font: 700 24px/30px Exo2;
       text-transform: none; }
-    /* line 572, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+    /* line 580, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
     .s-top-title i {
       color: #0084ff;
       font: 700 24px/30px Exo2;
       text-decoration: underline;
       background: url(../images/MergedLayers.png); }
-  /* line 579, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 587, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .s-stock {
     margin: 20px auto 0;
     width: 450px;
     border: 6px solid #ffc000;
     margin-bottom: 30px; }
-    /* line 584, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+    /* line 592, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
     .s-stock .container {
       width: 400px; }
-    /* line 588, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+    /* line 596, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
     .s-stock .b-item-list .item {
       text-align: left; }
-      /* line 590, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+      /* line 598, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
       .s-stock .b-item-list .item span {
         vertical-align: middle; }
-    /* line 595, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+    /* line 603, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
     .s-stock .icon {
       display: inline-block;
       margin-right: 16px;
       vertical-align: middle; }
-    /* line 601, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+    /* line 609, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
     .s-stock .attention-top,
     .s-stock .attention-bottom {
       text-align: left; }
-  /* line 607, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 615, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .s-bullets_top .b-bullets span {
     color: #0084ff;
     font: 600 15.79px/18px Open Sans; }
-  /* line 611, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 619, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .s-bullets_top .b-bullets .icon {
     margin-bottom: 5px; }
-  /* line 616, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 624, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .b-map-adr {
     max-width: 420px; }
-  /* line 619, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 627, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .s-discount {
     font: 700 28px/36px Exo2;
     padding-top: 40px; }
-    /* line 622, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+    /* line 630, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
     .s-discount .text {
       margin-bottom: 13px; }
-      /* line 624, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+      /* line 632, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
       .s-discount .text .text_1 {
         font: 700 28px/30px Exo2; }
-      /* line 627, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+      /* line 635, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
       .s-discount .text .text_2 {
         font: 700 24px/30px Exo2; }
-    /* line 632, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+    /* line 640, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
     .s-discount p {
       font: 300 24px/24px Exo2; }
-  /* line 637, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 645, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .b-form .f-get-calc {
     max-width: 100%; }
-  /* line 640, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 648, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .b-form input {
     width: 227px;
     margin-right: 7px; }
-  /* line 644, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 652, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .b-form button {
     width: 291px;
     vertical-align: top; }
-  /* line 649, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
+  /* line 657, E:/mail.cloud/FL/105-okna-arsenal/css/main-rasik.scss */
   .b-form .f-get-calc input {
     padding-left: 24px; } }
 

@@ -1,1 +1,2 @@
-sass -w css\:css\
+start git-bash
+start sass -w css\:css\
