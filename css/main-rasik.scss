@@ -142,6 +142,9 @@ input {
         font: 600 14px / 18px OpenSans;
         vertical-align: top;
         margin: 15px 20px;
+        box-sizing: border-box;
+        text-align: center;
+        background-size: contain;
     }
     .icon {
         width: 108px;
@@ -604,13 +607,36 @@ input[type="text"]::-webkit-input-placeholder {
         }
     }
     .s-bullets_top {
+        position: relative;
         .b-bullets {
+            z-index: 20;
             span {
                 color: $blue;
                 font: 600 15.79px / 18px OpenSans;
             }
             .icon {
                 margin-bottom: 5px;
+            }
+            .b-frame {
+                width: 750px;
+                height: 111px;
+                border: 3px solid $blue;
+                top: 120px;
+                z-index: 1;
+                background-color: rgba(255, 255, 255, 0.5);
+                margin: 0 auto;
+                margin-top: -150px;
+            }
+            .icon {
+                width: 97px;
+                height: 96px;
+                box-sizing: border-box;
+                                background-size: contain;
+
+            }
+            .item {
+                                background-size: contain;
+
             }
         }
     }
@@ -648,8 +674,8 @@ input[type="text"]::-webkit-input-placeholder {
         }
         .f-get-calc {
             input {
-            padding-left: 24px;
-        }
+                padding-left: 24px;
+            }
         }
     }
 }
