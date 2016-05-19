@@ -1,51 +1,43 @@
 @charset "UTF-8";
 @import url(fonts.css);
-/* line 3, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none; }
 
-/* line 7, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 ::selection {
   background: #b3d4fc;
   text-shadow: none; }
 
-/* line 11, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 ::-webkit-input-placeholder {
   color: #afafaf;
   font-family: "Open Sans";
   font-size: 18px;
   font-weight: 300; }
 
-/* line 17, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 :-moz-placeholder {
   color: #afafaf;
   font-family: "Open Sans";
   font-size: 18px;
   font-weight: 300; }
 
-/* line 23, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
-::-moz-placeho☻lder {
+::-moz-placeho╤В╨итХЧlder {
   color: #afafaf;
   font-family: "Open Sans";
   font-size: 18px;
   font-weight: 300; }
 
-/* line 29, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 :-ms-input-placeholder {
   color: #afafaf;
   font-family: "Open Sans";
   font-size: 18px;
   font-weight: 300; }
 
-/* line 35, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 input[placeholder] {
   color: #afafaf;
   font-family: "Open Sans";
   font-size: 18px;
   font-weight: 300; }
 
-/* line 41, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 hr {
   display: block;
   height: 1px;
@@ -54,14 +46,12 @@ hr {
   margin: 1em 0;
   padding: 0; }
 
-/* line 50, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 ul,
 li {
   margin: 0;
   padding: 0;
   list-style: none; }
 
-/* line 60, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 audio,
 canvas,
 iframe,
@@ -71,43 +61,35 @@ video {
   vertical-align: middle;
   max-width: 100%; }
 
-/* line 64, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 img {
   height: auto; }
 
-/* line 67, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 fieldset {
   border: 0;
   margin: 0;
   padding: 0; }
 
-/* line 72, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 textarea {
   resize: vertical; }
 
-/* line 75, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 p {
   margin: 0;
   line-height: 1.6; }
 
-/* line 79, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 a {
   text-decoration: underline;
   color: #c2c2c2;
   cursor: pointer; }
 
-/* line 84, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 a:hover {
   text-decoration: none;
   color: #c2c2c2; }
 
-/* line 90, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 h1,
 h2,
 h3 {
   font-family: "exo2", Arial; }
 
-/* line 93, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 h2 {
   font-size: 24px;
   line-height: 1.2;
@@ -116,7 +98,6 @@ h2 {
   font-weight: 700;
   text-align: center; }
 
-/* line 101, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 h3 {
   font-size: 18px;
   font-weight: 700;
@@ -124,33 +105,27 @@ h3 {
   line-height: 24px;
   margin-top: 0; }
 
-/* line 108, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 body {
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 14px;
   color: #1b2327;
   text-align: center; }
 
-/* line 114, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 .hidden {
   display: none !important;
   visibility: hidden; }
 
-/* line 119, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 .cf:before,
 .cf:after {
   content: " ";
   display: table; }
 
-/* line 124, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 .cf:after {
   clear: both; }
 
-/* line 128, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 .cf {
   *zoom: 1; }
 
-/* line 132, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 .btn {
   font-size: 16px;
   display: inline-block;
@@ -168,13 +143,11 @@ body {
   cursor: pointer;
   position: relative; }
 
-/* line 150, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 form {
   max-width: 365px;
   margin: 5px auto;
   font-size: 0; }
 
-/* line 156, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 form input {
   border: 0;
   padding: 10px 10px 10px 70px;
@@ -186,7 +159,6 @@ form input {
   border: 2px solid transparent;
   /*box-shadow: inset 0.5px 0.9px 1px rgba(0, 0, 0, 0.14);*/ }
 
-/* line 168, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 form .btn {
   width: 100%;
   font-size: 18px;
@@ -194,19 +166,15 @@ form .btn {
   padding: 13px 3px;
   margin: 0 0 10px; }
 
-/* line 176, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 form .field_error {
   border-color: red; }
 
-/* line 180, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 .container {
   max-width: 980px; }
 
-/* line 184, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 .section {
   padding: 20px 0; }
 
-/* line 188, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 .s-title {
   color: #0084ff;
   font: 700 24px/30px Exo2;
@@ -214,7 +182,6 @@ form .field_error {
   padding-top: 27px;
   margin-bottom: 19px; }
 
-/* line 196, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 .dark {
   position: fixed;
   display: none;
@@ -224,7 +191,6 @@ form .field_error {
   width: 100%;
   background: rgba(0, 0, 0, 0.51); }
 
-/* line 206, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 .popup {
   display: none;
   position: fixed;
@@ -235,7 +201,6 @@ form .field_error {
   text-align: center;
   z-index: 90; }
 
-/* line 217, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 .popup:before {
   display: inline-block;
   height: 100%;
@@ -243,7 +208,6 @@ form .field_error {
   vertical-align: middle;
   content: ''; }
 
-/* line 225, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 .popup-wrap {
   position: relative;
   /*width: 400px;*/
@@ -252,7 +216,6 @@ form .field_error {
   vertical-align: middle;
   display: inline-block; }
 
-/* line 236, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 .polit-popup,
 .form-popup-dog,
 .form-popup {
@@ -264,39 +227,32 @@ form .field_error {
   border: 1px solid white;
   border-radius: 3px; }
 
-/* line 246, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 .polit-popup {
   background: #fff;
   max-height: 700px;
   padding: 40px 10px 10px;
   text-align: left; }
 
-/* line 253, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 .polit-popup .txt {
   overflow-y: scroll;
   height: 100%; }
 
-/* line 258, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 .polit-popup .closepopup {
   color: #000; }
 
-/* line 262, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 .form-popup {
   background: #1b2327; }
 
-/* line 266, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 .form-popup .f-title {
   font-size: 20px;
   color: #eee;
   line-height: 1;
   margin-bottom: 20px; }
 
-/* line 273, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 .form-popup input {
   padding: 10px;
   text-align: center; }
 
-/* line 278, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 .closepopup {
   position: absolute;
   top: -4px;
@@ -305,7 +261,6 @@ form .field_error {
   cursor: pointer;
   color: #fff; }
 
-/* line 289, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 .popup-success-dog,
 .popup-success,
 .popup-error {
@@ -321,7 +276,6 @@ form .field_error {
   background: #2E3B5C;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.38); }
 
-/* line 305, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 .popup-success-dog > p,
 .popup-success > p,
 .popup-error > p {
@@ -331,23 +285,20 @@ form .field_error {
   margin: 0 0 20px 0;
   text-align: center; }
 
-/* line 315, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 .popup-success-dog > p + p,
 .popup-success > p + p,
 .popup-error > p + p {
   font-size: 24px;
   line-height: 1; }
 
-/* line 321, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
 .popup-success-dog .btn,
 .popup-success .btn {
   width: 50%; }
 
 @media (min-width: 768px) {
-  /* line 326, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
   .section {
     padding: 50px 0; }
-  /* line 329, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
+
   .form-more-popup .popup-more-left {
     width: 100px;
     height: 100px;
@@ -357,19 +308,19 @@ form .field_error {
     position: static;
     vertical-align: middle;
     margin: 0; }
-  /* line 339, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
+
   .form-more-popup .popup-more-right {
     width: 50%;
     float: right;
     padding-left: 5%; }
-  /* line 344, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
+
   .form-more-popup .form-tire-more {
     width: 100%; }
-  /* line 347, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
+
   .form-more-popup .img {
     width: 100%;
     height: 200px; }
-  /* line 351, E:/mail.cloud/FL/105-okna-arsenal/css/main-gum.scss */
+
   .form-more-popup .txt {
     font-size: 18px;
     line-height: 1.2;
