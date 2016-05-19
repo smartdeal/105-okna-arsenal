@@ -17,7 +17,7 @@
                 border-right: none;
             }
             a {
-                color: #303030;
+                color: $text;
                 font: 400 14px / 18px Exo2;
                 padding-top: 13px;
                 padding-bottom: 13px;
@@ -111,12 +111,12 @@ input {
             text-transform: uppercase;
             color: $blue;
             span {
-                color: #303030;
+                color: $text;
                 font: 700 24px / 30px Exo2;
             }
         }
         p {
-            color: #303030;
+            color: $text;
             font: 500 18px / 24px Exo2;
             line-height: 12px;
             span {
@@ -138,7 +138,7 @@ input {
     .item {
         display: inline-block;
         width: 105px;
-        color: #303030;
+        color: $text;
         font: 600 14px / 18px Open Sans;
         vertical-align: top;
         margin: 15px 20px;
@@ -190,7 +190,7 @@ input {
         margin-bottom: -85px;
     }
     .title {
-        color: #303030;
+        color: $text;
         font: 700 18px / 24px Exo2;
         text-transform: uppercase;
         display: inline-block;
@@ -254,7 +254,7 @@ input {
         }
     }
     p {
-        color: #303030;
+        color: $text;
         font: 300 18px / 18px Exo2;
         text-transform: none;
     }
@@ -262,8 +262,8 @@ input {
 
 .send-btn {
     color: #202020;
-    font: 700 18px / 60px Exo2!important;
-    padding: 0px 20px!important;
+    font: 700 18px / 18px Exo2!important;
+    padding: 20px!important;
 }
 
 .s-get-calc {
@@ -280,7 +280,7 @@ input {
         text-align: justify;
         max-width: 320px;
         .title {
-            color: #303030;
+            color: $text;
             font: 700 18px / 30px Exo2;
         }
         .inp {
@@ -309,7 +309,7 @@ input {
         font: 700 18px / 30px Exo2;
     }
     .today {
-        color: #303030;
+        color: $text;
         font: 700 18px / 30px Exo2;
         text-transform: none;
         .c_blue {
@@ -349,7 +349,7 @@ input {
         margin-bottom: 10px;
         span {
             text-transform: none;
-            color: #303030;
+            color: $text;
             font: 700 18px / 24px Exo2;
         }
     }
@@ -385,7 +385,7 @@ input {
         margin: 0 auto 20px;
     }
     p {
-        color: #303030;
+        color: $text;
         font: 400 18px / 24px Exo2;
         margin-bottom: 17px;
     }
@@ -393,7 +393,7 @@ input {
         margin: 0 auto;
         a {
             text-decoration: none;
-            color: #303030;
+            color: $text;
             font: 300 14px / 18px Exo2;
         }
         li {
@@ -506,7 +506,7 @@ input {
     .title {
         margin-bottom: 19px;
         text-transform: none;
-        color: #303030;
+        color: $text;
         font: 600 24px / 30px Exo2;
     }
 }
@@ -520,6 +520,11 @@ input[type="text"]::-webkit-input-placeholder {
     .title {
         text-transform: none;
     }
+}
+
+.btn-small {
+    padding: 6px 10px !important;
+    font: 400 14px / 14px Exo2 !important;
 }
 
 .hidden-sm {
@@ -686,10 +691,10 @@ input[type="text"]::-webkit-input-placeholder {
         }
     }
     .s-bull {
-        border: 3px solid $blue;
-        padding: 70px;
-        max-width: 692px;
         margin: 0 auto;
+        .b-bull-wrap {
+            border: 3px solid $blue;
+        }
         .b-bull-list {
             .title {
                 color: #202020;
@@ -700,7 +705,7 @@ input[type="text"]::-webkit-input-placeholder {
             .item {
                 .txt {
                     span {
-                        color: #303030;
+                        color: $text;
                         font: 700 16px / 24px Exo2;
                     }
                 }
@@ -747,11 +752,75 @@ input[type="text"]::-webkit-input-placeholder {
         padding-top: 76px;
         padding-bottom: 48px;
         .s-title {
-            color: #303030;
-            font: 700 48px / 18px Exo2;
+            color: $text;
+            font: 700 48px / 48px Exo2;
         }
         img {
             margin-bottom: 50px;
+        }
+        .b-types-list {
+            .item {
+                display: inline-block;
+                margin: 0 17px 53px;
+                vertical-align: top;
+                
+                .title {
+                    text-transform: uppercase;
+                    font: 700 14px / 14px Exo2;
+                    color: $blue;
+                    margin-bottom: 20px;
+                }
+                .img {
+                    background-repeat: no-repeat!important;
+                    margin: 0 auto;
+                    margin-bottom: 10px;
+                }
+                .i_1 {
+                    background: url(../images/w_1.png);
+                    width: 110px;
+                    height: 115px;
+                }
+                .i_2 {
+                    background: url(../images/w_2.png);
+                    width: 164px;
+                    height: 115px;
+                }
+                .i_3 {
+                    background: url(../images/w_3.png);
+                    width: 145px;
+                    height: 115px;
+                }
+                .i_4 {
+                    background: url(../images/w_4.png);
+                    width: 122px;
+                    height: 115px;
+                }
+                .i_5 {
+                    background: url(../images/w_5.png);
+                    width: 84px;
+                    height: 115px;
+                }
+                .price {
+                    color: $text;
+                    font: 600 18px / 18px Exo2;
+                    position: relative;
+                    margin: 0 auto;
+                    margin-bottom: 10px;
+                 
+                }
+                .rub {
+                      display: inline-block;
+                        width: 13px;
+                        height: 13px;
+                        left: 130px;
+                        top: 3px;
+                        background: url(../images/ruble.png);
+                    margin-left: 2px;
+                }
+                button {
+                    background-color: $yellow;
+                }
+            }
         }
     }
 }
