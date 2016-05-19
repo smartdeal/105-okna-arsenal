@@ -742,6 +742,18 @@ input[type="text"]::-webkit-input-placeholder {
             }
         }
     }
+    .s-types  {
+        background: url(../images/bg_structure.png);
+        padding-top: 76px;
+        padding-bottom: 48px;
+        .s-title {
+            color: #303030;
+            font: 700 48px / 18px Exo2;
+        }
+        img {
+            margin-bottom: 50px;
+        }
+    }
     
 }
 

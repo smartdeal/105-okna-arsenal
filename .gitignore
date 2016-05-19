@@ -1,7 +1,7 @@
 # папка с макетами
 
 _doc
-
+.sass-cache
 
 # Windows image file caches
 Thumbs.db

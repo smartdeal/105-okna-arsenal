@@ -588,6 +588,20 @@ input[type="text"]::-webkit-input-placeholder {
     .s-bull .b-bull-list .item .i_6 {
       background: url(../images/s-bull_i_3.png);
       height: 45px;
+<<<<<<< HEAD
       width: 44px; } }
 
 /*# sourceMappingURL=main-rasik.css.map */
+=======
+      width: 44px; }
+
+  .s-types {
+    background: url(../images/bg_structure.png);
+    padding-top: 76px;
+    padding-bottom: 48px; }
+    .s-types .s-title {
+      color: #303030;
+      font: 700 48px / 18px Exo2; }
+    .s-types img {
+      margin-bottom: 50px; } }
+>>>>>>> rasik

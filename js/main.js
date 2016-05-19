@@ -174,6 +174,7 @@ if (checkWidth < 975) {
 
 }
 
+// rasik privet
     
 $('.b-bull-list').lightSlider({
         item:3,
