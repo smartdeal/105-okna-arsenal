@@ -226,6 +226,27 @@ form .field_error {
     background: rgba(0, 0, 0, 0.51);
 }
 
+.bg-kirpichi{ 
+    background: url(../images/bg_structure.png);
+}
+
+/* main css section */
+
+
+.section {
+    .lSAction {position: absolute; top: 30%; left: 0; right: 0;}
+    .lSAction > a {position: absolute; background: $blue url() center no-repeat; width: 40px; height: 40px; border-radius: 50%; opacity: 1;}
+    .lSAction > .lSPrev {background-image: url(../images/icon-arrow-left-white.png); left: 0;}
+    .lSAction > .lSNext {background-image: url(../images/icon-arrow-right-white.png); right: 0;}
+    .s-types .lSAction {top: 80px;}
+}
+
+.b-types-wrap {font-size: 0; margin: 30px 0;}
+.s-types .b-types-list .item button {margin-bottom: 10px; }
+
+
+/* end main css section */
+
 .popup {
     display: none;
     position: fixed;
@@ -350,6 +371,8 @@ form .field_error {
     .section {
         padding: 50px 0;
     }
+
+    .b-types-list .item {display: inline-block; font-size: 14px; width: 33.33%; margin-bottom: 40px;}
 
     .form-more-popup .popup-more-left {
         width: 100px;

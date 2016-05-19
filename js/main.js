@@ -161,7 +161,8 @@ $('.more').click(function() {
 
 var checkWidth = $(window).width();
 var checkHeight = $(window).height();
-if (checkWidth > 750) {
+console.log(checkWidth);
+if (checkWidth >= 768) {
     var s_vid_max_slides = 2;
 } else {
     $('.b-spectr, .b-adv-list, .b-sert, .b-types-list').lightSlider({
