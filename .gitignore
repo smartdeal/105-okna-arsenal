@@ -1,14 +1,14 @@
 # папка с макетами
 
-_doc
-.sass-cache
-node_modules
-dist
-.tmp
-.sass-cache
-bower_components
-test
-.idea
+_doc/
+.sass-cache/
+node_modules/
+dist/
+.tmp/
+.sass-cache/
+bower_components/
+test/
+.idea/
 
 # Windows image file caches
 Thumbs.db
@@ -59,9 +59,5 @@ Temporary Items
 .apdisk
 
 config.codekit
-
-*.scssc
-
-*.scssc
 
 *.scssc
