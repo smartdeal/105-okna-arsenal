@@ -238,6 +238,43 @@ input {
 .s-types .b-types-list .item button {
   background-color: #ffc000; }
 
+.b-bull-list .title {
+  color: #202020;
+  font: 700 18px / 30px Exo2;
+  text-transform: uppercase;
+  margin-bottom: 33px; }
+.b-bull-list .item .txt span {
+  color: #303030;
+  font: 700 16px / 24px Exo2; }
+.b-bull-list .item .icon {
+  margin: 0 auto;
+  vertical-align: top;
+  margin-bottom: 20px; }
+.b-bull-list .item .i_1 {
+  background-image: url(../images/s-bull_i_1.png);
+  width: 58px;
+  height: 45px; }
+.b-bull-list .item .i_2 {
+  background: url(../images/s-bull_i_2.png);
+  width: 100px;
+  height: 45px; }
+.b-bull-list .item .i_3 {
+  background: url(../images/s-bull_i_3.png);
+  height: 45px;
+  width: 44px; }
+.b-bull-list .item .i_4 {
+  background: url(../images/s-bull_i_4.png);
+  width: 37px;
+  height: 49px; }
+.b-bull-list .item .i_5 {
+  background: url(../images/s-bull_i_5.png);
+  width: 49px;
+  height: 45px; }
+.b-bull-list .item .i_6 {
+  background: url(../images/s-bull_i_3.png);
+  height: 45px;
+  width: 44px; }
+
 .s-discount {
   color: #0084ff;
   font: 700 18px / 30px Exo2;
@@ -476,6 +513,9 @@ input[type="text"]::-webkit-input-placeholder {
 .hidden-sm {
   display: none !important; }
 
+/* ********************************** */
+/* end main */
+/* ********************************** */
 @media (min-width: 768px) {
   .hidden-sm {
     display: block !important; }
@@ -612,42 +652,6 @@ input[type="text"]::-webkit-input-placeholder {
   .s-bull {
     margin: 0 auto; }
     .s-bull .b-bull-wrap {
-      border: 3px solid #0084ff; }
-    .s-bull .b-bull-list .title {
-      color: #202020;
-      font: 700 18px / 30px Exo2;
-      text-transform: uppercase;
-      margin-bottom: 33px; }
-    .s-bull .b-bull-list .item .txt span {
-      color: #303030;
-      font: 700 16px / 24px Exo2; }
-    .s-bull .b-bull-list .item .icon {
-      margin: 0 auto;
-      vertical-align: top;
-      margin-bottom: 20px; }
-    .s-bull .b-bull-list .item .i_1 {
-      background-image: url(../images/s-bull_i_1.png);
-      width: 58px;
-      height: 45px; }
-    .s-bull .b-bull-list .item .i_2 {
-      background: url(../images/s-bull_i_2.png);
-      width: 100px;
-      height: 45px; }
-    .s-bull .b-bull-list .item .i_3 {
-      background: url(../images/s-bull_i_3.png);
-      height: 45px;
-      width: 44px; }
-    .s-bull .b-bull-list .item .i_4 {
-      background: url(../images/s-bull_i_4.png);
-      width: 37px;
-      height: 49px; }
-    .s-bull .b-bull-list .item .i_5 {
-      background: url(../images/s-bull_i_5.png);
-      width: 49px;
-      height: 45px; }
-    .s-bull .b-bull-list .item .i_6 {
-      background: url(../images/s-bull_i_3.png);
-      height: 45px;
-      width: 44px; } }
+      border: 3px solid #0084ff; } }
 
 /*# sourceMappingURL=main-rasik.css.map */

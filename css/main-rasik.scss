@@ -305,6 +305,58 @@ input {
     }
 }
 
+        .b-bull-list {
+            .title {
+                color: #202020;
+                font: 700 18px / 30px Exo2;
+                text-transform: uppercase;
+                margin-bottom: 33px;
+            }
+            .item {
+                .txt {
+                    span {
+                        color: $text;
+                        font: 700 16px / 24px Exo2;
+                    }
+                }
+                .icon {
+                    margin: 0 auto;
+                    vertical-align: top;
+                    margin-bottom: 20px;
+                }
+                .i_1 {
+                    background-image: url(../images/s-bull_i_1.png);
+                    width: 58px;
+                    height: 45px;
+                }
+                .i_2 {
+                    background: url(../images/s-bull_i_2.png);
+                    width: 100px;
+                    height: 45px;
+                }
+                .i_3 {
+                    background: url(../images/s-bull_i_3.png);
+                    height: 45px;
+                    width: 44px;
+                }
+                .i_4 {
+                    background: url(../images/s-bull_i_4.png);
+                    width: 37px;
+                    height: 49px;
+                }
+                .i_5 {
+                    background: url(../images/s-bull_i_5.png);
+                    width: 49px;
+                    height: 45px;
+                }
+                .i_6 {
+                    background: url(../images/s-bull_i_3.png);
+                    height: 45px;
+                    width: 44px;
+                }
+            }
+        }
+
 .s-discount {
     color: $blue;
     font: 700 18px / 30px Exo2;
@@ -600,6 +652,12 @@ input[type="text"]::-webkit-input-placeholder {
     display: none !important;
 }
 
+
+/* ********************************** */
+/* end main */
+/* ********************************** */
+
+
 @media (min-width: 480px) {}
 
 @media (min-width: 768px) {
@@ -771,57 +829,6 @@ input[type="text"]::-webkit-input-placeholder {
         margin: 0 auto;
         .b-bull-wrap {
             border: 3px solid $blue;
-        }
-        .b-bull-list {
-            .title {
-                color: #202020;
-                font: 700 18px / 30px Exo2;
-                text-transform: uppercase;
-                margin-bottom: 33px;
-            }
-            .item {
-                .txt {
-                    span {
-                        color: $text;
-                        font: 700 16px / 24px Exo2;
-                    }
-                }
-                .icon {
-                    margin: 0 auto;
-                    vertical-align: top;
-                    margin-bottom: 20px;
-                }
-                .i_1 {
-                    background-image: url(../images/s-bull_i_1.png);
-                    width: 58px;
-                    height: 45px;
-                }
-                .i_2 {
-                    background: url(../images/s-bull_i_2.png);
-                    width: 100px;
-                    height: 45px;
-                }
-                .i_3 {
-                    background: url(../images/s-bull_i_3.png);
-                    height: 45px;
-                    width: 44px;
-                }
-                .i_4 {
-                    background: url(../images/s-bull_i_4.png);
-                    width: 37px;
-                    height: 49px;
-                }
-                .i_5 {
-                    background: url(../images/s-bull_i_5.png);
-                    width: 49px;
-                    height: 45px;
-                }
-                .i_6 {
-                    background: url(../images/s-bull_i_3.png);
-                    height: 45px;
-                    width: 44px;
-                }
-            }
         }
     }
 }

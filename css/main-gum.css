@@ -194,22 +194,22 @@ form .field_error {
   background: url(../images/bg_structure.png); }
 
 /* main css section */
-.section .lSAction {
+.section .owl-nav {
   position: absolute;
   top: 30%;
   left: 0;
   right: 0; }
-.section .lSAction > a {
+.section .owl-nav > div {
   position: absolute;
   background: #0084ff url() center no-repeat;
   width: 40px;
   height: 40px;
   border-radius: 50%;
   opacity: 1; }
-.section .lSAction > .lSPrev {
+.section .owl-nav > .owl-prev {
   background-image: url(../images/icon-arrow-left-white.png);
   left: 0; }
-.section .lSAction > .lSNext {
+.section .owl-nav > .owl-next {
   background-image: url(../images/icon-arrow-right-white.png);
   right: 0; }
 .section .s-types .lSAction {
