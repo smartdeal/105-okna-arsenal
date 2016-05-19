@@ -187,6 +187,94 @@ input {
   .b-stock-list .item4 {
     background: url(../images/icon_s-stock_i4.png) no-repeat; }
 
+.s-types .s-title {
+  color: #303030;
+  font: 700 48px / 48px Exo2; }
+.s-types img {
+  margin-bottom: 50px; }
+.s-types .b-types-list .item .title {
+  text-transform: uppercase;
+  font: 700 14px / 14px Exo2;
+  color: #0084ff;
+  margin-bottom: 20px; }
+.s-types .b-types-list .item .img {
+  background-repeat: no-repeat !important;
+  margin: 0 auto;
+  margin-bottom: 10px; }
+.s-types .b-types-list .item .i_1 {
+  background: url(../images/w_1.png);
+  width: 110px;
+  height: 115px; }
+.s-types .b-types-list .item .i_2 {
+  background: url(../images/w_2.png);
+  width: 164px;
+  height: 115px; }
+.s-types .b-types-list .item .i_3 {
+  background: url(../images/w_3.png);
+  width: 145px;
+  height: 115px; }
+.s-types .b-types-list .item .i_4 {
+  background: url(../images/w_4.png);
+  width: 122px;
+  height: 115px; }
+.s-types .b-types-list .item .i_5 {
+  background: url(../images/w_5.png);
+  width: 84px;
+  height: 115px; }
+.s-types .b-types-list .item .price {
+  color: #303030;
+  font: 600 18px / 18px Exo2;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 10px; }
+.s-types .b-types-list .item .rub {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  left: 130px;
+  top: 3px;
+  background: url(../images/ruble.png);
+  margin-left: 2px; }
+.s-types .b-types-list .item button {
+  background-color: #ffc000; }
+
+.b-bull-list .title {
+  color: #202020;
+  font: 700 18px / 30px Exo2;
+  text-transform: uppercase;
+  margin-bottom: 33px; }
+.b-bull-list .item .txt span {
+  color: #303030;
+  font: 700 16px / 24px Exo2; }
+.b-bull-list .item .icon {
+  margin: 0 auto;
+  vertical-align: top;
+  margin-bottom: 20px; }
+.b-bull-list .item .i_1 {
+  background-image: url(../images/s-bull_i_1.png);
+  width: 58px;
+  height: 45px; }
+.b-bull-list .item .i_2 {
+  background: url(../images/s-bull_i_2.png);
+  width: 100px;
+  height: 45px; }
+.b-bull-list .item .i_3 {
+  background: url(../images/s-bull_i_3.png);
+  height: 45px;
+  width: 44px; }
+.b-bull-list .item .i_4 {
+  background: url(../images/s-bull_i_4.png);
+  width: 37px;
+  height: 49px; }
+.b-bull-list .item .i_5 {
+  background: url(../images/s-bull_i_5.png);
+  width: 49px;
+  height: 45px; }
+.b-bull-list .item .i_6 {
+  background: url(../images/s-bull_i_3.png);
+  height: 45px;
+  width: 44px; }
+
 .s-discount {
   color: #0084ff;
   font: 700 18px / 30px Exo2;
@@ -336,7 +424,7 @@ input {
         line-height: 40px; }
 
 iframe {
-  width: 560px;
+  width: 560ph;
   height: 170px; }
 
 .b-map-adr {
@@ -429,6 +517,9 @@ input[type="text"]::-webkit-input-placeholder {
 .hidden-sm {
   display: none !important; }
 
+/* ********************************** */
+/* end main */
+/* ********************************** */
 @media (min-width: 768px) {
   .hidden-sm {
     display: block !important; }
@@ -579,42 +670,6 @@ input[type="text"]::-webkit-input-placeholder {
         -o-transform: rotate(180deg);
         transform: rotate(180deg);
         right: -30px; }
-    .s-bull .b-bull-list .title {
-      color: #202020;
-      font: 700 18px / 30px Exo2;
-      text-transform: uppercase;
-      margin-bottom: 33px; }
-    .s-bull .b-bull-list .item .txt span {
-      color: #303030;
-      font: 700 16px / 24px Exo2; }
-    .s-bull .b-bull-list .item .icon {
-      margin: 0 auto;
-      vertical-align: top;
-      margin-bottom: 20px; }
-    .s-bull .b-bull-list .item .i_1 {
-      background-image: url(../images/s-bull_i_1.png);
-      width: 58px;
-      height: 45px; }
-    .s-bull .b-bull-list .item .i_2 {
-      background: url(../images/s-bull_i_2.png);
-      width: 100px;
-      height: 45px; }
-    .s-bull .b-bull-list .item .i_3 {
-      background: url(../images/s-bull_i_3.png);
-      height: 45px;
-      width: 44px; }
-    .s-bull .b-bull-list .item .i_4 {
-      background: url(../images/s-bull_i_4.png);
-      width: 37px;
-      height: 49px; }
-    .s-bull .b-bull-list .item .i_5 {
-      background: url(../images/s-bull_i_5.png);
-      width: 49px;
-      height: 45px; }
-    .s-bull .b-bull-list .item .i_6 {
-      background: url(../images/s-bull_i_3.png);
-      height: 45px;
-      width: 44px; }
 
   .s-types {
     background: url(../images/bg_structure.png);
@@ -683,3 +738,5 @@ input[type="text"]::-webkit-input-placeholder {
     width: 591px;
     height: 337px;
     margin-bottom: 50px; } }
+
+/*# sourceMappingURL=main-rasik.css.map */

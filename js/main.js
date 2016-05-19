@@ -165,9 +165,10 @@ console.log(checkWidth);
 if (checkWidth >= 768) {
     var s_vid_max_slides = 2;
 } else {
-    $('.b-spectr, .b-adv-list, .b-sert, .b-types-list').lightSlider({
-            item:1,
+    $('.b-spectr, .b-adv-list, .b-sert, .b-types-list').owlCarousel({
+            items:1,
             loop:true,
+            nav:true,
     });
 }
 // $(window).resize(size());
@@ -177,42 +178,29 @@ if (checkWidth < 975) {
 
 // rasik privet
     
-$('.b-bull-list').lightSlider({
-        item:3,
+$('.b-bull-list').owlCarousel({
+        items:1,
         loop:true,
-        slideMove:1,
-        easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
-        speed:600,
-        responsive : [
-            {
-                breakpoint:992,
-                settings: {
-                    item:3,
+        nav:true,
+        // slideMove:1,
+        responsive : {
+            768 : {
+                    items:2,
+                    slideMove:2,
+                    slideMargin:6,
+            },
+            992:  {
+                    items:3,
                     slideMove:3,
                     slideMargin:6,
                   }
-            },
-            {
-                breakpoint:768,
-                settings: {
-                    item:2,
-                    slideMove:2,
-                    slideMargin:6,
-                  }
-            },
-            {
-                breakpoint:480,
-                settings: {
-                    item:1,
-                    slideMove:1
-                  }
-            }
-        ]    
+        }
 });
 
-$('.b-reviews-list').lightSlider({
-        item:1,
+$('.b-reviews-list').owlCarousel({
+        items:1,
         loop:true,
+        nav:true,
 });
 
 $(".polit-popup").css('height', checkHeight*.7);

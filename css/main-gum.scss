@@ -234,10 +234,10 @@ form .field_error {
 
 
 .section {
-    .lSAction {position: absolute; top: 30%; left: 0; right: 0;}
-    .lSAction > a {position: absolute; background: $blue url() center no-repeat; width: 40px; height: 40px; border-radius: 50%; opacity: 1;}
-    .lSAction > .lSPrev {background-image: url(../images/icon-arrow-left-white.png); left: 0;}
-    .lSAction > .lSNext {background-image: url(../images/icon-arrow-right-white.png); right: 0;}
+    .owl-nav {position: absolute; top: 30%; left: 0; right: 0;}
+    .owl-nav > div {position: absolute; background: $blue url() center no-repeat; width: 40px; height: 40px; border-radius: 50%; opacity: 1; text-indent: -999em;}
+    .owl-nav > .owl-prev {background-image: url(../images/icon-arrow-left-white.png); left: 0;}
+    .owl-nav > .owl-next {background-image: url(../images/icon-arrow-right-white.png); right: 0;}
     .s-types .lSAction {top: 80px;}
 }
 
