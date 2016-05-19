@@ -183,10 +183,18 @@ $('.b-bull-list').lightSlider({
         speed:600,
         responsive : [
             {
+                breakpoint:992,
+                settings: {
+                    item:3,
+                    slideMove:3,
+                    slideMargin:6,
+                  }
+            },
+            {
                 breakpoint:768,
                 settings: {
                     item:2,
-                    slideMove:1,
+                    slideMove:2,
                     slideMargin:6,
                   }
             },
