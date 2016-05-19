@@ -205,7 +205,8 @@ form .field_error {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  opacity: 1; }
+  opacity: 1;
+  text-indent: -999em; }
 .section .owl-nav > .owl-prev {
   background-image: url(../images/icon-arrow-left-white.png);
   left: 0; }
