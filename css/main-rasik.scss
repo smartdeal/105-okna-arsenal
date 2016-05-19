@@ -260,7 +260,7 @@ input {
     }
 }
 
-.send-btn {
+.f-get-calc .btn {
     color: #202020;
     font: 700 18px / 18px Exo2!important;
     padding: 20px!important;
@@ -324,7 +324,7 @@ input {
         }
     }
     .send-btn {
-        padding: 0px 5px !important;
+        padding: 20px !important;
     }
 }
 
@@ -418,6 +418,11 @@ input {
             }
         }
     }
+}
+
+iframe {
+    width: 560ph;
+    height: 170px;
 }
 
 .b-map-adr {
@@ -694,6 +699,29 @@ input[type="text"]::-webkit-input-placeholder {
         margin: 0 auto;
         .b-bull-wrap {
             border: 3px solid $blue;
+            .lSAction {
+                .lSPrev {
+                    background: url(../images/arr.png)!important;
+                    width: 63px;
+                    height: 62px;
+                    display: block;
+                    position: absolute;
+                    left: -30px;
+                }
+                .lSNext {
+                    background: url(../images/arr.png)!important;
+                    width: 63px;
+                    height: 62px;
+                    display: block;
+                    position: absolute;
+                    -moz-transform: rotate(180deg);
+                    -ms-transform: rotate(180deg);
+                    -webkit-transform: rotate(180deg);
+                    -o-transform: rotate(180deg);
+                    transform: rotate(180deg);
+                    right: -30px;
+                }
+            }
         }
         .b-bull-list {
             .title {
@@ -763,12 +791,12 @@ input[type="text"]::-webkit-input-placeholder {
                 display: inline-block;
                 margin: 0 17px 53px;
                 vertical-align: top;
-                
                 .title {
                     text-transform: uppercase;
                     font: 700 14px / 14px Exo2;
                     color: $blue;
                     margin-bottom: 20px;
+                    height: 28px;
                 }
                 .img {
                     background-repeat: no-repeat!important;
@@ -806,15 +834,14 @@ input[type="text"]::-webkit-input-placeholder {
                     position: relative;
                     margin: 0 auto;
                     margin-bottom: 10px;
-                 
                 }
                 .rub {
-                      display: inline-block;
-                        width: 13px;
-                        height: 13px;
-                        left: 130px;
-                        top: 3px;
-                        background: url(../images/ruble.png);
+                    display: inline-block;
+                    width: 13px;
+                    height: 13px;
+                    left: 130px;
+                    top: 3px;
+                    background: url(../images/ruble.png);
                     margin-left: 2px;
                 }
                 button {
@@ -822,6 +849,16 @@ input[type="text"]::-webkit-input-placeholder {
                 }
             }
         }
+    }
+    .s-about {
+        ul {
+            padding-left: 60px;
+        }
+    }
+    iframe {
+        width: 591px;
+        height: 337px;
+        margin-bottom: 50px;
     }
 }
 
