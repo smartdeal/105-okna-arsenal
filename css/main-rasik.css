@@ -548,6 +548,14 @@ iframe {
   width: 560ph;
   height: 170px; }
 
+.s-form-2 .title {
+  color: #303030;
+  font: 700 18px / 24px Exo2;
+  text-transform: uppercase;
+  text-align: center; }
+  .s-form-2 .title span {
+    color: #ffc000; }
+
 .s-sert .item {
   display: inline-block;
   width: 185px;

@@ -714,7 +714,17 @@ iframe {
     width: 560ph;
     height: 170px;
 }
-
+.s-form-2 {
+    .title {
+        color: $text;
+        font: 700 18px / 24px Exo2;
+        text-transform: uppercase;
+        text-align: center;
+        span {
+            color: $yellow;
+        }
+    }
+}
 .s-sert {
     .item {
         display: inline-block;
