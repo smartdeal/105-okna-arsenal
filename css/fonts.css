@@ -4,8 +4,7 @@
     src: url('../fonts/exo2-bold.eot?#iefix') format('embedded-opentype'),
          url('../fonts/exo2-bold.woff2') format('woff2'),
          url('../fonts/exo2-bold.woff') format('woff'),
-         url('../fonts/exo2-bold.ttf') format('truetype'),
-         url('../fonts/exo2-bold.svg#exo2') format('svg');
+         url('../fonts/exo2-bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
 }
@@ -15,8 +14,7 @@
     src: url('../fonts/exo2-extrabold.eot?#iefix') format('embedded-opentype'),
          url('../fonts/exo2-extrabold.woff2') format('woff2'),
          url('../fonts/exo2-extrabold.woff') format('woff'),
-         url('../fonts/exo2-extrabold.ttf') format('truetype'),
-         url('../fonts/exo2-extrabold.svg#exo2') format('svg');
+         url('../fonts/exo2-extrabold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
 }
@@ -26,8 +24,7 @@
     src: url('../fonts/exo2-light.eot?#iefix') format('embedded-opentype'),
          url('../fonts/exo2-light.woff2') format('woff2'),
          url('../fonts/exo2-light.woff') format('woff'),
-         url('../fonts/exo2-light.ttf') format('truetype'),
-         url('../fonts/exo2-light.svg#exo2') format('svg');
+         url('../fonts/exo2-light.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
 }
@@ -37,8 +34,7 @@
     src: url('../fonts/exo2-regular.eot?#iefix') format('embedded-opentype'),
          url('../fonts/exo2-regular.woff2') format('woff2'),
          url('../fonts/exo2-regular.woff') format('woff'),
-         url('../fonts/exo2-regular.ttf') format('truetype'),
-         url('../fonts/exo2-regular.svg#exo2') format('svg');
+         url('../fonts/exo2-regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
@@ -48,9 +44,37 @@
     src: url('../fonts/exo2-semibold.eot?#iefix') format('embedded-opentype'),
          url('../fonts/exo2-semibold.woff2') format('woff2'),
          url('../fonts/exo2-semibold.woff') format('woff'),
-         url('../fonts/exo2-semibold.ttf') format('truetype'),
-         url('../fonts/exo2-semibold.svg#exo2') format('svg');
+         url('../fonts/exo2-semibold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
-
+}
+@font-face {
+    font-family: 'exo2';
+    src: url('../fonts/exo2-bolditalic.eot');
+    src: url('../fonts/exo2-bolditalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo2-bolditalic.woff2') format('woff2'),
+         url('../fonts/exo2-bolditalic.woff') format('woff'),
+         url('../fonts/exo2-bolditalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'exo2';
+    src: url('../fonts/exo2-extrabolditalic.eot');
+    src: url('../fonts/exo2-extrabolditalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo2-extrabolditalic.woff2') format('woff2'),
+         url('../fonts/exo2-extrabolditalic.woff') format('woff'),
+         url('../fonts/exo2-extrabolditalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'exo2';
+    src: url('../fonts/exo2-italic.eot');
+    src: url('../fonts/exo2-italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo2-italic.woff2') format('woff2'),
+         url('../fonts/exo2-italic.woff') format('woff'),
+         url('../fonts/exo2-italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
 }
