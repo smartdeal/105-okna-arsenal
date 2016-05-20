@@ -36,7 +36,7 @@
     width: 320px;
     margin: 0 auto;
     .logo {
-        background: url(../images/logo.png);
+        background: url(../images/logo.png) center no-repeat;
         width: 125px;
         height: 63px;
         display: inline-block;
@@ -72,7 +72,7 @@
                 text-decoration: none;
             }
             &:before {
-                background: url(../images/icon_tel.png);
+                background: url(../images/icon_tel.png) center no-repeat;
                 content: "";
                 display: block;
                 width: 30px;
@@ -152,16 +152,16 @@ input {
         display: block;
     }
     .item1 {
-        background: url(../images/icon_s-bullets_top_i3.png);
+        background: url(../images/icon_s-bullets_top_i3.png) center no-repeat;
     }
     .item2 {
-        background: url(../images/icon_s-bullets_top_i4.png);
+        background: url(../images/icon_s-bullets_top_i4.png) center no-repeat;
     }
     .item3 {
-        background: url(../images/icon_s-bullets_top_i2.png);
+        background: url(../images/icon_s-bullets_top_i2.png) center no-repeat;
     }
     .item4 {
-        background: url(../images/icon_s-bullets_top_i1.png);
+        background: url(../images/icon_s-bullets_top_i1.png) center no-repeat;
     }
     span {
         text-align: center;
@@ -256,27 +256,27 @@ input {
                 margin-bottom: 10px;
             }
             .i_1 {
-                background: url(../images/w_1.png);
+                background: url(../images/w_1.png) center no-repeat;
                 width: 110px;
                 height: 115px;
             }
             .i_2 {
-                background: url(../images/w_2.png);
+                background: url(../images/w_2.png) center no-repeat;
                 width: 164px;
                 height: 115px;
             }
             .i_3 {
-                background: url(../images/w_3.png);
+                background: url(../images/w_3.png) center no-repeat;
                 width: 145px;
                 height: 115px;
             }
             .i_4 {
-                background: url(../images/w_4.png);
+                background: url(../images/w_4.png) center no-repeat;
                 width: 122px;
                 height: 115px;
             }
             .i_5 {
-                background: url(../images/w_5.png);
+                background: url(../images/w_5.png) center no-repeat;
                 width: 84px;
                 height: 115px;
             }
@@ -293,7 +293,7 @@ input {
                 height: 13px;
                 left: 130px;
                 top: 3px;
-                background: url(../images/ruble.png);
+                background: url(../images/ruble.png) center no-repeat;
                 margin-left: 2px;
             }
             button {
@@ -323,32 +323,32 @@ input {
             margin-bottom: 20px;
         }
         .i_1 {
-            background-image: url(../images/s-bull_i_1.png);
+            background: url(../images/s-bull_i_1.png) center no-repeat;
             width: 58px;
             height: 45px;
         }
         .i_2 {
-            background: url(../images/s-bull_i_2.png);
+            background: url(../images/s-bull_i_2.png) center no-repeat;
             width: 100px;
             height: 45px;
         }
         .i_3 {
-            background: url(../images/s-bull_i_3.png);
+            background: url(../images/s-bull_i_3.png) center no-repeat;
             height: 45px;
             width: 44px;
         }
         .i_4 {
-            background: url(../images/s-bull_i_4.png);
+            background: url(../images/s-bull_i_4.png) center no-repeat;
             width: 37px;
             height: 49px;
         }
         .i_5 {
-            background: url(../images/s-bull_i_5.png);
+            background: url(../images/s-bull_i_5.png) center no-repeat;
             width: 49px;
             height: 45px;
         }
         .i_6 {
-            background: url(../images/s-bull_i_3.png);
+            background: url(../images/s-bull_i_3.png) center no-repeat;
             height: 45px;
             width: 44px;
         }
@@ -389,7 +389,7 @@ input {
     padding-top: 36px;
     padding-left: 5px;
     padding-right: 5px;
-    background: url(../images/bg_structure.png);
+    background: url(../images/bg_structure.png) center no-repeat;
     margin: 0 auto;
     .f-get-calc {
         background-color: rgba(51, 153, 255, 0.7);
@@ -473,23 +473,145 @@ input {
                 margin: 0 auto;
             }
             .i_1 {
-                background: url(../images/s-services_1.png);
+                background: url(../images/s-services_1.png) center no-repeat;
             }
             .i_2 {
-                background: url(../images/s-services_2.png);
+                background: url(../images/s-services_2.png) center no-repeat;
             }
             .i_3 {
-                background: url(../images/s-services_3.png);
+                background: url(../images/s-services_3.png) center no-repeat;
             }
             .i_4 {
-                background: url(../images/s-services_4.png);
+                background: url(../images/s-services_4.png) center no-repeat;
             }
             .i_5 {
-                background: url(../images/s-services_5.png);
+                background: url(../images/s-services_5.png) center no-repeat;
             }
         }
         .owl-nav {
             top: 55%;
+        }
+    }
+}
+
+.s-reviews {
+    background: url(../images/bg_s-services.jpg) center no-repeat;
+    border-top: 2px solid #aeaeae;
+    background-size: cover;
+    .owl-nav {
+        top: 30px;
+        left: 35px;
+        right: 35px;
+        .owl-prev {
+            background: url(../images/arr_yellow_small.png);
+            width: 36px;
+            height: 36px;
+        }
+        .owl-next {
+            background: url(../images/arr_yellow_small.png);
+            width: 36px;
+            height: 36px;
+            -moz-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            -webkit-transform: rotate(180deg);
+            -o-transform: rotate(180deg);
+            transform: rotate(180deg);
+        }
+    }
+    .item {
+        text-align: left;
+        .b_feedback {
+            .avatar {
+                width: 101px;
+                height: 100px;
+                margin: 0 auto 9px;
+                background-size: contain!important;
+            }
+            .name {
+                color: $text;
+                font: italic 300 18px / 60px Exo2;
+                text-align: center;
+            }
+            .feedback_txt {
+                color: $text;
+                font: italic 300 16px / 24px Exo2;
+            }
+            .av_1 {
+                background: url(../images/b-reviews-av_1.png) center no-repeat;
+            }
+            .av_2 {
+                background: url(../images/b-reviews-av_2.png) center no-repeat;
+            }
+            .av_3 {
+                background: url(../images/b-reviews-av_3.png) center no-repeat;
+            }
+            .av_4 {
+                background: url(../images/b-reviews-av_4.png) center no-repeat;
+            }
+            .av_5 {
+                background: url(../images/b-reviews-av_5.png) center no-repeat;
+            }
+            .av_6 {
+                background: url(../images/b-reviews-av_6.png) center no-repeat;
+            }
+        }
+        .b_done {
+            .img {
+                width: 211px;
+                height: 161px;
+                margin: 0 auto 38px;
+                background-size: contain!important;
+                border: 3px solid $blue;
+            }
+            .b_done_title {
+                color: $blue;
+                font: italic 600 18px / 18px Exo2;
+                margin-bottom: 17px;
+                text-align: center;
+            }
+            .i_1 {
+                background: url(../images/b_done_i_1.png);
+            }
+            .i_2 {
+                background: url(../images/b_done_i_2.png);
+            }
+            .i_3 {}
+            .i_4 {
+                background: url(../images/b_done_i_4.png);
+            }
+            .i_5 {
+                background: url(../images/b_done_i_5.png);
+            }
+            .i_6 {}
+            ul {
+                margin-bottom: 25px;
+                li {
+                    text-align: left;
+                }
+            }
+            .gift {
+                .title {
+                    color: $blue;
+                    font: italic 700 18px / 18px Exo2;
+                    margin-bottom: 5px;
+                    text-align: center;
+                }
+                p {
+                    color: $text;
+                    font: 300 14px / 18px Exo2;
+                    font-style: normal;
+                    margin-bottom: 17px;
+                }
+                .price {
+                    color: $blue;
+                    font: italic 700 18px / 18px Exo2;
+                    text-align: center;
+                    span {
+                        color: $yellow;
+                        font: italic 700 18px / 18px Exo2;
+                    }
+                }
+            }
         }
     }
 }
@@ -507,7 +629,7 @@ input {
 .s-main-form {
     padding-left: 5px;
     padding-right: 5px;
-    background: url(../images/bg_s-main-form.png) no-repeat;
+    background: url(../images/bg_s-main-form.png) center no-repeat;
     .tit {
         color: $blue;
         font: 700 18px / 24px Exo2;
@@ -535,7 +657,7 @@ input {
 }
 
 .s-about {
-    background: url(../images/bg_structure.png);
+    background: url(../images/bg_structure.png) center no-repeat;
     padding: 0 5px 50px;
     .tit {
         color: $blue;
@@ -545,7 +667,7 @@ input {
         margin-bottom: 19px;
     }
     .image {
-        background: url(../images/mob_line.png);
+        background: url(../images/mob_line.png) center no-repeat;
         height: 12px;
         width: 300px;
         margin: 0 auto 20px;
@@ -570,7 +692,7 @@ input {
             padding-bottom: 10px;
             text-align: left;
             &:before {
-                content: url(../images/mark.png);
+                content: url(../images/mark.png) center no-repeat;
                 display: inline-block;
                 width: 37px;
                 height: 37px;
@@ -617,7 +739,7 @@ iframe {
         position: relative;
         margin-bottom: 22px;
         &:before {
-            background: url(../images/icon_map.png);
+            background: url(../images/icon_map.png) center no-repeat;
             content: "";
             width: 17px;
             height: 26px;
@@ -632,7 +754,7 @@ iframe {
         font: 500 24px / 24px Exo2;
         margin-bottom: 23px;
         &:before {
-            background: url(../images/icon_tel_small.png);
+            background: url(../images/icon_tel_small.png) center no-repeat;
             content: "";
             width: 20px;
             height: 21px;
@@ -647,7 +769,7 @@ iframe {
         font: 400 18px / 18px Open Sans;
         margin-bottom: 18px;
         &:before {
-            background: url(../images/icon_mail.png);
+            background: url(../images/icon_mail.png) center no-repeat;
             content: "";
             width: 23px;
             height: 17px;
@@ -663,7 +785,7 @@ iframe {
 }
 
 .s-footer-form {
-    background: url(../images/bg_structure.png);
+    background: url(../images/bg_structure.png) center no-repeat;
     padding-bottom: 50px;
     input {
         background-color: #ffffff;
@@ -719,12 +841,12 @@ input[type="text"]::-webkit-input-placeholder {
     right: -50px;
     top: -7%;
     .owl-prev {
-        background: url(../images/arr.png);
+        background: url(../images/arr.png) center no-repeat;
         width: 63px;
         height: 62px;
     }
     .owl-next {
-        background: url(../images/arr.png);
+        background: url(../images/arr.png) center no-repeat;
         width: 63px;
         height: 62px;
         -moz-transform: rotate(180deg);
@@ -747,12 +869,6 @@ input[type="text"]::-webkit-input-placeholder {
 @media (min-width: 480px) {}
 
 @media (min-width: 768px) {
-    //    .hidden-sm {
-    //        display: block!important;
-    //    }
-    //    .hidden-md {
-    //        display: none;
-    //    }
     .s-header {
         padding: 0;
     }
@@ -808,7 +924,6 @@ input[type="text"]::-webkit-input-placeholder {
             color: $blue;
             font: 700 24px / 30px Exo2;
             text-decoration: underline;
-            background: url(../images/MergedLayers.png);
         }
     }
     .s-stock {
@@ -934,9 +1049,10 @@ input[type="text"]::-webkit-input-placeholder {
         top: 30%;
     }
     .s-types {
-        background: url(../images/bg_structure.png);
+        background: url(../images/bg_structure.png) center no-repeat;
         padding-top: 76px;
         padding-bottom: 48px;
+        background-size: cover;
         .s-title {
             color: $text;
             font: 700 48px / 48px Exo2;
@@ -962,27 +1078,27 @@ input[type="text"]::-webkit-input-placeholder {
                     margin-bottom: 10px;
                 }
                 .i_1 {
-                    background: url(../images/w_1.png);
+                    background: url(../images/w_1.png) center no-repeat;
                     width: 110px;
                     height: 115px;
                 }
                 .i_2 {
-                    background: url(../images/w_2.png);
+                    background: url(../images/w_2.png) center no-repeat;
                     width: 164px;
                     height: 115px;
                 }
                 .i_3 {
-                    background: url(../images/w_3.png);
+                    background: url(../images/w_3.png) center no-repeat;
                     width: 145px;
                     height: 115px;
                 }
                 .i_4 {
-                    background: url(../images/w_4.png);
+                    background: url(../images/w_4.png) center no-repeat;
                     width: 122px;
                     height: 115px;
                 }
                 .i_5 {
-                    background: url(../images/w_5.png);
+                    background: url(../images/w_5.png) center no-repeat;
                     width: 84px;
                     height: 115px;
                 }
@@ -999,11 +1115,73 @@ input[type="text"]::-webkit-input-placeholder {
                     height: 13px;
                     left: 130px;
                     top: 3px;
-                    background: url(../images/ruble.png);
+                    background: url(../images/ruble.png) center no-repeat;
                     margin-left: 2px;
                 }
                 button {
                     background-color: $yellow;
+                }
+            }
+        }
+    }
+    .s-reviews {
+        .owl-nav {
+            top: 60px;
+            left: 45px;
+            right: 400px;
+        }
+        .item {
+            text-align: left;
+            .b_feedback {
+                .avatar {
+                    width: 152px;
+                    height: 151px;
+                    margin: 0 auto 15px;
+                }
+                .name {
+                    font: italic 300 18px / 60px Exo2;
+                }
+                .feedback_txt {
+                    font: italic 300 16px / 24px Exo2;
+                }
+            }
+            .b_done {
+                .img {
+                    width: 235px;
+                    height: 180px;
+                    margin: 0;
+                    margin-bottom: 38px;
+                }
+                .b_done_title {
+                    color: $blue;
+                    font: italic 600 18px / 18px Exo2;
+                    margin-bottom: 17px;
+                    text-align: left;
+                }
+                ul {
+                    margin-bottom: 25px;
+                    li {
+                        text-align: left;
+                    }
+                }
+                .gift {
+                    .title {
+                        font: italic 600 24px / 18px Exo2;
+                        margin-bottom: 5px;
+                        text-align: left;
+                    }
+                    p {
+                        font: 300 14px / 18px Exo2;
+                        font-style: normal;
+                        margin-bottom: 17px;
+                    }
+                    .price {
+                        font: italic 600 24px / 18px Exo2;
+                        text-align: left;
+                        span {
+                            font: italic 600 24px / 18px Exo2;
+                        }
+                    }
                 }
             }
         }
@@ -1017,6 +1195,11 @@ input[type="text"]::-webkit-input-placeholder {
         width: 591px;
         height: 337px;
         margin-bottom: 50px;
+    }
+    .s-reviews {
+        .s-title {
+            font: 700 36px / 60px Exo2;
+        }
     }
 }
 
