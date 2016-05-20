@@ -76,6 +76,14 @@
 input {
   height: 62px; }
 
+.s-form-1 button,
+.s-form-2 button,
+.s-main-form button {
+  width: 291px;
+  vertical-align: top;
+  background-color: #ffc000;
+  box-shadow: 1px 2px 2px #898511; }
+
 .s-commercial {
   background: url(../images/bg_s_main-mob.png);
   padding-top: 63px;
@@ -293,7 +301,9 @@ input {
 .f-get-calc .btn {
   color: #202020;
   font: 700 18px/18px Exo2 !important;
-  padding: 20px !important; }
+  padding: 20px !important;
+  background-color: #ffc000;
+  box-shadow: 1px 2px 2px #898511; }
 
 .s-get-calc {
   text-transform: uppercase;
@@ -579,7 +589,7 @@ iframe {
     transform: rotate(180deg); }
 
 .b-map-adr {
-  background-color: #0084ff;
+  background-color: rgba(0, 132, 255, 0.8);
   color: #fff;
   padding: 31px;
   padding-top: 24px;
@@ -799,9 +809,6 @@ input[type="text"]::-webkit-input-placeholder {
         width: 23%;
         margin: 0; }
 
-  .b-map-adr {
-    max-width: 420px; }
-
   .s-get-calc .title {
     font: 700 36px / 48px Exo2;
     margin-bottom: 48px; }
@@ -840,12 +847,6 @@ input[type="text"]::-webkit-input-placeholder {
     .b-form input {
       width: 217px;
       margin-right: 7px; }
-    .b-form button {
-      width: 291px;
-      vertical-align: top;
-      background-color: #ffc000;
-      box-shadow: 1px 2px 2px #898511;
-      background: url(../images/MergedLayersds.jpg); }
     .b-form .f-get-calc input {
       padding-left: 20px; }
     .b-form .section {
@@ -975,7 +976,36 @@ input[type="text"]::-webkit-input-placeholder {
     margin-bottom: 50px; }
 
   .s-reviews .s-title {
-    font: 700 36px / 60px Exo2; } }
+    font: 700 36px / 60px Exo2; }
+
+  .s-map {
+    position: relative; }
+    .s-map .b-adr {
+      max-width: 420px; }
+    .s-map .b-map-adr {
+      background-color: rgba(0, 132, 255, 0.8);
+      max-width: 420px;
+      position: absolute;
+      top: 50px; }
+      .s-map .b-map-adr .title {
+        font: 700 24px / 24px Exo2; }
+      .s-map .b-map-adr .adr {
+        font: 300 24px / 24px Exo2; }
+      .s-map .b-map-adr .tel {
+        font: 600 24px / 24px Exo2; }
+      .s-map .b-map-adr .mail {
+        font: 300 24px / 24px Open Sans; }
+      .s-map .b-map-adr p {
+        display: inline-block;
+        margin-right: 16px;
+        margin-bottom: 20px; }
+      .s-map .b-map-adr .image {
+        background: url(../images/s-map-office.jpg);
+        height: 315px;
+        width: 420px;
+        position: relative;
+        margin-left: -31px;
+        margin-bottom: -31px; } }
 @media (min-width: 992px) {
   .b-services-wrap .b-services-list {
     padding-top: 40px; }

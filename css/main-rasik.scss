@@ -97,6 +97,17 @@ input {
     height: 62px;
 }
 
+.s-form-1,
+.s-form-2,
+.s-main-form {
+    button {
+        width: 291px;
+        vertical-align: top;
+        background-color: $yellow;
+        box-shadow: 1px 2px 2px #898511;
+    }
+}
+
 .s-commercial {
     background: url(../images/bg_s_main-mob.png);
     padding-top: 63px;
@@ -129,7 +140,6 @@ input {
 }
 
 .s-bullets_top {
-    //    background-color: #fff;
     font-size: 0;
     margin: 0 auto;
     text-align: center;
@@ -241,7 +251,6 @@ input {
         color: $text;
         font: 700 36px / 60px Exo2;
     }
-    img {}
     .b-types-list {
         .item {
             .title {
@@ -382,6 +391,8 @@ input {
     color: #202020;
     font: 700 18px / 18px Exo2!important;
     padding: 20px!important;
+    background-color: $yellow;
+    box-shadow: 1px 2px 2px #898511;
 }
 
 .s-get-calc {
@@ -714,6 +725,7 @@ iframe {
     width: 560ph;
     height: 170px;
 }
+
 .s-form-2 {
     .title {
         color: $text;
@@ -725,6 +737,7 @@ iframe {
         }
     }
 }
+
 .s-sert {
     .item {
         display: inline-block;
@@ -754,7 +767,7 @@ iframe {
 }
 
 .b-map-adr {
-    background-color: $blue;
+    background-color: rgba(0, 132, 255, 0.8);
     color: #fff;
     padding: 31px;
     padding-top: 24px;
@@ -1029,9 +1042,6 @@ input[type="text"]::-webkit-input-placeholder {
             }
         }
     }
-    .b-map-adr {
-        max-width: 420px;
-    }
     .s-get-calc {
         .title {
             font: 700 36px / 48px Exo2;
@@ -1081,13 +1091,6 @@ input[type="text"]::-webkit-input-placeholder {
         input {
             width: 217px;
             margin-right: 7px;
-        }
-        button {
-            width: 291px;
-            vertical-align: top;
-            background-color: $yellow;
-            box-shadow: 1px 2px 2px #898511;
-            background: url(../images/MergedLayersds.jpg);
         }
         .f-get-calc {
             input {
@@ -1264,6 +1267,43 @@ input[type="text"]::-webkit-input-placeholder {
     .s-reviews {
         .s-title {
             font: 700 36px / 60px Exo2;
+        }
+    }
+    .s-map {
+        .b-adr {
+            max-width: 420px;
+        }
+        position: relative;
+        .b-map-adr {
+            background-color: rgba(0, 132, 255, 0.8);
+            max-width: 420px;
+            position: absolute;
+            top: 50px;
+            .title {
+                font: 700 24px / 24px Exo2;
+            }
+            .adr {
+                font: 300 24px / 24px Exo2;
+            }
+            .tel {
+                font: 600 24px / 24px Exo2;
+            }
+            .mail {
+                font: 300 24px / 24px Open Sans;
+            }
+            p {
+                display: inline-block;
+                margin-right: 16px;
+                margin-bottom: 20px;
+            }
+            .image {
+                background: url(../images/s-map-office.jpg);
+                height: 315px;
+                width: 420px;
+                position: relative;
+                margin-left: -31px;
+                margin-bottom: -31px;
+            }
         }
     }
 }
