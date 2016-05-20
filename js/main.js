@@ -170,7 +170,7 @@ console.log(checkWidth);
 if (checkWidth >= 768) {
     var s_vid_max_slides = 2;
 } else {
-    $('.b-spectr, .b-adv-list, .b-sert, .b-types-list, #owl-hello').owlCarousel({
+    $('.b-spectr, .b-adv-list, .b-sert, .b-types-list, .b-services-list').owlCarousel({
             items:1,
             loop:true,
             nav:true,
@@ -201,7 +201,9 @@ $('.b-bull-list').owlCarousel({
                   }
         }
 });
+    
 
+    
 $('.b-reviews-list').owlCarousel({
         items:1,
         loop:true,
