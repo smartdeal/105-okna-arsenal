@@ -189,7 +189,7 @@ input {
 
 .s-types .s-title {
   color: #303030;
-  font: 700 23px / 23px Exo2; }
+  font: 700 36px / 60px Exo2; }
 .s-types .b-types-list .item .title {
   text-transform: uppercase;
   font: 700 18px / 18px Exo2;
@@ -300,7 +300,8 @@ input {
   padding-top: 36px;
   padding-left: 5px;
   padding-right: 5px;
-  background: url(../images/bg_structure.png) center no-repeat;
+  background: url(../images/bg_structure_big.jpg) center no-repeat;
+  background-size: cover;
   margin: 0 auto; }
   .s-get-calc .f-get-calc {
     background-color: rgba(51, 153, 255, 0.7);
@@ -388,12 +389,12 @@ input {
     right: 35px; }
     .s-reviews .owl-nav .owl-prev {
       background: url(../images/arr_yellow_small.png);
-      width: 36px;
-      height: 36px; }
+      width: 43px;
+      height: 42px; }
     .s-reviews .owl-nav .owl-next {
       background: url(../images/arr_yellow_small.png);
-      width: 36px;
-      height: 36px;
+      width: 43px;
+      height: 42px;
       -moz-transform: rotate(180deg);
       -ms-transform: rotate(180deg);
       -webkit-transform: rotate(180deg);
@@ -477,7 +478,7 @@ input {
 .s-main-form {
   padding-left: 5px;
   padding-right: 5px;
-  background: url(../images/bg_s-main-form.png) center no-repeat; }
+  background: url(../images/bg_s-main-form.jpg) center no-repeat; }
   .s-main-form .tit {
     color: #0084ff;
     font: 700 18px / 24px Exo2;
@@ -499,7 +500,8 @@ input {
     margin-bottom: 28px; }
 
 .s-about {
-  background: url(../images/bg_structure.png) center no-repeat;
+  background: url(../images/bg_structure_big.jpg) center no-repeat;
+  background-size: cover;
   padding: 0 5px 50px; }
   .s-about .tit {
     color: #0084ff;
@@ -530,7 +532,7 @@ input {
       padding-bottom: 10px;
       text-align: left; }
       .s-about ul li:before {
-        content: url(../images/mark.png) center no-repeat;
+        content: url(../images/mark.png);
         display: inline-block;
         width: 37px;
         height: 37px;
@@ -545,6 +547,28 @@ input {
 iframe {
   width: 560ph;
   height: 170px; }
+
+.s-sert .item {
+  display: inline-block;
+  width: 185px;
+  height: 253px; }
+.s-sert .owl-nav {
+  top: 100px;
+  left: -7px;
+  right: -7px; }
+  .s-sert .owl-nav .owl-prev {
+    background: url(../images/arr_yellow_small.png);
+    width: 43px;
+    height: 42px; }
+  .s-sert .owl-nav .owl-next {
+    background: url(../images/arr_yellow_small.png);
+    width: 43px;
+    height: 42px;
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg); }
 
 .b-map-adr {
   background-color: #0084ff;
@@ -667,6 +691,12 @@ input[type="text"]::-webkit-input-placeholder {
 /* end main */
 /* ********************************** */
 @media (min-width: 768px) {
+  .title {
+    font: 700 36px / 48px Exo2; }
+
+  .s-title {
+    font: 700 36px / 60px Exo2; }
+
   .s-header {
     padding: 0; }
 
@@ -764,6 +794,21 @@ input[type="text"]::-webkit-input-placeholder {
   .b-map-adr {
     max-width: 420px; }
 
+  .s-get-calc .title {
+    font: 700 36px / 48px Exo2;
+    margin-bottom: 48px; }
+    .s-get-calc .title span {
+      font: 700 36px / 48px Exo2; }
+  .s-get-calc .img {
+    background: url(../images/s-get-calc_window.png);
+    width: 317px;
+    height: 243px;
+    display: inline-block;
+    margin-right: 7px; }
+  .s-get-calc .items {
+    display: inline-block;
+    vertical-align: top !important; }
+
   .s-discount {
     font: 700 28px / 36px Exo2;
     padding-top: 40px;
@@ -791,7 +836,8 @@ input[type="text"]::-webkit-input-placeholder {
       width: 291px;
       vertical-align: top;
       background-color: #ffc000;
-      box-shadow: 1px 2px 2px #898511; }
+      box-shadow: 1px 2px 2px #898511;
+      background: url(../images/MergedLayersds.jpg); }
     .b-form .f-get-calc input {
       padding-left: 20px; }
     .b-form .section {
@@ -811,7 +857,7 @@ input[type="text"]::-webkit-input-placeholder {
     top: 30%; }
 
   .s-types {
-    background: url(../images/bg_structure.png) center no-repeat;
+    background: url(../images/bg_structure_big.jpg) center no-repeat;
     padding-top: 76px;
     padding-bottom: 48px;
     background-size: cover; }
@@ -822,11 +868,10 @@ input[type="text"]::-webkit-input-placeholder {
       margin-bottom: 50px; }
     .s-types .b-types-list .item {
       display: inline-block;
-      margin: 0 17px 53px;
       vertical-align: top; }
       .s-types .b-types-list .item .title {
         text-transform: uppercase;
-        font: 700 14px / 14px Exo2;
+        font: 700 14px / 16px Exo2;
         color: #0084ff;
         margin-bottom: 20px;
         height: 28px; }

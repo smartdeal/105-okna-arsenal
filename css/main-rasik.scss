@@ -239,7 +239,7 @@ input {
 .s-types {
     .s-title {
         color: $text;
-        font: 700 23px / 23px Exo2;
+        font: 700 36px / 60px Exo2;
     }
     img {}
     .b-types-list {
@@ -389,7 +389,8 @@ input {
     padding-top: 36px;
     padding-left: 5px;
     padding-right: 5px;
-    background: url(../images/bg_structure.png) center no-repeat;
+    background: url(../images/bg_structure_big.jpg) center no-repeat;
+    background-size: cover;
     margin: 0 auto;
     .f-get-calc {
         background-color: rgba(51, 153, 255, 0.7);
@@ -504,13 +505,13 @@ input {
         right: 35px;
         .owl-prev {
             background: url(../images/arr_yellow_small.png);
-            width: 36px;
-            height: 36px;
+            width: 43px;
+            height: 42px;
         }
         .owl-next {
             background: url(../images/arr_yellow_small.png);
-            width: 36px;
-            height: 36px;
+            width: 43px;
+            height: 42px;
             -moz-transform: rotate(180deg);
             -ms-transform: rotate(180deg);
             -webkit-transform: rotate(180deg);
@@ -629,7 +630,7 @@ input {
 .s-main-form {
     padding-left: 5px;
     padding-right: 5px;
-    background: url(../images/bg_s-main-form.png) center no-repeat;
+    background: url(../images/bg_s-main-form.jpg) center no-repeat;
     .tit {
         color: $blue;
         font: 700 18px / 24px Exo2;
@@ -657,7 +658,8 @@ input {
 }
 
 .s-about {
-    background: url(../images/bg_structure.png) center no-repeat;
+    background: url(../images/bg_structure_big.jpg) center no-repeat;
+    background-size: cover;
     padding: 0 5px 50px;
     .tit {
         color: $blue;
@@ -692,7 +694,7 @@ input {
             padding-bottom: 10px;
             text-align: left;
             &:before {
-                content: url(../images/mark.png) center no-repeat;
+                content: url(../images/mark.png);
                 display: inline-block;
                 width: 37px;
                 height: 37px;
@@ -711,6 +713,34 @@ input {
 iframe {
     width: 560ph;
     height: 170px;
+}
+
+.s-sert {
+    .item {
+        display: inline-block;
+        width: 185px;
+        height: 253px;
+    }
+    .owl-nav {
+        top: 100px;
+        left: -7px;
+        right: -7px;
+        .owl-prev {
+            background: url(../images/arr_yellow_small.png);
+            width: 43px;
+            height: 42px;
+        }
+        .owl-next {
+            background: url(../images/arr_yellow_small.png);
+            width: 43px;
+            height: 42px;
+            -moz-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            -webkit-transform: rotate(180deg);
+            -o-transform: rotate(180deg);
+            transform: rotate(180deg);
+        }
+    }
 }
 
 .b-map-adr {
@@ -869,6 +899,13 @@ input[type="text"]::-webkit-input-placeholder {
 @media (min-width: 480px) {}
 
 @media (min-width: 768px) {
+    .title {
+        font: 700 36px / 48px Exo2;
+        ;
+    }
+    .s-title {
+        font: 700 36px / 60px Exo2;
+    }
     .s-header {
         padding: 0;
     }
@@ -985,6 +1022,26 @@ input[type="text"]::-webkit-input-placeholder {
     .b-map-adr {
         max-width: 420px;
     }
+    .s-get-calc {
+        .title {
+            font: 700 36px / 48px Exo2;
+            margin-bottom: 48px;
+            span {
+                font: 700 36px / 48px Exo2;
+            }
+        }
+        .img {
+            background: url(../images/s-get-calc_window.png);
+            width: 317px;
+            height: 243px;
+            display: inline-block;
+            margin-right: 7px;
+        }
+        .items {
+            display: inline-block;
+            vertical-align: top!important;
+        }
+    }
     .s-discount {
         font: 700 28px / 36px Exo2;
         padding-top: 40px;
@@ -1001,9 +1058,6 @@ input[type="text"]::-webkit-input-placeholder {
         p {
             font: 300 24px / 24px Exo2;
         }
-        //          .section {
-        //            padding: 0;
-        //        }
     }
     .b-form {
         padding: 0;
@@ -1023,6 +1077,7 @@ input[type="text"]::-webkit-input-placeholder {
             vertical-align: top;
             background-color: $yellow;
             box-shadow: 1px 2px 2px #898511;
+            background: url(../images/MergedLayersds.jpg);
         }
         .f-get-calc {
             input {
@@ -1049,7 +1104,7 @@ input[type="text"]::-webkit-input-placeholder {
         top: 30%;
     }
     .s-types {
-        background: url(../images/bg_structure.png) center no-repeat;
+        background: url(../images/bg_structure_big.jpg) center no-repeat;
         padding-top: 76px;
         padding-bottom: 48px;
         background-size: cover;
@@ -1063,11 +1118,11 @@ input[type="text"]::-webkit-input-placeholder {
         .b-types-list {
             .item {
                 display: inline-block;
-                margin: 0 17px 53px;
+                //                margin: 0 17px 53px;
                 vertical-align: top;
                 .title {
                     text-transform: uppercase;
-                    font: 700 14px / 14px Exo2;
+                    font: 700 14px / 16px Exo2;
                     color: $blue;
                     margin-bottom: 20px;
                     height: 28px;
