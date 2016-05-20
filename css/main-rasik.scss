@@ -910,7 +910,37 @@ input[type="text"]::-webkit-input-placeholder {
     }
 }
 
-
+.s-adv {
+    ul {
+        margin: 0 auto;
+        a {
+            text-decoration: none;
+            color: $text;
+            font: 300 14px / 18px Exo2;
+        }
+        li {
+            position: relative;
+            padding-left: 50px;
+            line-height: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-align: left;
+            &:before {
+                content: url(../images/mark.png);
+                display: inline-block;
+                width: 37px;
+                height: 37px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                text-align: center;
+                line-height: 40px;
+            }
+        }
+    }
+}
 /* ********************************** */
 
 
@@ -1254,6 +1284,38 @@ input[type="text"]::-webkit-input-placeholder {
             }
         }
     }
+    .s-main-form {
+        .b-form {
+            background: url(../images/bg_b-form.jpg);
+                    width: 550px;
+            padding: 20px 40px 27px 40px;
+                            text-align: center;
+
+            .title {
+                color: #ffc000;
+                font: 700 24px / 36px Exo2;
+                text-transform: uppercase;
+                text-align: left;
+                span {
+                    color: #ffffff;
+                    font: 600 36px / 36px Exo2;
+                }
+               
+            }
+            input {
+                width: 230px;
+                display: inline-block;
+                margin: 0;
+                margin-bottom: 10px;
+            }
+            input+input {
+                margin-left: 7px;
+            }
+             button {
+                    width: 471px;
+                }
+        }
+    }
     .s-about {
         ul {
             padding-left: 60px;
@@ -1306,6 +1368,7 @@ input[type="text"]::-webkit-input-placeholder {
             }
         }
     }
+    
 }
 
 @media (min-width: 992px) {
