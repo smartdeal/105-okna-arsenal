@@ -342,6 +342,42 @@ input {
       font: 700 24px / 30px Exo2;
       text-transform: uppercase; }
 
+.b-services-wrap .b-services-list {
+  padding-top: 40px; }
+  .b-services-wrap .b-services-list .item {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 230px;
+    margin-bottom: 40px; }
+    .b-services-wrap .b-services-list .item .title {
+      text-transform: uppercase;
+      color: #303030;
+      font: 700 14px / 14px Exo2;
+      margin-bottom: 16px; }
+    .b-services-wrap .b-services-list .item .line {
+      display: inline-block;
+      width: 20px;
+      height: 3px;
+      background-color: #ffc000;
+      margin-bottom: 15px; }
+    .b-services-wrap .b-services-list .item .img {
+      width: 159px;
+      height: 160px;
+      margin: 0 auto; }
+    .b-services-wrap .b-services-list .item .i_1 {
+      background: url(../images/s-services_1.png); }
+    .b-services-wrap .b-services-list .item .i_2 {
+      background: url(../images/s-services_2.png); }
+    .b-services-wrap .b-services-list .item .i_3 {
+      background: url(../images/s-services_3.png); }
+    .b-services-wrap .b-services-list .item .i_4 {
+      background: url(../images/s-services_4.png); }
+    .b-services-wrap .b-services-list .item .i_5 {
+      background: url(../images/s-services_5.png); }
+  .b-services-wrap .b-services-list .owl-nav {
+    top: 55%; }
+
 .blu_bg {
   background-color: rgba(51, 153, 255, 0.7);
   padding: 5px 10px;
@@ -514,7 +550,8 @@ input[type="text"]::-webkit-input-placeholder {
 
 .s-bull {
   margin: 0 auto;
-  background: url(../images/bg_s-bull.png); }
+  background: url(../images/bg_s-bull.png) center no-repeat;
+  background-size: cover; }
   .s-bull .b-bull-wrap {
     border: 3px solid #0084ff;
     padding: 40px;
@@ -753,3 +790,22 @@ input[type="text"]::-webkit-input-placeholder {
     width: 591px;
     height: 337px;
     margin-bottom: 50px; } }
+@media (min-width: 992px) {
+  .b-services-wrap .b-services-list {
+    padding-top: 40px; }
+    .b-services-wrap .b-services-list .item {
+      display: inline-block;
+      vertical-align: top;
+      text-align: center;
+      width: 180px;
+      margin-bottom: 40px; }
+      .b-services-wrap .b-services-list .item .title {
+        text-transform: uppercase;
+        color: #303030;
+        font: 700 14px / 14px Exo2;
+        margin-bottom: 16px; }
+      .b-services-wrap .b-services-list .item .line {
+        display: inline-block;
+        width: 20px;
+        height: 3px;
+        margin-bottom: 15px; } }
