@@ -222,6 +222,7 @@ $(document).ready(function() {
         items: 1,
         loop: true,
         nav: true,
+        autoHeight:true
     });
 
     $(window).ready(init_sliders);
