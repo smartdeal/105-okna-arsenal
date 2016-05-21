@@ -1,0 +1,84 @@
+.b_info .btn-blue {
+  padding: 18px 5px;
+  margin: 20px 0 0;
+  width: 100%;
+  display: block;
+  border-radius: 5px; }
+
+.s-main-top {
+  padding-top: 0; }
+
+.s-commercial {
+  padding: 60px 0; }
+
+.s-bullets_top {
+  padding-top: 50px; }
+
+.b-bullets {
+  font-size: 0; }
+
+.s-bullets_top .item {
+  width: 50%;
+  margin: 0;
+  padding: 20px 10px; }
+
+.s-bullets_top .icon {
+  margin: 0 auto 10px; }
+
+.b-stock-list .item {
+  text-align: center;
+  font-weight: 600; }
+
+.f-get-calc .btn {
+  width: 100%;
+  margin-bottom: 0;
+  font-size: 17px; }
+
+.b-bull-list .title {
+  position: relative; }
+
+.b-bull-list .title:after {
+  position: absolute;
+  content: '';
+  width: 10%;
+  height: 4px;
+  background: #0084ff;
+  bottom: -10px;
+  left: 45%; }
+
+.s-bull .b-bull-wrap {
+  padding: 10px 40px 0; }
+
+.s-types .s-title {
+  font-size: 23px;
+  line-height: 1; }
+
+.s-get-calc {
+  padding-bottom: 40px; }
+
+.s-get-calc .title {
+  font: 700 18px / 30px Exo2; }
+
+.s-get-calc .f-get-calc .input_small {
+  width: 100%;
+  display: block;
+  padding: 17px 5px;
+  height: auto;
+  line-height: 1;
+  margin-bottom: 7px; }
+
+.s-get-calc .f-get-calc .inp {
+  width: 31.33%;
+  margin-left: 2%; }
+
+.s-get-calc .f-get-calc .inp:first-child {
+  margin-left: 0; }
+
+.s-reviews {
+  border-top: 1px solid #E2E2E2; }
+
+.s-reviews .item .b_done ul li {
+  font-size: 13px;
+  margin-bottom: 10px; }
+
+/*# sourceMappingURL=main-rasik-fix.css.map */
