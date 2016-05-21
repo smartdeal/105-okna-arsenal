@@ -9,6 +9,7 @@ dist/
 bower_components/
 test/
 .idea/
+*.map
 
 # Windows image file caches
 Thumbs.db
