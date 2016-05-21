@@ -489,7 +489,11 @@ input {
 .s-main-form {
   padding-left: 5px;
   padding-right: 5px;
-  background: url(../images/bg_s-main-form.jpg) center no-repeat; }
+  background: url(../images/bg_s-main-form.jpg) center no-repeat;
+  background-size: cover;
+  padding-top: 40px; }
+  .s-main-form .b-form {
+    margin-bottom: 16px; }
   .s-main-form .tit {
     color: #0084ff;
     font: 700 18px / 24px Exo2;
@@ -509,6 +513,18 @@ input {
       font: 700 24px / 30px Exo2; }
   .s-main-form img {
     margin-bottom: 28px; }
+  .s-main-form .tit_bottom {
+    color: #303030;
+    font: 700 19px / 30px Exo2;
+    text-align: center; }
+    .s-main-form .tit_bottom .txt_1 {
+      color: #ffc000;
+      font: 700 24px / 30px Exo2;
+      text-transform: uppercase; }
+    .s-main-form .tit_bottom .txt_2 {
+      color: #0084ff;
+      font: 700 24px / 30px Exo2;
+      text-transform: uppercase; }
 
 .s-about {
   background: url(../images/bg_structure_big.jpg) center no-repeat;
@@ -1017,29 +1033,55 @@ input[type="text"]::-webkit-input-placeholder {
       .s-reviews .item .b_done .gift .price span {
         font: italic 600 24px / 18px Exo2; }
 
-  .s-main-form .b-form {
-    background: url(../images/bg_b-form.jpg);
-    width: 550px;
-    padding: 20px 40px 23px 40px;
-    text-align: center; }
-    .s-main-form .b-form .title {
-      color: #ffc000;
-      font: 700 24px / 36px Exo2;
-      text-transform: uppercase;
-      text-align: left; }
-      .s-main-form .b-form .title span {
-        color: #ffffff;
-        font: 600 36px / 36px Exo2; }
-    .s-main-form .b-form input {
-      width: 230px;
+  .s-main-form {
+    font-size: 0; }
+    .s-main-form img {
       display: inline-block;
-      margin: 0;
-      margin-bottom: 10px; }
-    .s-main-form .b-form input + input {
-      margin-left: 7px; }
-    .s-main-form .b-form button {
-      width: 471px;
-      font: 700 24px / 24px Exo2; }
+      width: 35%;
+      vertical-align: top; }
+    .s-main-form .txt-wrap {
+      display: inline-block;
+      width: 60%;
+      margin-right: 10px; }
+      .s-main-form .txt-wrap .tit {
+        font: 700 28px / 34px Exo2;
+        margin-bottom: 0; }
+        .s-main-form .txt-wrap .tit span {
+          font: 700 25px / 36px Exo2; }
+      .s-main-form .txt-wrap .gift {
+        font: 700 35px / 60px Exo2; }
+        .s-main-form .txt-wrap .gift span {
+          font: 700 35px / 60px Exo2; }
+    .s-main-form .b-form {
+      background: url(../images/bg_b-form.jpg);
+      width: 550px;
+      padding: 20px 40px 20px 40px;
+      text-align: center; }
+      .s-main-form .b-form .title {
+        color: #ffc000;
+        font: 700 24px / 36px Exo2;
+        text-transform: uppercase;
+        text-align: left; }
+        .s-main-form .b-form .title span {
+          color: #ffffff;
+          font: 600 36px / 36px Exo2; }
+      .s-main-form .b-form input {
+        width: 230px;
+        display: inline-block;
+        margin: 0;
+        margin-bottom: 10px; }
+      .s-main-form .b-form input + input {
+        margin-left: 7px; }
+      .s-main-form .b-form button {
+        width: 471px;
+        font: 700 24px / 24px Exo2; }
+    .s-main-form .tit_bottom {
+      text-transform: uppercase;
+      text-align: left;
+      font: 600 24px / 60px Exo2; }
+      .s-main-form .tit_bottom .txt_1,
+      .s-main-form .tit_bottom .txt-2 {
+        color: #ffc000; }
 
   .s-about ul {
     padding-left: 60px; }
