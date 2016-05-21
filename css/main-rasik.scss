@@ -4,7 +4,6 @@
 #stickyheader {
     box-shadow: 0px 4px 5px 0.00px rgba(0, 0, 0, 0.19);
     display: none;
-
     ul {
         width: 100%;
         text-align: center;
@@ -99,7 +98,7 @@ input {
 .s-form-1,
 .s-form-2,
 .s-main-form,
-.s-footer-form{
+.s-footer-form {
     button {
         width: 291px;
         vertical-align: top;
@@ -389,7 +388,7 @@ input {
 
 .f-get-calc .btn {
     color: #202020;
-    font: 700 18px / 18px Exo2;
+    font: 700 17px / 18px Exo2;
     padding: 20px!important;
     background-color: $yellow;
     box-shadow: 1px 2px 2px #898511;
@@ -639,9 +638,8 @@ input {
 }
 
 .s-main-form {
-    padding-left: 5px;
-    padding-right: 5px;
     background: url(../images/bg_s-main-form.jpg) center no-repeat;
+    background-size: cover;
     .tit {
         color: $blue;
         font: 700 18px / 24px Exo2;
@@ -785,7 +783,7 @@ iframe {
         padding-left: 34px;
     }
     .b-adr-item {
-        display: inline-block;
+        display: block;
         vertical-align: middle;
     }
     .adr {
@@ -928,7 +926,7 @@ input[type="text"]::-webkit-input-placeholder {
         display: inline-block;
         position: relative;
         &:before {
-                content: url(../images/dot.png);
+            content: url(../images/dot.png);
             width: 5px;
             height: 634px;
             position: absolute;
@@ -1374,16 +1372,17 @@ input[type="text"]::-webkit-input-placeholder {
     }
     .s-map {
         .b-adr {
-            max-width: 420px;
+            max-width: 345px;
         }
         position: relative;
         .b-map-adr {
             background-color: rgba(0, 132, 255, 0.8);
             max-width: 420px;
             position: absolute;
-            top: 50px;
+            top: 29px;
             .title {
                 font: 700 24px / 24px Exo2;
+                margin-bottom: 23px;
             }
             .adr {
                 font: 300 24px / 24px Exo2;
@@ -1396,15 +1395,15 @@ input[type="text"]::-webkit-input-placeholder {
             }
             p {
                 display: inline-block;
-                margin-right: 16px;
-                margin-bottom: 20px;
+                margin-right: 9px;
+                margin-bottom: 25px;
             }
             .image {
                 background: url(../images/s-map-office.jpg);
                 height: 315px;
                 width: 420px;
                 position: relative;
-                margin-left: -31px;
+                margin-left: -41px;
                 margin-bottom: -31px;
             }
         }

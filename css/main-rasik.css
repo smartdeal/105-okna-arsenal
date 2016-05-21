@@ -301,7 +301,7 @@ input {
 
 .f-get-calc .btn {
   color: #202020;
-  font: 700 18px / 18px Exo2;
+  font: 700 17px / 18px Exo2;
   padding: 20px !important;
   background-color: #ffc000;
   box-shadow: 1px 2px 2px #898511; }
@@ -487,9 +487,8 @@ input {
     padding-left: 23px; }
 
 .s-main-form {
-  padding-left: 5px;
-  padding-right: 5px;
-  background: url(../images/bg_s-main-form.jpg) center no-repeat; }
+  background: url(../images/bg_s-main-form.jpg) center no-repeat;
+  background-size: cover; }
   .s-main-form .tit {
     color: #0084ff;
     font: 700 18px / 24px Exo2;
@@ -606,7 +605,7 @@ iframe {
   .b-map-adr .mail {
     padding-left: 34px; }
   .b-map-adr .b-adr-item {
-    display: inline-block;
+    display: block;
     vertical-align: middle; }
   .b-map-adr .adr {
     position: relative;
@@ -1064,14 +1063,15 @@ input[type="text"]::-webkit-input-placeholder {
   .s-map {
     position: relative; }
     .s-map .b-adr {
-      max-width: 420px; }
+      max-width: 345px; }
     .s-map .b-map-adr {
       background-color: rgba(0, 132, 255, 0.8);
       max-width: 420px;
       position: absolute;
-      top: 50px; }
+      top: 29px; }
       .s-map .b-map-adr .title {
-        font: 700 24px / 24px Exo2; }
+        font: 700 24px / 24px Exo2;
+        margin-bottom: 23px; }
       .s-map .b-map-adr .adr {
         font: 300 24px / 24px Exo2; }
       .s-map .b-map-adr .tel {
@@ -1080,14 +1080,14 @@ input[type="text"]::-webkit-input-placeholder {
         font: 300 24px / 24px Open Sans; }
       .s-map .b-map-adr p {
         display: inline-block;
-        margin-right: 16px;
-        margin-bottom: 20px; }
+        margin-right: 9px;
+        margin-bottom: 25px; }
       .s-map .b-map-adr .image {
         background: url(../images/s-map-office.jpg);
         height: 315px;
         width: 420px;
         position: relative;
-        margin-left: -31px;
+        margin-left: -41px;
         margin-bottom: -31px; }
 
   .s-footer-info {
