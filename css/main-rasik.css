@@ -78,7 +78,8 @@ input {
 
 .s-form-1 button,
 .s-form-2 button,
-.s-main-form button {
+.s-main-form button,
+.s-footer-form button {
   width: 291px;
   vertical-align: top;
   background-color: #ffc000;
@@ -300,7 +301,7 @@ input {
 
 .f-get-calc .btn {
   color: #202020;
-  font: 700 18px / 18px Exo2;
+  font: 700 17px / 18px Exo2;
   padding: 20px !important;
   background-color: #ffc000;
   box-shadow: 1px 2px 2px #898511; }
@@ -595,7 +596,7 @@ iframe {
   padding-top: 24px;
   text-align: left; }
   .b-map-adr .title {
-    font: 400 18px / 30px Exo2;
+    font: 400 17px / 30px Exo2;
     color: #ffc000;
     text-align: center;
     margin-bottom: 34px;
@@ -649,7 +650,8 @@ iframe {
     font: 400 18px / 24px Exo2; }
 
 .s-footer-form {
-  background: url(../images/bg_structure.png) center no-repeat;
+  background: url(../images/bg_structure_big.jpg) center no-repeat;
+  background-size: cover;
   padding-bottom: 50px; }
   .s-footer-form input {
     background-color: #ffffff;
@@ -1078,6 +1080,7 @@ input[type="text"]::-webkit-input-placeholder {
       vertical-align: middle; }
 
   .s-map {
+    padding-bottom: 0;
     position: relative; }
     .s-map .b-adr {
       max-width: 420px; }
@@ -1085,25 +1088,27 @@ input[type="text"]::-webkit-input-placeholder {
       background-color: rgba(0, 132, 255, 0.8);
       max-width: 420px;
       position: absolute;
-      top: 50px; }
+      top: 30px; }
       .s-map .b-map-adr .title {
-        font: 700 24px / 24px Exo2; }
+        font: 700 24px / 24px Exo2;
+        text-align: left; }
       .s-map .b-map-adr .adr {
         font: 300 24px / 24px Exo2; }
       .s-map .b-map-adr .tel {
         font: 600 24px / 24px Exo2; }
       .s-map .b-map-adr .mail {
-        font: 300 24px / 24px Open Sans; }
+        font: 300 24px / 24px Open Sans;
+        display: block; }
       .s-map .b-map-adr p {
         display: inline-block;
         margin-right: 16px;
-        margin-bottom: 20px; }
+        margin-bottom: 19px; }
       .s-map .b-map-adr .image {
         background: url(../images/s-map-office.jpg);
         height: 315px;
         width: 420px;
         position: relative;
-        margin-left: -31px;
+        margin-left: -41px;
         margin-bottom: -31px; } }
 @media (min-width: 992px) {
   .b-services-wrap .b-services-list {
@@ -1124,5 +1129,3 @@ input[type="text"]::-webkit-input-placeholder {
         width: 20px;
         height: 3px;
         margin-bottom: 15px; } }
-
-/*# sourceMappingURL=main-rasik.css.map */
