@@ -144,6 +144,10 @@ $(document).ready(function() {
     $('#owl-hello [data-toggle=tab]').click(function() {
         $('#owl-hello [data-toggle=tab]').removeClass('active');
         $(this).addClass('active');
+        if ($(window).width() < 768) {
+            $('.b-hello-more').toggle();
+        }
+
     });
 
     $('.btn-more').click(function() {
@@ -163,25 +167,34 @@ $(document).ready(function() {
         }
     });
 
-    $('.more').click(function() {
-        $(this).removeClass('opened');
-        $(this).parentsUntil('.section').find('.bx-controls-direction').removeClass('down');
-    });
 
     function init_sliders() {
 
-        var sliders = $('.b-spectr, .b-adv-list, .b-sert, .b-types-list, .b-services-list, #owl-hello');
+        var sliders = $('.b-spectr, .b-adv-list, .b-sert, .b-types-list, .b-services-list');
+        var slider_hello = $('#owl-hello');
         if ($(window).width() < 768) {
             sliders.owlCarousel({
                 items: 1,
                 loop: true,
                 nav: true,
             });
+            slider_hello.owlCarousel({
+                items: 1,
+                loop: true,
+                nav: true,
+                onChanged: callback_owl_hello
+            });
         } else {
             sliders.trigger('destroy.owl.carousel');
-            // console.log('checkWidth');
+            slider_hello.trigger('destroy.owl.carousel');
         }
 
+        function callback_owl_hello(event) {
+            // console.log('checkWidth');
+            if ($(window).width() < 768) {
+                $('.s-hello .b-hello-more').fadeOut();
+            }
+        }
         $(".polit-popup").css('height', $(window).height() * .7);
 
     }
@@ -232,4 +245,3 @@ $(document).ready(function() {
 
 
 });
-
