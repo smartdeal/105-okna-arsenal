@@ -744,22 +744,16 @@ input[type="text"]::-webkit-input-placeholder {
         right: 0;
         height: 100px; }
     .s-adv ul .i_1:before {
-      content: '';
       background-image: url(../images/b-adv_i_1.png); }
     .s-adv ul .i_2:before {
-      content: '';
       background-image: url(../images/b-adv_i_2.png); }
     .s-adv ul .i_3:before {
-      content: '';
       background-image: url(../images/b-adv_i_3.png); }
     .s-adv ul .i_4:before {
-      content: '';
       background-image: url(../images/b-adv_i_4.png); }
     .s-adv ul .i_5:before {
-      content: '';
       background-image: url(../images/b-adv_i_5.png); }
     .s-adv ul .i_6:before {
-      content: '';
       background-image: url(../images/b-adv_i_6.png); }
 
 /* ********************************** */
