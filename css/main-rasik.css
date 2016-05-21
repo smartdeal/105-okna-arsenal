@@ -71,7 +71,8 @@
     background-color: #0084ff;
     box-shadow: 0 3px 0 0 #0057b9;
     padding: 18px 40px;
-    margin-top: 20px; }
+    margin-top: 20px;
+    border-radius: 5px; }
 
 input {
   height: 62px; }
@@ -301,7 +302,7 @@ input {
 
 .f-get-calc .btn {
   color: #202020;
-  font: 700 17px / 18px Exo2;
+  font: 700 16px / 18px Exo2;
   padding: 20px !important;
   background-color: #ffc000;
   box-shadow: 1px 2px 2px #898511; }
@@ -502,10 +503,10 @@ input {
     .s-main-form .tit span {
       text-transform: none;
       color: #303030;
-      font: 700 18px / 24px Exo2; }
+      font: 700 17px / 24px Exo2; }
   .s-main-form .gift {
     color: #0084ff;
-    font: 700 24px / 24px Exo2;
+    font: 700 23px / 23px Exo2;
     text-transform: uppercase;
     margin-bottom: 12px; }
     .s-main-form .gift span {
@@ -664,6 +665,37 @@ iframe {
       top: 2px; }
   .b-map-adr p {
     font: 400 18px / 24px Exo2; }
+
+.s-how-many {
+  background: url(../images/bg_s-how-many.jpg) center no-repeat;
+  background-size: cover; }
+  .s-how-many .tit {
+    color: #0084ff;
+    font: 700 36px / 30px Exo2;
+    text-transform: uppercase;
+    margin-bottom: 50px; }
+    .s-how-many .tit span {
+      color: #303030;
+      font: 700 24px / 30px Exo2;
+      text-transform: none; }
+  .s-how-many .itm {
+    display: inline-block;
+    border: 3px solid #0084ff; }
+  .s-how-many .img {
+    width: 406px;
+    height: 243px; }
+  .s-how-many .i_1 {
+    background: url(../images/b-how-many-i_1.png); }
+  .s-how-many .i_2 {
+    background: url(../images/b-how-many-i_2.png); }
+  .s-how-many .i_3 {
+    background: url(../images/b-how-many-i_3.png); }
+  .s-how-many .i_4 {
+    background: url(../images/b-how-many-i_4.png); }
+  .s-how-many .i_5 {
+    background: url(../images/b-how-many-i_5.png); }
+  .s-how-many .i_6 {
+    background: url(../images/b-how-many-i_6.png); }
 
 .s-footer-form {
   background: url(../images/bg_structure_big.jpg) center no-repeat;
