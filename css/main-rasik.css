@@ -78,7 +78,8 @@ input {
 
 .s-form-1 button,
 .s-form-2 button,
-.s-main-form button {
+.s-main-form button,
+.s-footer-form button {
   width: 291px;
   vertical-align: top;
   background-color: #ffc000;
@@ -649,7 +650,8 @@ iframe {
     font: 400 18px / 24px Exo2; }
 
 .s-footer-form {
-  background: url(../images/bg_structure.png) center no-repeat;
+  background: url(../images/bg_structure_big.jpg) center no-repeat;
+  background-size: cover;
   padding-bottom: 50px; }
   .s-footer-form input {
     background-color: #ffffff;
@@ -739,7 +741,6 @@ input[type="text"]::-webkit-input-placeholder {
       text-align: left;
       margin-bottom: 57px; }
       .s-adv ul li:before {
-        content: url(../images/mark.png);
         display: inline-block;
         width: 73px;
         height: 73px;
@@ -1087,7 +1088,10 @@ input[type="text"]::-webkit-input-placeholder {
         width: 420px;
         position: relative;
         margin-left: -31px;
-        margin-bottom: -31px; } }
+        margin-bottom: -31px; }
+
+  .s-footer-info {
+    padding: 0; } }
 @media (min-width: 992px) {
   .b-services-wrap .b-services-list {
     padding-top: 40px; }
