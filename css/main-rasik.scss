@@ -639,6 +639,11 @@ input {
     padding-left: 5px;
     padding-right: 5px;
     background: url(../images/bg_s-main-form.jpg) center no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+    .b-form {
+        margin-bottom: 16px;
+    }
     .tit {
         color: $blue;
         font: 700 18px / 24px Exo2;
@@ -662,6 +667,21 @@ input {
     }
     img {
         margin-bottom: 28px;
+    }
+    .tit_bottom {
+        color: $dark;
+        font: 700 19px / 30px Exo2;
+        text-align: center;
+        .txt_1 {
+            color: $yellow;
+            font: 700 24px / 30px Exo2;
+            text-transform: uppercase;
+        }
+        .txt_2 {
+            color: $blue;
+            font: 700 24px / 30px Exo2;
+            text-transform: uppercase;
+        }
     }
 }
 
@@ -1314,10 +1334,34 @@ input[type="text"]::-webkit-input-placeholder {
         }
     }
     .s-main-form {
+        font-size: 0;
+        img {
+            display: inline-block;
+            width: 35%;
+            vertical-align: top;
+        }
+        .txt-wrap {
+            display: inline-block;
+            width: 60%;
+            margin-right: 10px;
+            .tit {
+                font: 700 28px / 34px Exo2;
+                margin-bottom: 0;
+                span {
+                    font: 700 25px / 36px Exo2;
+                }
+            }
+            .gift {
+                font: 700 35px / 60px Exo2;
+                span {
+                    font: 700 35px / 60px Exo2;
+                }
+            }
+        }
         .b-form {
             background: url(../images/bg_b-form.jpg);
             width: 550px;
-            padding: 20px 40px 23px 40px;
+            padding: 20px 40px 20px 40px;
             text-align: center;
             .title {
                 color: #ffc000;
@@ -1341,6 +1385,15 @@ input[type="text"]::-webkit-input-placeholder {
             button {
                 width: 471px;
                 font: 700 24px / 24px Exo2;
+            }
+        }
+        .tit_bottom {
+            text-transform: uppercase;
+            text-align: left;
+            font: 600 24px / 60px Exo2;
+            .txt_1,
+            .txt-2 {
+                color: $yellow;
             }
         }
     }
