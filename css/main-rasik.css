@@ -76,6 +76,14 @@
 input {
   height: 62px; }
 
+.s-form-1 button,
+.s-form-2 button,
+.s-main-form button {
+  width: 291px;
+  vertical-align: top;
+  background-color: #ffc000;
+  box-shadow: 1px 2px 2px #898511; }
+
 .s-commercial {
   background: url(../images/bg_s_main-mob.png);
   padding-top: 63px;
@@ -292,8 +300,10 @@ input {
 
 .f-get-calc .btn {
   color: #202020;
-  font: 700 18px/18px Exo2 !important;
-  padding: 20px !important; }
+  font: 700 18px / 18px Exo2;
+  padding: 20px !important;
+  background-color: #ffc000;
+  box-shadow: 1px 2px 2px #898511; }
 
 .s-get-calc {
   text-transform: uppercase;
@@ -548,6 +558,14 @@ iframe {
   width: 560ph;
   height: 170px; }
 
+.s-form-2 .title {
+  color: #303030;
+  font: 700 18px / 24px Exo2;
+  text-transform: uppercase;
+  text-align: center; }
+  .s-form-2 .title span {
+    color: #ffc000; }
+
 .s-sert .item {
   display: inline-block;
   width: 185px;
@@ -571,7 +589,7 @@ iframe {
     transform: rotate(180deg); }
 
 .b-map-adr {
-  background-color: #0084ff;
+  background-color: rgba(0, 132, 255, 0.8);
   color: #fff;
   padding: 31px;
   padding-top: 24px;
@@ -687,6 +705,64 @@ input[type="text"]::-webkit-input-placeholder {
     -o-transform: rotate(180deg);
     transform: rotate(180deg); }
 
+.s-adv {
+  background: url(../images/ruletka.png) center no-repeat;
+  background-size: cover; }
+  .s-adv .b_image {
+    background: url(../images/s-adv_b_image.png);
+    width: 356px;
+    height: 665px; }
+  .s-adv .b-adv-list {
+    display: inline-block; }
+  .s-adv ul {
+    margin: 0 auto;
+    width: 362px;
+    display: inline-block;
+    position: relative; }
+    .s-adv ul:before {
+      content: url(../images/dot.png);
+      width: 5px;
+      height: 634px;
+      position: absolute;
+      left: 45px;
+      top: -16px; }
+    .s-adv ul a {
+      text-decoration: none;
+      color: #303030;
+      font: 300 14px / 18px Exo2; }
+    .s-adv ul li {
+      position: relative;
+      padding-left: 90px;
+      line-height: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      text-align: left;
+      margin-bottom: 57px; }
+      .s-adv ul li:before {
+        content: url(../images/mark.png);
+        display: inline-block;
+        width: 73px;
+        height: 73px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        text-align: center;
+        line-height: 40px; }
+    .s-adv ul .i_1:before {
+      content: url(../images/b-adv_i_1.png); }
+    .s-adv ul .i_2:before {
+      content: url(../images/b-adv_i_2.png); }
+    .s-adv ul .i_3:before {
+      content: url(../images/b-adv_i_3.png); }
+    .s-adv ul .i_4:before {
+      content: url(../images/b-adv_i_4.png); }
+    .s-adv ul .i_5:before {
+      content: url(../images/b-adv_i_5.png); }
+    .s-adv ul .i_6:before {
+      content: url(../images/b-adv_i_6.png); }
+
 /* ********************************** */
 /* end main */
 /* ********************************** */
@@ -791,9 +867,6 @@ input[type="text"]::-webkit-input-placeholder {
         width: 23%;
         margin: 0; }
 
-  .b-map-adr {
-    max-width: 420px; }
-
   .s-get-calc .title {
     font: 700 36px / 48px Exo2;
     margin-bottom: 48px; }
@@ -832,11 +905,6 @@ input[type="text"]::-webkit-input-placeholder {
     .b-form input {
       width: 217px;
       margin-right: 7px; }
-    .b-form button {
-      width: 291px;
-      vertical-align: top;
-      background-color: #ffc000;
-      box-shadow: 1px 2px 2px #898511; }
     .b-form .f-get-calc input {
       padding-left: 20px; }
     .b-form .section {
@@ -957,6 +1025,30 @@ input[type="text"]::-webkit-input-placeholder {
       .s-reviews .item .b_done .gift .price span {
         font: italic 600 24px / 18px Exo2; }
 
+  .s-main-form .b-form {
+    background: url(../images/bg_b-form.jpg);
+    width: 550px;
+    padding: 20px 40px 23px 40px;
+    text-align: center; }
+    .s-main-form .b-form .title {
+      color: #ffc000;
+      font: 700 24px / 36px Exo2;
+      text-transform: uppercase;
+      text-align: left; }
+      .s-main-form .b-form .title span {
+        color: #ffffff;
+        font: 600 36px / 36px Exo2; }
+    .s-main-form .b-form input {
+      width: 230px;
+      display: inline-block;
+      margin: 0;
+      margin-bottom: 10px; }
+    .s-main-form .b-form input + input {
+      margin-left: 7px; }
+    .s-main-form .b-form button {
+      width: 471px;
+      font: 700 24px / 24px Exo2; }
+
   .s-about ul {
     padding-left: 60px; }
 
@@ -966,7 +1058,36 @@ input[type="text"]::-webkit-input-placeholder {
     margin-bottom: 50px; }
 
   .s-reviews .s-title {
-    font: 700 36px / 60px Exo2; } }
+    font: 700 36px / 60px Exo2; }
+
+  .s-map {
+    position: relative; }
+    .s-map .b-adr {
+      max-width: 420px; }
+    .s-map .b-map-adr {
+      background-color: rgba(0, 132, 255, 0.8);
+      max-width: 420px;
+      position: absolute;
+      top: 50px; }
+      .s-map .b-map-adr .title {
+        font: 700 24px / 24px Exo2; }
+      .s-map .b-map-adr .adr {
+        font: 300 24px / 24px Exo2; }
+      .s-map .b-map-adr .tel {
+        font: 600 24px / 24px Exo2; }
+      .s-map .b-map-adr .mail {
+        font: 300 24px / 24px Open Sans; }
+      .s-map .b-map-adr p {
+        display: inline-block;
+        margin-right: 16px;
+        margin-bottom: 20px; }
+      .s-map .b-map-adr .image {
+        background: url(../images/s-map-office.jpg);
+        height: 315px;
+        width: 420px;
+        position: relative;
+        margin-left: -31px;
+        margin-bottom: -31px; } }
 @media (min-width: 992px) {
   .b-services-wrap .b-services-list {
     padding-top: 40px; }
