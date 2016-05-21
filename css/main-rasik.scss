@@ -16,7 +16,7 @@
                 border-right: none;
             }
             a {
-                color: $text;
+                color: $dark;
                 font: 400 14px / 18px Exo2;
                 padding-top: 13px;
                 padding-bottom: 13px;
@@ -122,12 +122,12 @@ input {
             text-transform: uppercase;
             color: $blue;
             span {
-                color: $text;
+                color: $dark;
                 font: 700 24px / 30px Exo2;
             }
         }
         p {
-            color: $text;
+            color: $dark;
             font: 500 18px / 24px Exo2;
             line-height: 12px;
             span {
@@ -148,7 +148,7 @@ input {
     .item {
         display: inline-block;
         width: 105px;
-        color: $text;
+        color: $dark;
         font: 600 14px / 18px Open Sans;
         vertical-align: top;
         margin: 15px 20px;
@@ -200,7 +200,7 @@ input {
         margin-bottom: -85px;
     }
     .title {
-        color: $text;
+        color: $dark;
         font: 700 18px / 24px Exo2;
         text-transform: uppercase;
         display: inline-block;
@@ -248,7 +248,7 @@ input {
 
 .s-types {
     .s-title {
-        color: $text;
+        color: $dark;
         font: 700 36px / 60px Exo2;
     }
     .b-types-list {
@@ -290,7 +290,7 @@ input {
                 height: 115px;
             }
             .price {
-                color: $text;
+                color: $dark;
                 font: 600 18px / 18px Exo2;
                 position: relative;
                 margin: 0 auto;
@@ -322,7 +322,7 @@ input {
     .item {
         .txt {
             span {
-                color: $text;
+                color: $dark;
                 font: 700 16px / 24px Exo2;
             }
         }
@@ -381,7 +381,7 @@ input {
         }
     }
     p {
-        color: $text;
+        color: $dark;
         font: 300 18px / 18px Exo2;
         text-transform: none;
     }
@@ -410,7 +410,7 @@ input {
         text-align: justify;
         max-width: 320px;
         .title {
-            color: $text;
+            color: $dark;
             font: 700 18px / 30px Exo2;
         }
         .inp {
@@ -439,7 +439,7 @@ input {
         font: 700 18px / 30px Exo2;
     }
     .today {
-        color: $text;
+        color: $dark;
         font: 700 18px / 30px Exo2;
         text-transform: none;
         .c_blue {
@@ -466,7 +466,7 @@ input {
             margin-bottom: 40px;
             .title {
                 text-transform: uppercase;
-                color: $text;
+                color: $dark;
                 font: 700 14px / 14px Exo2;
                 margin-bottom: 16px;
                 //                height: 28px;
@@ -540,12 +540,12 @@ input {
                 background-size: contain!important;
             }
             .name {
-                color: $text;
+                color: $dark;
                 font: italic 300 18px / 60px Exo2;
                 text-align: center;
             }
             .feedback_txt {
-                color: $text;
+                color: $dark;
                 font: italic 300 16px / 24px Exo2;
             }
             .av_1 {
@@ -609,7 +609,7 @@ input {
                     text-align: center;
                 }
                 p {
-                    color: $text;
+                    color: $dark;
                     font: 300 14px / 18px Exo2;
                     font-style: normal;
                     margin-bottom: 17px;
@@ -649,7 +649,7 @@ input {
         margin-bottom: 10px;
         span {
             text-transform: none;
-            color: $text;
+            color: $dark;
             font: 700 18px / 24px Exo2;
         }
     }
@@ -686,7 +686,7 @@ input {
         margin: 0 auto 20px;
     }
     p {
-        color: $text;
+        color: $dark;
         font: 400 18px / 24px Exo2;
         margin-bottom: 17px;
     }
@@ -694,7 +694,7 @@ input {
         margin: 0 auto;
         a {
             text-decoration: none;
-            color: $text;
+            color: $dark;
             font: 300 14px / 18px Exo2;
         }
         li {
@@ -728,7 +728,7 @@ iframe {
 
 .s-form-2 {
     .title {
-        color: $text;
+        color: $dark;
         font: 700 18px / 24px Exo2;
         text-transform: uppercase;
         text-align: center;
@@ -853,7 +853,7 @@ iframe {
     .title {
         margin-bottom: 19px;
         text-transform: none;
-        color: $text;
+        color: $dark;
         font: 600 24px / 30px Exo2;
     }
 }
@@ -937,7 +937,7 @@ input[type="text"]::-webkit-input-placeholder {
         }
         a {
             text-decoration: none;
-            color: $text;
+            color: $dark;
             font: 300 14px / 18px Exo2;
         }
         li {
@@ -1194,7 +1194,7 @@ input[type="text"]::-webkit-input-placeholder {
         padding-bottom: 48px;
         background-size: cover;
         .s-title {
-            color: $text;
+            color: $dark;
             font: 700 48px / 48px Exo2;
         }
         img {
@@ -1243,7 +1243,7 @@ input[type="text"]::-webkit-input-placeholder {
                     height: 115px;
                 }
                 .price {
-                    color: $text;
+                    color: $dark;
                     font: 600 18px / 18px Exo2;
                     position: relative;
                     margin: 0 auto;
@@ -1426,7 +1426,7 @@ input[type="text"]::-webkit-input-placeholder {
                 margin-bottom: 40px;
                 .title {
                     text-transform: uppercase;
-                    color: $text;
+                    color: $dark;
                     font: 700 14px / 14px Exo2;
                     margin-bottom: 16px;
                     //                height: 28px;
