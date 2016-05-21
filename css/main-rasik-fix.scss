@@ -101,3 +101,15 @@
       font-size: 13px;
       margin-bottom: 10px;
     }
+    
+    .s-main-form .tit span {
+      font-size: 17px;
+    }
+    
+    .s-main-form .gift {
+      font-size: 23px;
+      span {
+        font-size: inherit;
+      }
+    }
+    .s-main-form {padding: 20px 0;}
