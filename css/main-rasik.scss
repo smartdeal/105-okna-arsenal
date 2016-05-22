@@ -391,6 +391,7 @@ input {
     padding: 20px!important;
     background-color: $yellow;
     box-shadow: 1px 2px 2px #898511;
+    width: 288px;
 }
 
 .s-get-calc {
@@ -467,7 +468,6 @@ input {
                 color: $text;
                 font: 700 14px / 14px Exo2;
                 margin-bottom: 16px;
-                //                height: 28px;
             }
             .line {
                 display: inline-block;
@@ -903,7 +903,7 @@ iframe {
     background-size: cover;
     padding-bottom: 50px;
     input {
-        background-color: #ffffff;
+        background-color: #fff;
         padding-left: 23px;
         margin-bottom: 15px;
         height: 62px;
@@ -922,12 +922,6 @@ iframe {
 input[type="text"]::-webkit-input-placeholder {
     color: #808080;
     font: 300 18px / 18px Exo2;
-}
-
-.s-footer-info {
-    .title {
-        text-transform: none;
-    }
 }
 
 .btn-small {
@@ -1033,6 +1027,36 @@ input[type="text"]::-webkit-input-placeholder {
     }
 }
 
+.s-footer-info {
+    .title {
+        text-transform: none;
+    }
+    button {
+        margin-bottom: 20px;
+    }
+    .wrap-s-pol_conf_card {
+        text-align: left;
+        width: 224px;
+        display: inline-block;
+        vertical-align: top;
+        .pol_conf {
+            font: 300 14px / 28px Exo2;
+            margin-bottom: 13px;
+            text-decoration: underline;
+        }
+        .card {
+            font: 300 12px / 18px Exo2;
+            text-transform: uppercase;
+        }
+    }
+    .logo_company {
+        background: url(../images/logo_company.png) center no-repeat;
+        display: inline-block;
+        width: 72px;
+        height: 60px;
+    }
+}
+
 
 /* ********************************** */
 
@@ -1064,7 +1088,7 @@ input[type="text"]::-webkit-input-placeholder {
         vertical-align: top;
         width: 249px;
         padding: 18px 15px!important;
-        color: #ffffff;
+        color: #fff;
     }
     .b_info {
         .logo {
@@ -1165,11 +1189,44 @@ input[type="text"]::-webkit-input-placeholder {
             }
         }
     }
+    .promo {
+        .b-counter {
+            text-align: center;
+            margin: 10px auto 0;
+            width: 290px;
+            height: 130px;
+            .title {
+                color: $dark;
+                font: 400 18px / 24px Open Sans;
+                display: inline-block;
+                width: 124px;
+                vertical-align: middle;
+                text-align: left;
+            }
+            .digits {
+                display: inline-block;
+            }
+            .digit {
+                position: relative;
+                display: inline-block;
+                background-color: #ececec;
+                width: 55px;
+                height: 55px;
+                line-height: 51px;
+                border: 2px solid $yellow;
+                border-radius: 100px;
+                margin: 9px;
+                color: #434343;
+                font-size: 18px;
+            }
+        }
+    }
     .s-get-calc {
         .title {
             font: 700 36px / 48px Exo2;
             margin-bottom: 48px;
             span {
+                color: $blue;
                 font: 700 36px / 48px Exo2;
             }
         }
@@ -1212,7 +1269,7 @@ input[type="text"]::-webkit-input-placeholder {
             margin-right: -10px;
         }
         input {
-            width: 217px;
+            width: 219px;
             margin-right: 7px;
         }
         .f-get-calc {
@@ -1254,7 +1311,6 @@ input[type="text"]::-webkit-input-placeholder {
         .b-types-list {
             .item {
                 display: inline-block;
-                //                margin: 0 17px 53px;
                 vertical-align: top;
                 .title {
                     text-transform: uppercase;
@@ -1413,7 +1469,7 @@ input[type="text"]::-webkit-input-placeholder {
                 text-transform: uppercase;
                 text-align: left;
                 span {
-                    color: #ffffff;
+                    color: #fff;
                     font: 600 36px / 36px Exo2;
                 }
             }
@@ -1444,6 +1500,12 @@ input[type="text"]::-webkit-input-placeholder {
     .s-about {
         ul {
             padding-left: 60px;
+        }
+        .image {
+            background: url(../images/yellow_line_large.png) center no-repeat;
+            height: 13px;
+            width: 620px;
+            margin: 0 auto 20px;
         }
     }
     iframe {
@@ -1536,6 +1598,85 @@ input[type="text"]::-webkit-input-placeholder {
             }
         }
     }
+    .s-footer-form {
+        button {
+            width: 284px;
+        }
+    }
+    .s-footer-info-pl {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        max-width: 980px;
+        margin: 0 auto;
+        .b_info {
+            position: relative;
+            text-align: left;
+            .wrap_logo-title {
+                display: inline-block;
+                width: 200px;
+            }
+            .logo {
+                display: block;
+                margin-bottom: 15px;
+                text-align: left;
+                width: 65%;
+            }
+            .title {
+                display: block;
+                color: $dark;
+                font: 300 16px / 18px Exo2;
+                width: 100%;
+            }
+            .b_rekv {
+                display: inline-block;
+                font: 300 16px / 18px Exo2;
+            }
+            .wrap-s-pol_conf_card {
+                width: 284px;
+                display: inline-block;
+                text-align: center;
+                .pol_conf {
+                    color: #606060;
+                    font: 300 14px / 18px Exo2;
+                    text-decoration: underline;
+                    display: inline-block;
+                    margin-bottom: 12px;
+                }
+                .card {
+                    color: $dark;
+                    font: 300 16px / 18px Exo2;
+                    text-transform: uppercase;
+                }
+            }
+            .info-tel {
+                right: 13px;
+                position: absolute;
+                top: 12px;
+                width: 180px;
+                .tel {
+                    right: 30px;
+                    a {
+                        color: #202020;
+                        font: 700 16px / 18px Exo2;
+                        padding-left: 45px
+                    }
+                }
+            }
+            button {
+                display: block;
+                position: absolute;
+                right: 13px;
+                top: 55px;
+                width: 221px;
+                font: 500 15px / 24px Exo2;
+            }
+        }
+    }
+    .fancybox-outer {
+        .closepopup {
+            display: none;
+        }
+    }
 }
 
 @media (min-width: 992px) {
@@ -1553,7 +1694,6 @@ input[type="text"]::-webkit-input-placeholder {
                     color: $text;
                     font: 700 14px / 14px Exo2;
                     margin-bottom: 16px;
-                    //                height: 28px;
                 }
                 .line {
                     display: inline-block;
@@ -1568,36 +1708,26 @@ input[type="text"]::-webkit-input-placeholder {
         background: url(../images/bg-s-how-many-big.jpg) center no-repeat;
         background-size: cover;
     }
-}
-
-@media (min-width: 1024px) {
-    .b-services-wrap {
-        .b-services-list {
-            padding-top: 40px;
-            .item {
-                display: inline-block;
-                vertical-align: top;
-                text-align: center;
-                width: 180px;
-                margin-bottom: 40px;
-                .title {
-                    text-transform: uppercase;
-                    color: $text;
-                    font: 700 14px / 14px Exo2;
-                    margin-bottom: 16px;
-                    //                height: 28px;
-                }
-                .line {
-                    display: inline-block;
-                    width: 20px;
-                    height: 3px;
-                    margin-bottom: 15px;
-                }
+    .s-footer-info-pl {
+        .wrap_logo-title {
+            margin-right: 20px;
+        }
+    }
+    .b_rekv {
+        margin-right: 25px;
+    }
+    .s-main-form {
+        .tit_bottom {
+            .txt_1 {
+                color: $blue;
             }
         }
     }
-    .s-main-top {
-        background: url(../images/bg-s-how-many-big.jpg) center no-repeat;
-        background-size: cover;
+    .s-how-many {
+        .tit {
+            span {
+                text-transform: uppercase;
+            }
+        }
     }
 }
