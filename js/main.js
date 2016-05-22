@@ -218,6 +218,13 @@ $(document).ready(function() {
         }
     });
 
+    $('.b-how-many-list').owlCarousel({
+        items: 1,
+        loop: true,
+        nav: true,
+        
+    });
+
     $('.b-reviews-list').owlCarousel({
         items: 1,
         loop: true,
