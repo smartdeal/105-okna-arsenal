@@ -305,7 +305,8 @@ input {
   font: 700 16px / 18px Exo2;
   padding: 20px !important;
   background-color: #ffc000;
-  box-shadow: 1px 2px 2px #898511; }
+  box-shadow: 1px 2px 2px #898511;
+  width: 288px; }
 
 .s-get-calc {
   text-transform: uppercase;
@@ -925,6 +926,33 @@ input[type="text"]::-webkit-input-placeholder {
         top: -52px;
         width: 23%;
         margin: 0; }
+
+  .promo .b-counter {
+    text-align: center;
+    margin: 10px auto 0;
+    width: 290px;
+    height: 130px; }
+    .promo .b-counter .title {
+      color: #303030;
+      font: 400 18px / 24px Open Sans;
+      display: inline-block;
+      width: 124px;
+      vertical-align: middle;
+      text-align: left; }
+    .promo .b-counter .digits {
+      display: inline-block; }
+    .promo .b-counter .digit {
+      position: relative;
+      display: inline-block;
+      background-color: #ececec;
+      width: 55px;
+      height: 55px;
+      line-height: 51px;
+      border: 2px solid #ffc000;
+      border-radius: 100px;
+      margin: 9px;
+      color: #434343;
+      font-size: 18px; }
 
   .s-get-calc .title {
     font: 700 36px / 48px Exo2;

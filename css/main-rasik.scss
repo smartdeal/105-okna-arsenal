@@ -391,6 +391,7 @@ input {
     padding: 20px!important;
     background-color: $yellow;
     box-shadow: 1px 2px 2px #898511;
+    width: 288px;
 }
 
 .s-get-calc {
@@ -1187,6 +1188,38 @@ input[type="text"]::-webkit-input-placeholder {
             }
         }
     }
+    .promo {
+        .b-counter {
+            text-align: center;
+            margin: 10px auto 0;
+            width: 290px;
+            height: 130px;
+            .title {
+                color: $dark;
+                font: 400 18px / 24px Open Sans;
+                display: inline-block;
+                width: 124px;
+                vertical-align: middle;
+                text-align: left;
+            }
+            .digits {
+                display: inline-block;
+            }
+            .digit {
+                position: relative;
+                display: inline-block;
+                background-color: #ececec;
+                width: 55px;
+                height: 55px;
+                line-height: 51px;
+                border: 2px solid $yellow;
+                border-radius: 100px;
+                margin: 9px;
+                color: #434343;
+                font-size: 18px;
+            }
+        }
+    }
     .s-get-calc {
         .title {
             font: 700 36px / 48px Exo2;
@@ -1691,9 +1724,9 @@ input[type="text"]::-webkit-input-placeholder {
     }
     .s-how-many {
         .tit {
-            span{
-               text-transform: uppercase; 
-            }        
+            span {
+                text-transform: uppercase;
+            }
         }
     }
 }
