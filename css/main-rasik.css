@@ -682,8 +682,8 @@ iframe {
     display: inline-block;
     border: 3px solid #0084ff; }
   .s-how-many .img {
-    width: 406px;
-    height: 243px; }
+    width: 298px;
+    height: 205px; }
   .s-how-many .i_1 {
     background: url(../images/b-how-many-i_1.png); }
   .s-how-many .i_2 {
@@ -1153,6 +1153,10 @@ input[type="text"]::-webkit-input-placeholder {
       display: inline-block;
       vertical-align: middle; }
 
+  .s-how-many .img {
+    width: 406px;
+    height: 243px; }
+
   .s-map {
     padding-bottom: 0;
     position: relative; }
@@ -1202,6 +1206,31 @@ input[type="text"]::-webkit-input-placeholder {
         display: inline-block;
         width: 20px;
         height: 3px;
-        margin-bottom: 15px; } }
+        margin-bottom: 15px; }
 
-/*# sourceMappingURL=main-rasik.css.map */
+  .s-main-top {
+    background: url(../images/bg-s-how-many-big.jpg) center no-repeat;
+    background-size: cover; } }
+@media (min-width: 1024px) {
+  .b-services-wrap .b-services-list {
+    padding-top: 40px; }
+    .b-services-wrap .b-services-list .item {
+      display: inline-block;
+      vertical-align: top;
+      text-align: center;
+      width: 180px;
+      margin-bottom: 40px; }
+      .b-services-wrap .b-services-list .item .title {
+        text-transform: uppercase;
+        color: #303030;
+        font: 700 14px / 14px Exo2;
+        margin-bottom: 16px; }
+      .b-services-wrap .b-services-list .item .line {
+        display: inline-block;
+        width: 20px;
+        height: 3px;
+        margin-bottom: 15px; }
+
+  .s-main-top {
+    background: url(../images/bg-s-how-many-big.jpg) center no-repeat;
+    background-size: cover; } }
