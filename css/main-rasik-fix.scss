@@ -364,7 +364,7 @@
         .s-map .b-map-adr {
           top: 0;
           left: 50%;
-          margin-left: -420px;
+          margin-left: -384px;
           bottom: 0;
         }
         .b-map {
@@ -395,9 +395,16 @@
         .s-reviews .owl-nav {
           right: calc(50% + 45px);
         }
+        .s-form-2 {
+          padding: 40px 0;
+        }
       }
       
       @media (min-width: 992px) {
+        .s-main-top {
+          background: url(../images/bg-s-how-many-big.jpg) bottom no-repeat;
+          background-size: cover;
+        }
         .s-top-title {
           margin-bottom: 100px;
           .text_1,
@@ -419,6 +426,9 @@
           overflow: hidden;
           text-overflow: ellipsis;
           line-height: 1;
+        }
+        .s-bullets_top .b-bullets span {
+          font-size: 18px;
         }
         .promo {
           margin: 50px 0;
@@ -600,4 +610,6 @@
         .s-title {
           font-size: 48px;
         }
+        .s-footer-form {padding: 70px 0 40px;}
+        .s-footer-form .title {font-size: 36px; margin-bottom: 30px;}
       }

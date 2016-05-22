@@ -141,8 +141,8 @@ $(document).ready(function() {
 
     }).call(this);
 
-    $('#owl-hello [data-toggle=tab]').click(function() {
-        $('#owl-hello [data-toggle=tab]').removeClass('active');
+    $('#owl-hello [data-toggle=tab], #owl-balk [data-toggle=tab]').click(function() {
+        $(this).parent().siblings().find('[data-toggle=tab]').removeClass('active');
         $(this).addClass('active');
         if ($(window).width() < 768) {
             $('.b-hello-more').toggle();
@@ -153,6 +153,15 @@ $(document).ready(function() {
     $('.btn-more').click(function() {
         $(this).next('.more').addClass('opened');
         $(this).parentsUntil('.section').find('.bx-controls-direction').addClass('down');
+    });
+
+    $('#owl-balk .btn').click(function() {
+        $(this).parentsUntil('.owl-item').find('.owl-itm-desc').fadeIn();
+    });
+
+    $('#owl-balk .owl-itm-desc').click(function() {
+        $(this).fadeOut();
+        // console.log('fff');
     });
 
     var cur_btn_more_soot_text = $('.btn-more-soot').text()
@@ -172,11 +181,13 @@ $(document).ready(function() {
 
         var sliders = $('.b-spectr, .b-adv-list, .b-sert, .b-types-list, .b-services-list');
         var slider_hello = $('#owl-hello');
+        var slider_balk = $('#owl-balk');
         if ($(window).width() < 768) {
             sliders.owlCarousel({
                 items: 1,
                 loop: true,
                 nav: true,
+
             });
             slider_hello.owlCarousel({
                 items: 1,
@@ -184,9 +195,16 @@ $(document).ready(function() {
                 nav: true,
                 onChanged: callback_owl_hello
             });
+            slider_balk.owlCarousel({
+                items: 1,
+                loop: true,
+                nav: true,
+                navContainer: '#owl-balk-nav'
+            });
         } else {
             sliders.trigger('destroy.owl.carousel');
             slider_hello.trigger('destroy.owl.carousel');
+            slider_balk.trigger('destroy.owl.carousel');
         }
 
         function callback_owl_hello(event) {
@@ -203,7 +221,6 @@ $(document).ready(function() {
         items: 1,
         loop: true,
         nav: true,
-        // slideMove:1,
         responsive: {
             768: {
                 items: 2,
