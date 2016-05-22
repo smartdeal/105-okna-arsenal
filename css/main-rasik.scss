@@ -467,7 +467,6 @@ input {
                 color: $text;
                 font: 700 14px / 14px Exo2;
                 margin-bottom: 16px;
-                //                height: 28px;
             }
             .line {
                 display: inline-block;
@@ -902,7 +901,7 @@ iframe {
     background-size: cover;
     padding-bottom: 50px;
     input {
-        background-color: #ffffff;
+        background-color: #fff;
         padding-left: 23px;
         margin-bottom: 15px;
         height: 62px;
@@ -1087,7 +1086,7 @@ input[type="text"]::-webkit-input-placeholder {
         vertical-align: top;
         width: 249px;
         padding: 18px 15px!important;
-        color: #ffffff;
+        color: #fff;
     }
     .b_info {
         .logo {
@@ -1193,6 +1192,7 @@ input[type="text"]::-webkit-input-placeholder {
             font: 700 36px / 48px Exo2;
             margin-bottom: 48px;
             span {
+                color: $blue;
                 font: 700 36px / 48px Exo2;
             }
         }
@@ -1235,7 +1235,7 @@ input[type="text"]::-webkit-input-placeholder {
             margin-right: -10px;
         }
         input {
-            width: 217px;
+            width: 219px;
             margin-right: 7px;
         }
         .f-get-calc {
@@ -1277,7 +1277,6 @@ input[type="text"]::-webkit-input-placeholder {
         .b-types-list {
             .item {
                 display: inline-block;
-                //                margin: 0 17px 53px;
                 vertical-align: top;
                 .title {
                     text-transform: uppercase;
@@ -1436,7 +1435,7 @@ input[type="text"]::-webkit-input-placeholder {
                 text-transform: uppercase;
                 text-align: left;
                 span {
-                    color: #ffffff;
+                    color: #fff;
                     font: 600 36px / 36px Exo2;
                 }
             }
@@ -1467,6 +1466,12 @@ input[type="text"]::-webkit-input-placeholder {
     .s-about {
         ul {
             padding-left: 60px;
+        }
+        .image {
+            background: url(../images/yellow_line_large.png) center no-repeat;
+            height: 13px;
+            width: 620px;
+            margin: 0 auto 20px;
         }
     }
     iframe {
@@ -1559,8 +1564,13 @@ input[type="text"]::-webkit-input-placeholder {
             }
         }
     }
+    .s-footer-form {
+        button {
+            width: 284px;
+        }
+    }
     .s-footer-info-pl {
-        padding-top: 17px;
+        padding-top: 10px;
         padding-bottom: 10px;
         max-width: 980px;
         margin: 0 auto;
@@ -1607,7 +1617,7 @@ input[type="text"]::-webkit-input-placeholder {
             .info-tel {
                 right: 13px;
                 position: absolute;
-                top: 0px;
+                top: 12px;
                 width: 180px;
                 .tel {
                     right: 30px;
@@ -1650,7 +1660,6 @@ input[type="text"]::-webkit-input-placeholder {
                     color: $text;
                     font: 700 14px / 14px Exo2;
                     margin-bottom: 16px;
-                    //                height: 28px;
                 }
                 .line {
                     display: inline-block;
@@ -1672,5 +1681,19 @@ input[type="text"]::-webkit-input-placeholder {
     }
     .b_rekv {
         margin-right: 25px;
+    }
+    .s-main-form {
+        .tit_bottom {
+            .txt_1 {
+                color: $blue;
+            }
+        }
+    }
+    .s-how-many {
+        .tit {
+            span{
+               text-transform: uppercase; 
+            }        
+        }
     }
 }

@@ -702,7 +702,7 @@ iframe {
   background-size: cover;
   padding-bottom: 50px; }
   .s-footer-form input {
-    background-color: #ffffff;
+    background-color: #fff;
     padding-left: 23px;
     margin-bottom: 15px;
     height: 62px; }
@@ -844,7 +844,7 @@ input[type="text"]::-webkit-input-placeholder {
     vertical-align: top;
     width: 249px;
     padding: 18px 15px !important;
-    color: #ffffff; }
+    color: #fff; }
 
   .b_info .logo {
     margin-right: 26px; }
@@ -930,6 +930,7 @@ input[type="text"]::-webkit-input-placeholder {
     font: 700 36px / 48px Exo2;
     margin-bottom: 48px; }
     .s-get-calc .title span {
+      color: #0084ff;
       font: 700 36px / 48px Exo2; }
   .s-get-calc .img {
     background: url(../images/s-get-calc_window.png);
@@ -962,7 +963,7 @@ input[type="text"]::-webkit-input-placeholder {
       margin-left: -10px;
       margin-right: -10px; }
     .b-form input {
-      width: 217px;
+      width: 219px;
       margin-right: 7px; }
     .b-form .f-get-calc input {
       padding-left: 20px; }
@@ -1114,7 +1115,7 @@ input[type="text"]::-webkit-input-placeholder {
         text-transform: uppercase;
         text-align: left; }
         .s-main-form .b-form .title span {
-          color: #ffffff;
+          color: #fff;
           font: 600 36px / 36px Exo2; }
       .s-main-form .b-form input {
         width: 230px;
@@ -1136,6 +1137,11 @@ input[type="text"]::-webkit-input-placeholder {
 
   .s-about ul {
     padding-left: 60px; }
+  .s-about .image {
+    background: url(../images/yellow_line_large.png) center no-repeat;
+    height: 13px;
+    width: 620px;
+    margin: 0 auto 20px; }
 
   iframe {
     width: 591px;
@@ -1208,8 +1214,11 @@ input[type="text"]::-webkit-input-placeholder {
         margin-left: -41px;
         margin-bottom: -31px; }
 
+  .s-footer-form button {
+    width: 284px; }
+
   .s-footer-info-pl {
-    padding-top: 17px;
+    padding-top: 10px;
     padding-bottom: 10px;
     max-width: 980px;
     margin: 0 auto; }
@@ -1249,7 +1258,7 @@ input[type="text"]::-webkit-input-placeholder {
       .s-footer-info-pl .b_info .info-tel {
         right: 13px;
         position: absolute;
-        top: 0px;
+        top: 12px;
         width: 180px; }
         .s-footer-info-pl .b_info .info-tel .tel {
           right: 30px; }
@@ -1295,4 +1304,10 @@ input[type="text"]::-webkit-input-placeholder {
     margin-right: 20px; }
 
   .b_rekv {
-    margin-right: 25px; } }
+    margin-right: 25px; }
+
+  .s-main-form .tit_bottom .txt_1 {
+    color: #0084ff; }
+
+  .s-how-many .tit span {
+    text-transform: uppercase; } }
