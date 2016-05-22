@@ -1187,7 +1187,67 @@ input[type="text"]::-webkit-input-placeholder {
         width: 420px;
         position: relative;
         margin-left: -41px;
-        margin-bottom: -31px; } }
+        margin-bottom: -31px; }
+
+  .s-footer-info-pl {
+    padding-top: 17px;
+    padding-bottom: 10px;
+    max-width: 980px;
+    margin: 0 auto; }
+    .s-footer-info-pl .b_info {
+      position: relative;
+      text-align: left; }
+      .s-footer-info-pl .b_info .wrap_logo-title {
+        display: inline-block;
+        width: 200px; }
+      .s-footer-info-pl .b_info .logo {
+        display: block;
+        margin-bottom: 15px;
+        text-align: left;
+        width: 65%; }
+      .s-footer-info-pl .b_info .title {
+        display: block;
+        color: #303030;
+        font: 300 16px / 18px Exo2;
+        width: 100%; }
+      .s-footer-info-pl .b_info .b_rekv {
+        display: inline-block;
+        font: 300 16px / 18px Exo2; }
+      .s-footer-info-pl .b_info .wrap-s-pol_conf_card {
+        width: 284px;
+        display: inline-block;
+        text-align: center; }
+        .s-footer-info-pl .b_info .wrap-s-pol_conf_card .pol_conf {
+          color: #606060;
+          font: 300 14px / 18px Exo2;
+          text-decoration: underline;
+          display: inline-block;
+          margin-bottom: 12px; }
+        .s-footer-info-pl .b_info .wrap-s-pol_conf_card .card {
+          color: #303030;
+          font: 300 16px / 18px Exo2;
+          text-transform: uppercase; }
+      .s-footer-info-pl .b_info .info-tel {
+        right: 13px;
+        position: absolute;
+        top: 0px;
+        width: 180px; }
+        .s-footer-info-pl .b_info .info-tel .tel {
+          right: 30px; }
+          .s-footer-info-pl .b_info .info-tel .tel a {
+            color: #202020;
+            font: 700 16px / 18px Exo2;
+            padding-left: 45px; }
+      .s-footer-info-pl .b_info button {
+        display: block;
+        position: absolute;
+        right: 13px;
+        top: 55px;
+        width: 221px;
+        font: 500 15px / 24px Exo2; }
+
+  .fancybox-outer .closepopup {
+    display: none; } }
 @media (min-width: 992px) {
   .b-services-wrap .b-services-list {
     padding-top: 40px; }
@@ -1210,7 +1270,13 @@ input[type="text"]::-webkit-input-placeholder {
 
   .s-main-top {
     background: url(../images/bg-s-how-many-big.jpg) center no-repeat;
-    background-size: cover; } }
+    background-size: cover; }
+
+  .s-footer-info-pl .wrap_logo-title {
+    margin-right: 20px; }
+
+  .b_rekv {
+    margin-right: 25px; } }
 @media (min-width: 1024px) {
   .b-services-wrap .b-services-list {
     padding-top: 40px; }
