@@ -1674,35 +1674,3 @@ input[type="text"]::-webkit-input-placeholder {
         margin-right: 25px;
     }
 }
-
-@media (min-width: 1024px) {
-    .b-services-wrap {
-        .b-services-list {
-            padding-top: 40px;
-            .item {
-                display: inline-block;
-                vertical-align: top;
-                text-align: center;
-                width: 180px;
-                margin-bottom: 40px;
-                .title {
-                    text-transform: uppercase;
-                    color: $text;
-                    font: 700 14px / 14px Exo2;
-                    margin-bottom: 16px;
-                    //                height: 28px;
-                }
-                .line {
-                    display: inline-block;
-                    width: 20px;
-                    height: 3px;
-                    margin-bottom: 15px;
-                }
-            }
-        }
-    }
-    .s-main-top {
-        background: url(../images/bg-s-how-many-big.jpg) center no-repeat;
-        background-size: cover;
-    }
-}
