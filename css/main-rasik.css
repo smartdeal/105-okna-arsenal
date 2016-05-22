@@ -718,9 +718,6 @@ input[type="text"]::-webkit-input-placeholder {
   color: #808080;
   font: 300 18px / 18px Exo2; }
 
-.s-footer-info .title {
-  text-transform: none; }
-
 .btn-small {
   padding: 6px 10px;
   font: 400 14px / 14px 'Exo2'; }
@@ -802,6 +799,27 @@ input[type="text"]::-webkit-input-placeholder {
       background-image: url(../images/b-adv_i_5.png); }
     .s-adv ul .i_6:before {
       background-image: url(../images/b-adv_i_6.png); }
+
+.s-footer-info .title {
+  text-transform: none; }
+.s-footer-info button {
+  margin-bottom: 20px; }
+.s-footer-info .wrap-s-pol_conf_card {
+  text-align: left;
+  width: 224px;
+  display: inline-block;
+  vertical-align: top; }
+  .s-footer-info .wrap-s-pol_conf_card .pol_conf {
+    font: 300 14px / 28px Exo2;
+    margin-bottom: 13px; }
+  .s-footer-info .wrap-s-pol_conf_card .card {
+    font: 300 12px / 18px Exo2;
+    text-transform: uppercase; }
+.s-footer-info .logo_company {
+  background: url(../images/logo_company.png) center no-repeat;
+  display: inline-block;
+  width: 72px;
+  height: 60px; }
 
 /* ********************************** */
 /* end main */
