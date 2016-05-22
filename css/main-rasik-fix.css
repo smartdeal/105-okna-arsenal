@@ -55,24 +55,25 @@
 
 .s-get-calc {
   padding-bottom: 40px; }
-
-.s-get-calc .title {
-  font: 700 18px / 30px Exo2; }
-
-.s-get-calc .f-get-calc .input_small {
-  width: 100%;
-  display: block;
-  padding: 17px 5px;
-  height: auto;
-  line-height: 1;
-  margin-bottom: 7px; }
-
-.s-get-calc .f-get-calc .inp {
-  width: 31.33%;
-  margin-left: 2%; }
-
-.s-get-calc .f-get-calc .inp:first-child {
-  margin-left: 0; }
+  .s-get-calc span {
+    color: inherit;
+    font: inherit; }
+  .s-get-calc .today .br {
+    display: block; }
+  .s-get-calc .title {
+    font: 700 18px / 30px Exo2; }
+  .s-get-calc .f-get-calc .input_small {
+    width: 100%;
+    display: block;
+    padding: 17px 5px;
+    height: auto;
+    line-height: 1;
+    margin-bottom: 7px; }
+  .s-get-calc .f-get-calc .inp {
+    width: 31.33%;
+    margin-left: 2%; }
+  .s-get-calc .f-get-calc .inp:first-child {
+    margin-left: 0; }
 
 .s-reviews {
   border-top: 1px solid #E2E2E2; }
@@ -80,6 +81,13 @@
 .s-reviews .item .b_done ul li {
   font-size: 13px;
   margin-bottom: 10px; }
+
+.s-form-2 .title span {
+  color: inherit; }
+.s-form-2 .title .br {
+  display: block; }
+.s-form-2 .title .c_yellow {
+  color: #ffc000; }
 
 .s-main-form .tit span {
   font-size: 17px; }
@@ -90,6 +98,162 @@
     font-size: inherit; }
 
 .s-main-form {
-  padding: 20px 0; }
+  padding: 20px 0;
+  position: relative;
+  overflow: hidden; }
+
+.s-main-form:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 220px 260px white; }
+
+.s-main-form .container {
+  position: relative;
+  z-index: 1; }
+
+.s-map {
+  padding: 0; }
+
+.b-map {
+  height: 400px;
+  overflow: hidden; }
+
+.b-adr {
+  max-width: 250px;
+  margin: 0 auto; }
+
+.b-map-adr-wrap {
+  background-color: rgba(0, 132, 255, 0.8); }
+
+.b-map-adr {
+  background: none; }
+
+.s-discount .text .text_1 {
+  display: block; }
+
+@media (min-width: 768px) {
+  .b_info {
+    font-size: 0;
+    padding-bottom: 20px; }
+    .b_info .logo {
+      width: 20%;
+      margin-right: 1%;
+      vertical-align: middle; }
+    .b_info .title {
+      width: 19%;
+      margin-right: 1%;
+      vertical-align: middle;
+      top: 0; }
+    .b_info .info-tel {
+      width: 23%;
+      margin-right: 1%;
+      vertical-align: middle; }
+    .b_info .btn-blue {
+      width: 35%;
+      margin: 0;
+      vertical-align: middle;
+      display: inline-block; }
+
+  .s-top-title {
+    padding-top: 50px; }
+
+  .s-bullets_top .b-bullets .item {
+    top: -70px; }
+  .s-bullets_top .b-bullets span {
+    font-size: 14px; }
+
+  .s-discount .text .text_0 {
+    display: block; }
+  .s-discount .text .text_1 {
+    display: inline-block; }
+
+  .f-get-calc .btn {
+    width: 290px; }
+  .f-get-calc input {
+    padding: 10px 12px; }
+
+  .b-bull-wrap .owl-nav {
+    left: -73px;
+    right: -73px;
+    top: 80px; }
+
+  .s-types {
+    padding: 20px 0; }
+    .s-types .s-title {
+      font-size: 48px; }
+
+  .s-hello {
+    padding-top: 0; }
+
+  .s-get-calc .img {
+    display: inline-block;
+    vertical-align: top; }
+  .s-get-calc .f-calc-second {
+    display: inline-block;
+    vertical-align: top; }
+  .s-get-calc .title {
+    font-size: 36px;
+    margin-bottom: 20px; }
+  .s-get-calc .today {
+    margin-top: 20px; }
+    .s-get-calc .today .br {
+      display: inline-block;
+      font-size: 24px;
+      margin-right: 8px; }
+
+  .s-services {
+    padding-top: 10px; }
+
+  .s-form-2 .title {
+    font-size: 24px;
+    margin-bottom: 20px; }
+    .s-form-2 .title .br {
+      display: inline-block; }
+
+  .s-main-form img {
+    float: left; }
+
+  .s-about p {
+    font-size: 24px;
+    margin-bottom: 20px; }
+
+  .b-sert-wrap {
+    position: relative;
+    padding-top: 40px; }
+
+  .b-sert-wrap:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 15px;
+    background: url(../images/line-grey.png) center no-repeat; }
+
+  .b-sert {
+    font-size: 0; }
+    .b-sert .item {
+      width: 30.33%;
+      margin: 0 1%; }
+
+  .s-map .b-map-adr {
+    top: 0;
+    left: 50%;
+    margin-left: -420px;
+    bottom: 0; }
+
+  .b-map {
+    height: 670px; }
+
+  .b-adr-img {
+    background: url(../images/s-map-office.jpg);
+    height: 315px;
+    width: 420px;
+    position: absolute;
+    bottom: 0;
+    left: 0; } }
 
 /*# sourceMappingURL=main-rasik-fix.css.map */

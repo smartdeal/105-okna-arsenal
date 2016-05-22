@@ -69,28 +69,33 @@
     
     .s-get-calc {
       padding-bottom: 40px;
-    }
-    
-    .s-get-calc .title {
-      font: 700 18px / 30px Exo2;
-    }
-    
-    .s-get-calc .f-get-calc .input_small {
-      width: 100%;
-      display: block;
-      padding: 17px 5px;
-      height: auto;
-      line-height: 1;
-      margin-bottom: 7px;
-    }
-    
-    .s-get-calc .f-get-calc .inp {
-      width: 31.33%;
-      margin-left: 2%;
-    }
-    
-    .s-get-calc .f-get-calc .inp:first-child {
-      margin-left: 0;
+      span {
+        color: inherit;
+        font: inherit;
+      }
+      .today .br {
+        display: block;
+      }
+      .title {
+        font: 700 18px / 30px Exo2;
+      }
+      .f-get-calc {
+        .input_small {
+          width: 100%;
+          display: block;
+          padding: 17px 5px;
+          height: auto;
+          line-height: 1;
+          margin-bottom: 7px;
+        }
+        .inp {
+          width: 31.33%;
+          margin-left: 2%;
+        }
+        .inp:first-child {
+          margin-left: 0;
+        }
+      }
     }
     
     .s-reviews {
@@ -100,6 +105,18 @@
     .s-reviews .item .b_done ul li {
       font-size: 13px;
       margin-bottom: 10px;
+    }
+    
+    .s-form-2 .title {
+      span {
+        color: inherit;
+      }
+      .br {
+        display: block;
+      }
+      .c_yellow {
+        color: $yellow;
+      }
     }
     
     .s-main-form .tit span {
@@ -112,4 +129,195 @@
         font-size: inherit;
       }
     }
-    .s-main-form {padding: 20px 0;}
+    
+    .s-main-form {
+      padding: 20px 0;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .s-main-form:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      box-shadow: 0 0 220px 260px white;
+    }
+    
+    .s-main-form .container {
+      position: relative;
+      z-index: 1;
+    }
+    
+    .s-map {
+      padding: 0;
+    }
+    
+    .b-map {
+      height: 400px;
+      overflow: hidden;
+    }
+    
+    .b-adr {
+      max-width: 250px;
+      margin: 0 auto;
+    }
+    
+    .b-map-adr-wrap {
+      background-color: rgba(0, 132, 255, 0.8);
+    }
+    
+    .b-map-adr {
+      background: none;
+    }
+    
+    .s-discount .text .text_1 {
+      display: block;
+    }
+    
+    @media (min-width: 768px) {
+      .b_info {
+        font-size: 0;
+        padding-bottom: 20px;
+        .logo {
+          width: 20%;
+          margin-right: 1%;
+          vertical-align: middle;
+        }
+        .title {
+          width: 19%;
+          margin-right: 1%;
+          vertical-align: middle;
+          top: 0;
+        }
+        .info-tel {
+          width: 23%;
+          margin-right: 1%;
+          vertical-align: middle;
+        }
+        .btn-blue {
+          width: 35%;
+          margin: 0;
+          vertical-align: middle;
+          display: inline-block;
+        }
+      }
+      .s-top-title {
+        padding-top: 50px;
+      }
+      .s-bullets_top .b-bullets {
+        .item {
+          top: -70px;
+        }
+        span {
+          font-size: 14px;
+        }
+      }
+      .s-discount .text {
+        .text_0 {
+          display: block;
+        }
+        .text_1 {
+          display: inline-block;
+        }
+      }
+      .f-get-calc {
+        .btn {
+          width: 290px;
+        }
+        input {
+          padding: 10px 12px;
+        }
+      }
+      .b-bull-wrap .owl-nav {
+        left: -73px;
+        right: -73px;
+        top: 80px;
+      }
+      .s-types {
+        padding: 20px 0;
+        .s-title {
+          font-size: 48px;
+        }
+      }
+      .s-hello {
+        padding-top: 0;
+      }
+      .s-get-calc {
+        .img {
+          display: inline-block;
+          vertical-align: top;
+        }
+        .f-calc-second {
+          display: inline-block;
+          vertical-align: top;
+        }
+        .title {
+          font-size: 36px;
+          margin-bottom: 20px;
+        }
+        .today {
+          margin-top: 20px;
+          .br {
+            display: inline-block;
+            font-size: 24px;
+            margin-right: 8px;
+          }
+        }
+      }
+      .s-services {
+        padding-top: 10px;
+      }
+      .s-form-2 .title {
+        font-size: 24px;
+        margin-bottom: 20px;
+        .br {
+          display: inline-block;
+        }
+      }
+      .s-main-form img {
+        float: left;
+      }
+      .s-about p {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      .b-sert-wrap {
+        position: relative;
+        padding-top: 40px;
+      }
+      .b-sert-wrap:before {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 15px;
+        background: url(../images/line-grey.png) center no-repeat;
+      }
+      .b-sert {
+        font-size: 0;
+        .item {
+          width: 30.33%;
+          margin: 0 1%;
+        }
+      }
+      .s-map .b-map-adr {
+        top: 0;
+    left: 50%;
+    margin-left: -420px;
+    bottom: 0;
+      }
+      .b-map {
+        height: 670px;
+      }
+      .b-adr-img {
+        background: url(../images/s-map-office.jpg);
+        height: 315px;
+        width: 420px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+    }
