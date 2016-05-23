@@ -82,7 +82,7 @@ $(document).ready(function() {
     //$(".form-popup, .form-calc, .f-rehau, .f-zamer").append("<input type='hidden' name='ref' value='"+referer+"'/><input type='hidden' name='utm_source' value='"+utm_source+"'/><input type='hidden' name='utm_medium' value='"+utm_medium+"'/><input type='hidden' name='utm_campaign' value='"+utm_campaign+"'/><input type='hidden' name='block' value='"+block+"'/><input type='hidden' name='utm_term' value='"+utm_term+"'/><input type='hidden' name='utm_content' value='"+utm_content+"'/><input type='hidden' name='position' value='"+position+"'/><input type='hidden' name='keyword' value='"+keyword+"'/>");
 
     $(".closepopup, .ok-btn").click(function() {
-        $(".dark, .popup, .popup-success, .popup-error, .form-popup, .polit-popup").hide();
+        $(".dark, .popup, .popup-success, .popup-error, .form-popup, .form-popup-calc, .polit-popup").hide();
     });
 
     // When click the button open popup 
@@ -94,6 +94,11 @@ $(document).ready(function() {
     $('.open-polit').click(function() {
         $('.popup, .dark').show();
         $('.polit-popup').show();
+    });
+
+    $('.btn-open-calc').click(function() {
+        $('.popup, .dark').show();
+        $('.form-popup-calc').show();
     });
 
     $('.btn-open-dog').click(function() {
@@ -231,23 +236,54 @@ $(document).ready(function() {
         }
     });
 
-    $('.b-how-many-list').owlCarousel({
-        items: 1,
-        loop: true,
-        nav: true,
-        // responsive: {
-        //     992: {
-        //         items: 3,
-        //         margin: 10,
-        //     }
-        // }
+// Кастомный слайдер для блок с портфолио ************
+
+    var slider = $('.b-how-many-list').bxSlider({
+        minSlides: 1,
+        maxSlides: 1,
+        slideWidth: 400,
+        slideMargin: 10,
+        infiniteLoop: true,
+        pager: false,
+        mode: 'fade',
+        onSlideAfter: function() {
+            slider_change();
+        },
+        onSlideBefore: function() {
+            slider_change_opacity();
+        }
     });
+
+
+    function slider_change_opacity() {
+        $('#how-many-slider-img-prev').css({'opacity':'0'});
+        $('#how-many-slider-img-next').css({'opacity':'0'});
+    }
+
+    function slider_change() {
+        var count = slider.getSlideCount();
+        var s_cur = slider.getCurrentSlide();
+        var s_next = s_cur + 1;
+        var s_prev = s_cur - 1;
+        if (s_prev < 0) s_prev = count - 1;
+        if (s_next > 8) s_next = 0;
+        var src_prev = $('.b-how-many-list .itm:not(.bx-clone)').eq(s_prev).find('a img').first().attr('src');
+        var src_next = $('.b-how-many-list .itm:not(.bx-clone)').eq(s_next).find('a img').first().attr('src');
+        var s_desc = $('.b-how-many-list .itm:not(.bx-clone)').eq(s_cur).find('.description').text();
+        $('#how-many-slider-img-prev').css({ 'background': 'url(' + src_prev + ') center no-repeat', 'background-size': 'cover', 'opacity':'1' });
+        $('#how-many-slider-img-next').css({ 'background': 'url(' + src_next + ') center no-repeat', 'background-size': 'cover', 'opacity':'1' });
+        $('#how-many-slider-desc').text(s_desc);
+    }
+
+    slider_change();
+
+// *******************
 
     $('.b-sert').owlCarousel({
         items: 1,
         loop: true,
         nav: true,
-          autoHeight: true,
+        autoHeight: true,
         responsive: {
             768: {
                 items: 3,
@@ -286,19 +322,19 @@ $(document).ready(function() {
     calculation_timer();
     var id_timer = setInterval(calculation_timer, 60000);
 
-    $(window).scroll(function(){
-            if( $(window).scrollTop() > 60 ) {
-                    $('#stickyheader').css('display', 'block');
-            } else {
-                    $('#stickyheader').css('display', 'none');
-            }
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > 60) {
+            $('#stickyheader').css('display', 'block');
+        } else {
+            $('#stickyheader').css('display', 'none');
+        }
     });
 
-    $("#stickyheader").on("click","a", function (event) {
+    $("#stickyheader").on("click", "li a", function(event) {
         event.preventDefault();
-        var id  = $(this).attr('href'),
-            top = $(id).offset().top-30;
-        $('body,html').animate({scrollTop: top}, 1000);
+        var id = $(this).attr('href'),
+            top = $(id).offset().top - 30;
+        $('body,html').animate({ scrollTop: top }, 1000);
     });
 
 

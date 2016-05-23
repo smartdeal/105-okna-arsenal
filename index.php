@@ -13,7 +13,6 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
-    <link type="text/css" rel="stylesheet" href="css/main.css">
     <link type="text/css" rel="stylesheet" href="css/main-gum.css">
     <link type="text/css" rel="stylesheet" href="css/main-rasik.css">
     <link type="text/css" rel="stylesheet" href="css/main-rasik-fix.css">
@@ -61,7 +60,7 @@
                     <li><a href="#to-about">О нас</a></li>
                     <li><a href="#to-contacts">Контакты</a></li>
                 </ul>
-                <div class="tel">
+                <div class="tel hidden-xs">
                     <p><a href="tel:+8212562888">8 (8212) 562 888</a></p>
                     <p><a href="tel:+89087142368">8 (908) 714 23 68</a></p>
                 </div>
@@ -215,32 +214,32 @@
                         <div class="title">ДВУХСТВОРЧАТОЕ ОКНО</div>
                         <div class="img i_1"></div>
                         <div class="price">от 1000<i class="rub"></i></div>
-                        <button type="submit" class="btn send-btn btn-small">Получить расчет</button>
+                        <button type="submit" class="btn btn-small btn-open-calc">Получить расчет</button>
                     </div>
                     <div class="item">
                         <div class="title">ТРЕХСТВОРЧАТОЕ ОКНО</div>
                         <div class="img i_2"></div>
                         <div class="price">от 1000<i class="rub"></i></div>
-                        <button type="submit" class="btn send-btn btn-small">Получить расчет</button>
+                        <button type="submit" class="btn btn-small btn-open-calc">Получить расчет</button>
                     </div>
                     <div class="item">
                         <div class="title">БАЛКОН ПОД КЛЮЧ</div>
                         <div class="img i_3"></div>
                         <div class="price">от 1000<i class="rub"></i></div>
-                        <button type="submit" class="btn send-btn btn-small">Получить расчет</button>
+                        <button type="submit" class="btn btn-small btn-open-calc">Получить расчет</button>
                     </div>
                     <div class="item">
                         <div class="title">БАЛКОННЫЙ БЛОК</div>
                         <div class="img i_4"></div>
                         <div class="price">от 1000<i class="rub"></i></div>
-                        <button type="submit" class="btn send-btn btn-small">Получить расчет</button>
+                        <button type="submit" class="btn btn-small btn-open-calc">Получить расчет</button>
                     </div>
                     <div class="item">
                         <div class="title">НЕСТАНДАРТНЫЕ
                             <br> КОНСТРУКЦИИ</div>
                         <div class="img i_5"></div>
                         <div class="price">от 1000<i class="rub"></i></div>
-                        <button type="submit" class="btn send-btn btn-small">Получить расчет</button>
+                        <button type="submit" class="btn btn-small btn-open-calc">Получить расчет</button>
                     </div>
                 </div>
             </div>
@@ -911,52 +910,54 @@
                 <br>
                 <span>по г. Сывтывкару и области за 2016 год</span>
             </div>
-            <div class="b-how-many-list-wrap">
-                <div class="b-how-many-list owl-carousel">
-                    <div class="itm">
-                        <a href="images/b-how-many-01.jpg" class="fancybox" rel="group2"><img src="images/b-how-many-01.jpg"></a>
-                        <div class="description">Коммунистическая 48а. Лоджия ПВХ без обшивки, не стандартные створки. ПО бокам закрыли сэндвич-панелью, что бы в дальнейшем сделать шкафчик</div>
-                    </div>
-                    <div class="itm">
-                        <a href="images/b-how-many-02.jpg" class="fancybox" rel="group2"><img src="images/b-how-many-02.jpg"></a>
-                        <div class="description">Октябрьский проспект 3. Уже с жалюзи</div>
-                    </div>
-                    <div class="itm">
-                        <a href="images/b-how-many-03.jpg" class="fancybox" rel="group2"><img src="images/b-how-many-03.jpg"></a>
-                        <div class="description">Фото не очень, т.к монтажник без формы А вообще это Водопьянова 5, была установлена ПВХ конструкция в 3 стекла, т.к. выход на балкон собирались убирать и соединять комнату с балконом </div>
-                    </div>
-                    <div class="itm">
-                        <a href="images/b-how-many-04.jpg" class="fancybox" rel="group2"><img src="images/b-how-many-04.jpg"></a>
-                        <div class="description">Октябрьский проспект 3 очень необычная лоджия, т.к. сбоку еще есть окошко. Застеклили в 3стекла и сделали обшивку ПВХ панелями. В дальнейшем повесили вертикальные жалюзи</div>
-                    </div>
-                    <div class="itm">
-                        <a href="images/b-how-many-05.jpg" class="fancybox" rel="group2"><img src="images/b-how-many-05.jpg"></a>
-                        <div class="description">Коммунистическая 48а Алюминиевая лоджия обшивка внутри деревянной вагонкой, по краям закрыли сэндвичем, что бы сделать шкафчик в дальнейшем</div>
-                    </div>
-                    <div class="itm">
-                        <a href="images/b-how-many-06.jpg" class="fancybox" rel="group2"><img src="images/b-how-many-06.jpg"></a>
-                        <div class="description">Это лучше убрать, потому что техники безопасности вообще никакой, за такое посадят</div>
-                    </div>
-                    <div class="itm">
-                        <a href="images/b-how-many-07.jpg" class="fancybox" rel="group2"><img src="images/b-how-many-07.jpg"></a>
-                        <div class="description">было сделано остекление ПВХ конструкцией в 1 стекло. Сделана обшивка внутри балкона и жалюзи, что бы лишний свет не мешал смотреть телевизор</div>
-                    </div>
-                    <div class="itm">
-                        <a href="images/b-how-many-08.jpg" class="fancybox" rel="group2"><img src="images/b-how-many-08.jpg"></a>
-                        <div class="description">Алюминиевый балкон. Пока без обшивки. В процессе работы, уже поставили подоконник и рамы, делается утепление передней и боковых панелей</div>
-                    </div>
-                    <div class="itm">
-                        <a href="images/b-how-many-09.jpg" class="fancybox" rel="group2"><img src="images/b-how-many-09.jpg"></a>
-                        <div class="description">Опять Водопьянова 5. Фото сделано вечером, после завершения работы. Вот так выглядит эта не стандартная лоджия. Так же была выложена кирпичная кладка, для того, что бы придать такой вид</div>
-                    </div>
-                    <div class="itm">
-                        <a href="images/b-how-many-10.jpg" class="fancybox" rel="group2"><img src="images/b-how-many-10.jpg"></a>
-                        <div class="description">А это вид застекленного и обшитого балкона. Вещи, как и у многих хранятся именно здесь, но, за счет двух больших шкафчиков, не создается свалка. Зимой на таком балконе очень комфортно находиться за счет хорошего утепления</div>
+            <div class="b-how-many-list-wrap-wrap">
+                <div id="how-many-slider-img-prev" class="hidden-xs"></div>
+                <div id="how-many-slider-img-next" class="hidden-xs"></div>
+                <div id="how-many-slider-desc" class="hidden-xs"></div>
+                <div class="b-how-many-list-wrap">
+                    <div class="b-how-many-list owl-carousel">
+                        <div class="itm">
+                            <a href="images/b-how-many-01.jpg" class="fancybox" rel="group2"><img src="images/b-how-many-01.jpg"></a>
+                            <div class="description">Коммунистическая 48а. Лоджия ПВХ без обшивки, не стандартные створки. ПО бокам закрыли сэндвич-панелью, что бы в дальнейшем сделать шкафчик</div>
+                        </div>
+                        <div class="itm">
+                            <a href="images/b-how-many-02.jpg" class="fancybox" rel="group2"><img src="images/b-how-many-02.jpg"></a>
+                            <div class="description">Октябрьский проспект 3. Уже с жалюзи</div>
+                        </div>
+                        <div class="itm">
+                            <a href="images/b-how-many-03.jpg" class="fancybox" rel="group2"><img src="images/b-how-many-03.jpg"></a>
+                            <div class="description">Фото не очень, т.к монтажник без формы А вообще это Водопьянова 5, была установлена ПВХ конструкция в 3 стекла, т.к. выход на балкон собирались убирать и соединять комнату с балконом </div>
+                        </div>
+                        <div class="itm">
+                            <a href="images/b-how-many-04.jpg" class="fancybox" rel="group2"><img src="images/b-how-many-04.jpg"></a>
+                            <div class="description">Октябрьский проспект 3 очень необычная лоджия, т.к. сбоку еще есть окошко. Застеклили в 3стекла и сделали обшивку ПВХ панелями. В дальнейшем повесили вертикальные жалюзи</div>
+                        </div>
+                        <div class="itm">
+                            <a href="images/b-how-many-05.jpg" class="fancybox" rel="group2"><img src="images/b-how-many-05.jpg"></a>
+                            <div class="description">Коммунистическая 48а Алюминиевая лоджия обшивка внутри деревянной вагонкой, по краям закрыли сэндвичем, что бы сделать шкафчик в дальнейшем</div>
+                        </div>
+                        <div class="itm">
+                            <a href="images/b-how-many-07.jpg" class="fancybox" rel="group2"><img src="images/b-how-many-07.jpg"></a>
+                            <div class="description">было сделано остекление ПВХ конструкцией в 1 стекло. Сделана обшивка внутри балкона и жалюзи, что бы лишний свет не мешал смотреть телевизор</div>
+                        </div>
+                        <div class="itm">
+                            <a href="images/b-how-many-08.jpg" class="fancybox" rel="group2"><img src="images/b-how-many-08.jpg"></a>
+                            <div class="description">Алюминиевый балкон. Пока без обшивки. В процессе работы, уже поставили подоконник и рамы, делается утепление передней и боковых панелей</div>
+                        </div>
+                        <div class="itm">
+                            <a href="images/b-how-many-09.jpg" class="fancybox" rel="group2"><img src="images/b-how-many-09.jpg"></a>
+                            <div class="description">Опять Водопьянова 5. Фото сделано вечером, после завершения работы. Вот так выглядит эта не стандартная лоджия. Так же была выложена кирпичная кладка, для того, что бы придать такой вид</div>
+                        </div>
+                        <div class="itm">
+                            <a href="images/b-how-many-10.jpg" class="fancybox" rel="group2"><img src="images/b-how-many-10.jpg"></a>
+                            <div class="description">А это вид застекленного и обшитого балкона. Вещи, как и у многих хранятся именно здесь, но, за счет двух больших шкафчиков, не создается свалка. Зимой на таком балконе очень комфортно находиться за счет хорошего утепления</div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <div class="s-map section" id="to-contacts">
         <div class="b-map">
             <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=9uV4btuNMtOuIYxFBWXdIBMjz_1r__mF&width=100%&height=670&lang=ru_RU&sourceType=constructor&scroll=true"></script>
@@ -991,7 +992,7 @@
                         <form class="f-get-calc">
                             <input type="text" class="required " name="name" placeholder="Введите Ваше имя">
                             <input type="text" class="required f-tel" name="tel" placeholder="Введите Ваш телефон">
-                            <button type="submit" class="btn send-btn btn-animation">Получить бесплатный расчет</button>
+                            <button type="submit" class="btn send-btn btn-animation">Заказать звонок</button>
                         </form>
                     </div>
                 </div>
@@ -1061,6 +1062,16 @@
                 </div>
                 <div class="closepopup">&#10006;</div>
             </form>
+            <form class="form-popup-calc">
+                <div class="f-title">Оставьте свои контакты,
+                    <br>чтобы получить расчет</div>
+                <div class="f-body">
+                    <input type="text" class="" name="name" placeholder="Имя">
+                    <input type="text" class="required f-tel" name="tel" placeholder="Телефон">
+                    <button type="submit" class="btn send-btn">Получить расчет</button>
+                </div>
+                <div class="closepopup">&#10006;</div>
+            </form>
             <form class="form-popup-dog">
                 <div class="f-title">Оставьте свои контакты,
                     <br>чтобы получить образец договора</div>
@@ -1125,12 +1136,10 @@
     <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css" media="screen" />
-    <!-- <link rel="stylesheet" type="text/css" href="js/ls/css/lightslider.min.css" media="screen" /> -->
     <link rel="stylesheet" type="text/css" href="js/owl/assets/owl.carousel.min.css" media="screen" />
     <script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
-    <!--    <script type="text/javascript" src="js/bx/jquery.bxslider.min.js"></script>-->
-    <!-- <script type="text/javascript" src="js/ls/js/lightslider.min.js"></script> -->
     <script type="text/javascript" src="js/owl/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/bx/jquery.bxslider.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 

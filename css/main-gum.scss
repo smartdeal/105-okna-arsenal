@@ -789,6 +789,8 @@ form .field_error {
   }
 }
 
+.s-form-3 .f-get-calc .btn{font-size: 27px;
+    font-weight: 400;}
 
 /* ********************* */
 
@@ -834,6 +836,7 @@ form .field_error {
 
 .polit-popup,
 .form-popup-dog,
+.form-popup-calc,
 .form-popup {
   display: none;
   position: relative;
@@ -859,6 +862,8 @@ form .field_error {
   }
 }
 
+.form-popup-dog,
+.form-popup-calc,
 .form-popup {
   background: $blue;
   .f-title {
@@ -1002,7 +1007,7 @@ form .field_error {
         font-size: 14px;
         padding: 15px 5px;
         line-height: 1.2;
-        font-weight: 600;
+        font-weight: 700;
       }
       .active .b-tit {
         color: white;

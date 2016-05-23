@@ -7,20 +7,21 @@
   left: 0;
   top: 0;
   width: 100%;
-  font-size: 0; }
+  font-size: 0;
+  padding: 10px 0 5px; }
   #stickyheader .b-logo {
-    display: inline-block; }
+    display: inline-block;
+    width: 18%;
+    vertical-align: middle; }
   #stickyheader ul {
-    display: table;
-    table-layout: fixed;
-    width: 100%; }
-    #stickyheader ul .logo {
-      width: 40px;
-      margin: 0 auto; }
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    padding: 10px 0; }
     #stickyheader ul li {
-      border-right: 1px solid #ededed;
-      display: table-cell;
-      width: 25%;
+      width: auto;
+      padding: 0 10px;
+      display: inline-block;
       text-align: center;
       vertical-align: middle; }
       #stickyheader ul li:last-child {
@@ -28,11 +29,23 @@
       #stickyheader ul li a {
         color: #303030;
         font: 400 14px / 18px Exo2;
-        padding-top: 3px;
-        padding-bottom: 3px;
         display: block;
         text-decoration: none; }
 
+@media (min-width: 768px) {
+  #stickyheader ul {
+    width: 62%; }
+    #stickyheader ul li {
+      width: auto;
+      border-right: 1px solid #ededed; }
+  #stickyheader .tel {
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+    color: black;
+    font-size: 15px; }
+    #stickyheader .tel a {
+      color: #303030; } }
 .b_info {
   background-color: #fff;
   position: relative;
@@ -810,6 +823,10 @@ iframe {
       text-decoration: none;
       color: #303030;
       font: 300 14px / 18px Exo2; }
+    .s-adv ul .btn-open-dog {
+      font-size: 20px;
+      font-weight: 700;
+      border-bottom: 1px dotted #303030; }
     .s-adv ul li {
       position: relative;
       display: block;
@@ -879,10 +896,10 @@ iframe {
     padding-top: 5px; }
 
   .btn-blue {
-    margin-top: 5px !important;
+    margin-top: 5px;
     vertical-align: top;
     width: 249px;
-    padding: 18px 15px !important;
+    padding: 18px 15px;
     color: #fff; }
 
   .b_info .logo {

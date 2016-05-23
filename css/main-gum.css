@@ -635,6 +635,10 @@ form .field_error {
   -o-transform: rotate(180deg);
   transform: rotate(180deg); }
 
+.s-form-3 .f-get-calc .btn {
+  font-size: 27px;
+  font-weight: 400; }
+
 /* ********************* */
 /* end main css section */
 /* ******************* */
@@ -670,6 +674,7 @@ form .field_error {
 
 .polit-popup,
 .form-popup-dog,
+.form-popup-calc,
 .form-popup {
   display: none;
   position: relative;
@@ -691,12 +696,18 @@ form .field_error {
   .polit-popup .closepopup {
     color: #000; }
 
+.form-popup-dog,
+.form-popup-calc,
 .form-popup {
   background: #0084ff; }
+  .form-popup-dog .f-title,
+  .form-popup-calc .f-title,
   .form-popup .f-title {
     font-size: 20px;
     line-height: 1;
     margin-bottom: 20px; }
+  .form-popup-dog input,
+  .form-popup-calc input,
   .form-popup input {
     padding: 10px;
     text-align: center; }
@@ -809,7 +820,7 @@ form .field_error {
         font-size: 14px;
         padding: 15px 5px;
         line-height: 1.2;
-        font-weight: 600; }
+        font-weight: 700; }
       #owl-balk .owl-itm .active .b-tit {
         color: white;
         background: #0084ff;
