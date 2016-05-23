@@ -213,8 +213,6 @@ $(document).ready(function() {
                 $('.s-hello .b-hello-more').fadeOut();
             }
         }
-        $(".polit-popup").css('height', $(window).height() * .7);
-
     }
 
     $('.b-bull-list').owlCarousel({
@@ -224,13 +222,11 @@ $(document).ready(function() {
         responsive: {
             768: {
                 items: 2,
-                slideMove: 2,
-                slideMargin: 6,
+                margin: 6,
             },
             992: {
                 items: 3,
-                slideMove: 3,
-                slideMargin: 6,
+                margin: 6,
             }
         }
     });
@@ -239,7 +235,12 @@ $(document).ready(function() {
         items: 1,
         loop: true,
         nav: true,
-
+        responsive: {
+            992: {
+                items: 3,
+                margin: 10,
+            }
+        }
     });
 
     $('.b-reviews-list').owlCarousel({

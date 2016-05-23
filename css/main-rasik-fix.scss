@@ -281,12 +281,15 @@
       display: inline-block;
     }
   }
-  .f-get-calc {
+  .s-form-1 .f-get-calc,
+  .s-form-2 .f-get-calc,
+  .s-form-3 .f-get-calc {
     .btn {
-      width: 290px;
+      width: 40%;
     }
     input {
-      padding: 10px 12px;
+      padding: 10px;
+      width: 29%;
     }
   }
   .b-bull-wrap .owl-nav {
@@ -383,7 +386,7 @@
     padding-bottom: 50px;
   }
   .b-how-many-list-wrap {
-    max-width: 500px;
+    width: 80%;
     margin: 0 auto;
   }
   .b-how-many-list .owl-nav {
@@ -555,7 +558,7 @@
         width: 100%;
         margin: 0 0 5px;
       }
-      button {
+      .btn {
         width: 100%;
         font-size: 24px;
         font-weight: 600;
@@ -688,7 +691,6 @@
   .s-title {
     font-size: 48px;
   }
-
   .s-map .b-map-adr {
     left: 120px;
     margin-left: 0;
