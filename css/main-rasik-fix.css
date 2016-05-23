@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .b_info .btn-blue {
   padding: 18px 5px;
   margin: 20px 0 0;
@@ -211,10 +212,15 @@
   .s-discount .text .text_1 {
     display: inline-block; }
 
-  .f-get-calc .btn {
-    width: 290px; }
-  .f-get-calc input {
-    padding: 10px 12px; }
+  .s-form-1 .f-get-calc .btn,
+  .s-form-2 .f-get-calc .btn,
+  .s-form-3 .f-get-calc .btn {
+    width: 40%; }
+  .s-form-1 .f-get-calc input,
+  .s-form-2 .f-get-calc input,
+  .s-form-3 .f-get-calc input {
+    padding: 10px;
+    width: 29%; }
 
   .b-bull-wrap .owl-nav {
     left: -73px;
@@ -283,7 +289,7 @@
   .s-map .b-map-adr {
     top: 0;
     left: 50%;
-    margin-left: -420px;
+    margin-left: -384px;
     bottom: 0; }
 
   .b-map {
@@ -301,7 +307,7 @@
     padding-bottom: 50px; }
 
   .b-how-many-list-wrap {
-    max-width: 500px;
+    width: 80%;
     margin: 0 auto; }
 
   .b-how-many-list .owl-nav {
@@ -312,8 +318,80 @@
     padding: 40px 0 20px; }
 
   .s-reviews .owl-nav {
-    right: calc(50% + 45px); } }
+    right: calc(50% + 45px); }
+
+  .s-form-2 {
+    padding: 40px 0; }
+
+  .s-footer-info-pl .b_info .b-footer-itm {
+    display: inline-block;
+    vertical-align: middle; }
+
+  .s-footer-info-pl .b_info .wrap_logo-title {
+    width: 28%; }
+
+  .s-footer-info-pl .b_info .wrap-s-pol_conf_card {
+    width: 40%; }
+
+  .s-footer-info-pl .b_info .b-footer-tel {
+    width: 32%; }
+
+  .s-footer-info-pl .b_info .info-tel .tel {
+    left: 0;
+    right: 0;
+    top: 0; }
+
+  .s-footer-info-pl .b_info .info-tel {
+    position: static;
+    margin: 0;
+    margin-bottom: 10px;
+    width: 100%; }
+
+  .s-footer-info-pl .b_info button {
+    position: static;
+    margin: 0;
+    width: 100%;
+    padding: 10px 5px; }
+
+  .s-footer-info-pl .b_info .wrap-s-pol_conf_card .card {
+    font-size: 14px; }
+
+  .promo .b-counter {
+    height: auto; }
+    .promo .b-counter .digit:after {
+      position: absolute;
+      bottom: -35px;
+      color: #aaa;
+      font-size: 14px;
+      left: 3px;
+      right: 0; }
+    .promo .b-counter .digit-hour::after {
+      content: 'час.'; }
+    .promo .b-counter .digit-min::after {
+      content: 'мин.'; } }
 @media (min-width: 992px) {
+  .s-header .b_info {
+    padding: 20px 0; }
+    .s-header .b_info .title .sub-title {
+      font-size: 14px;
+      color: #303030;
+      font-weight: 400; }
+    .s-header .b_info .logo {
+      width: 15%; }
+    .s-header .b_info .title {
+      width: 37%;
+      margin-right: 2%;
+      line-height: 1.4; }
+    .s-header .b_info .info-tel {
+      width: 17%;
+      margin-right: 2%; }
+    .s-header .b_info .btn {
+      width: 26%; }
+
+  .s-main-top {
+    background: url(../images/bg-s-how-many-big.jpg) bottom no-repeat;
+    background-size: cover; }
+
   .s-top-title {
     margin-bottom: 100px; }
     .s-top-title .text_1,
@@ -334,6 +412,9 @@
     overflow: hidden;
     text-overflow: ellipsis;
     line-height: 1; }
+
+  .s-bullets_top .b-bullets span {
+    font-size: 18px; }
 
   .promo {
     margin: 50px 0; }
@@ -372,7 +453,7 @@
     .s-form-1 .f-get-calc input {
       width: 100%;
       margin: 0 0 5px; }
-    .s-form-1 .f-get-calc button {
+    .s-form-1 .f-get-calc .btn {
       width: 100%;
       font-size: 24px;
       font-weight: 600;
@@ -474,6 +555,54 @@
         padding-left: 60px; }
 
   .s-title {
-    font-size: 48px; } }
+    font-size: 48px; }
+
+  .s-map .b-map-adr {
+    left: 120px;
+    margin-left: 0; }
+
+  .s-footer-form {
+    padding: 70px 0 40px; }
+
+  .s-footer-form .title {
+    font-size: 36px;
+    margin-bottom: 30px; }
+
+  .b-footer-itm {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    font-family: "Exo2"; }
+
+  .s-footer-info-pl .wrap_logo-title {
+    margin-right: 10px; }
+
+  .s-footer-info-pl .b_info .b_rekv {
+    margin-right: 20px;
+    font-size: 14px; }
+
+  .s-footer-info-pl .b_info .b_rekv p {
+    line-height: 2; }
+
+  .b-footer-adr {
+    white-space: nowrap; }
+
+  .s-footer-info-pl .b_info .wrap-s-pol_conf_card {
+    text-align: left;
+    width: 34%;
+    margin: 0;
+    margin-right: 2%; }
+
+  .s-footer-info-pl .b_info .wrap_logo-title {
+    width: 22%;
+    margin: 0; }
+
+  .s-footer-info-pl .b_info .b_rekv {
+    width: 17%;
+    margin: 0;
+    margin-right: 2%; }
+
+  .s-footer-info-pl .b_info .b-footer-tel {
+    width: 23%; } }
 
 /*# sourceMappingURL=main-rasik-fix.css.map */
