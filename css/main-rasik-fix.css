@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .b_info .btn-blue {
   padding: 18px 5px;
   margin: 20px 0 0;
@@ -315,8 +316,73 @@
     right: calc(50% + 45px); }
 
   .s-form-2 {
-    padding: 40px 0; } }
+    padding: 40px 0; }
+
+  .s-footer-info-pl .b_info .b-footer-itm {
+    display: inline-block;
+    vertical-align: middle; }
+
+  .s-footer-info-pl .b_info .wrap_logo-title {
+    width: 28%; }
+
+  .s-footer-info-pl .b_info .wrap-s-pol_conf_card {
+    width: 40%; }
+
+  .s-footer-info-pl .b_info .b-footer-tel {
+    width: 32%; }
+
+  .s-footer-info-pl .b_info .info-tel .tel {
+    left: 0;
+    right: 0;
+    top: 0; }
+
+  .s-footer-info-pl .b_info .info-tel {
+    position: static;
+    margin: 0;
+    margin-bottom: 10px;
+    width: 100%; }
+
+  .s-footer-info-pl .b_info button {
+    position: static;
+    margin: 0;
+    width: 100%;
+    padding: 10px 5px; }
+
+  .s-footer-info-pl .b_info .wrap-s-pol_conf_card .card {
+    font-size: 14px; }
+
+  .promo .b-counter {
+    height: auto; }
+    .promo .b-counter .digit:after {
+      position: absolute;
+      bottom: -35px;
+      color: #aaa;
+      font-size: 14px;
+      left: 3px;
+      right: 0; }
+    .promo .b-counter .digit-hour::after {
+      content: 'час.'; }
+    .promo .b-counter .digit-min::after {
+      content: 'мин.'; } }
 @media (min-width: 992px) {
+  .s-header .b_info {
+    padding: 20px 0; }
+    .s-header .b_info .title .sub-title {
+      font-size: 14px;
+      color: #303030;
+      font-weight: 400; }
+    .s-header .b_info .logo {
+      width: 15%; }
+    .s-header .b_info .title {
+      width: 37%;
+      margin-right: 2%;
+      line-height: 1.4; }
+    .s-header .b_info .info-tel {
+      width: 17%;
+      margin-right: 2%; }
+    .s-header .b_info .btn {
+      width: 26%; }
+
   .s-main-top {
     background: url(../images/bg-s-how-many-big.jpg) bottom no-repeat;
     background-size: cover; }
@@ -491,6 +557,43 @@
 
   .s-footer-form .title {
     font-size: 36px;
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }
+
+  .b-footer-itm {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    font-family: "Exo2"; }
+
+  .s-footer-info-pl .wrap_logo-title {
+    margin-right: 10px; }
+
+  .s-footer-info-pl .b_info .b_rekv {
+    margin-right: 20px;
+    font-size: 14px; }
+
+  .s-footer-info-pl .b_info .b_rekv p {
+    line-height: 2; }
+
+  .b-footer-adr {
+    white-space: nowrap; }
+
+  .s-footer-info-pl .b_info .wrap-s-pol_conf_card {
+    text-align: left;
+    width: 34%;
+    margin: 0;
+    margin-right: 2%; }
+
+  .s-footer-info-pl .b_info .wrap_logo-title {
+    width: 22%;
+    margin: 0; }
+
+  .s-footer-info-pl .b_info .b_rekv {
+    width: 17%;
+    margin: 0;
+    margin-right: 2%; }
+
+  .s-footer-info-pl .b_info .b-footer-tel {
+    width: 23%; } }
 
 /*# sourceMappingURL=main-rasik-fix.css.map */

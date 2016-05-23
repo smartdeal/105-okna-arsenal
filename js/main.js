@@ -239,18 +239,38 @@ $(document).ready(function() {
         items: 1,
         loop: true,
         nav: true,
-        
+
     });
 
     $('.b-reviews-list').owlCarousel({
         items: 1,
         loop: true,
         nav: true,
-        autoHeight:true
+        autoHeight: true
     });
 
     $(window).ready(init_sliders);
     $(window).resize(init_sliders);
+
+    function create_target_date() {
+        var target_date = new Date();
+        //target_date.setDate(target_date.getDate()+1);
+        target_date.setHours(23, 59, 59);
+        return target_date;
+    }
+
+    function calculation_timer() {
+        var target_date = create_target_date();
+        var current_date = new Date();
+        val_timer = target_date.getTime() - current_date.getTime();
+        var hours = Math.floor(val_timer / 1000 / 60 / 60);
+        var minutes = Math.floor((val_timer - hours * 60 * 60 * 1000) / 1000 / 60);
+        var seconds = Math.floor(((val_timer - hours * 60 * 60 * 1000) - minutes * 60 * 1000) / 1000);
+        $('.digit-hour').text(hours);
+        $('.digit-min').text(minutes);
+    }
+    calculation_timer();
+    var id_timer = setInterval(calculation_timer, 60000);
 
     // $(window).scroll(function(){
     //         if( $(window).scrollTop() > 60 ) {
