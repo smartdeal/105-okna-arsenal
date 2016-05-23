@@ -45,15 +45,23 @@
 </head>
 
 <body id="top">
-    <div id="stickyheader">
+    <div id="stickyheader" class="">
         <div class="container">
             <div class="row">
+                <div class="b-logo hidden-xs">
+                    <a href="#" class="logo"><img src="images/logo.png" alt=""></a>
+                </div>
                 <ul>
-                    <li><a href="">Типы окон</a></li>
-                    <li><a href="">Услуги</a></li>
-                    <li><a href="">Отзывы</a></li>
-                    <li><a href="">О нас</a></li>
+                    <li><a href="#">Об окнах</a></li>
+                    <li><a href="#">Балкон под ключ</a></li>
+                    <li><a href="#">Отзывы</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Контакты</a></li>
                 </ul>
+                <div class="tel">
+                    <p><a href="tel:+8212562888">8 (8212) 562 888</a></p>
+                    <p><a href="tel:+89087142368">8 (908) 714 23 68</a></p>
+                </div>
             </div>
         </div>
     </div>

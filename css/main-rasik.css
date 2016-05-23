@@ -1,20 +1,35 @@
 #stickyheader {
+  background-color: #fff;
   box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.19);
-  display: none; }
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  font-size: 0; }
+  #stickyheader .b-logo {
+    display: inline-block; }
   #stickyheader ul {
-    width: 100%;
-    text-align: center; }
+    display: table;
+    table-layout: fixed;
+    width: 100%; }
+    #stickyheader ul .logo {
+      width: 40px;
+      margin: 0 auto; }
     #stickyheader ul li {
-      display: inline-block;
-      width: 24%;
-      border-right: 1px solid #ededed; }
+      border-right: 1px solid #ededed;
+      display: table-cell;
+      width: 25%;
+      text-align: center;
+      vertical-align: middle; }
       #stickyheader ul li:last-child {
         border-right: none; }
       #stickyheader ul li a {
         color: #303030;
         font: 400 14px / 18px Exo2;
-        padding-top: 13px;
-        padding-bottom: 13px;
+        padding-top: 3px;
+        padding-bottom: 3px;
         display: block;
         text-decoration: none; }
 
@@ -282,6 +297,33 @@ input {
   background: url(../images/s-bull_i_3.png) center no-repeat;
   height: 45px;
   width: 44px; }
+
+.promo .b-counter {
+  text-align: center;
+  margin: 10px auto 0;
+  width: 290px;
+  height: 130px; }
+  .promo .b-counter .title {
+    color: #303030;
+    font: 400 18px / 24px Open Sans;
+    display: inline-block;
+    width: 124px;
+    vertical-align: middle;
+    text-align: left; }
+  .promo .b-counter .digits {
+    display: inline-block; }
+  .promo .b-counter .digit {
+    position: relative;
+    display: inline-block;
+    background-color: #ececec;
+    width: 55px;
+    height: 55px;
+    line-height: 51px;
+    border: 2px solid #ffc000;
+    border-radius: 100px;
+    margin: 9px;
+    color: #434343;
+    font-size: 18px; }
 
 .s-discount {
   color: #0084ff;
@@ -928,33 +970,6 @@ input[type="text"]::-webkit-input-placeholder {
         top: -52px;
         width: 23%;
         margin: 0; }
-
-  .promo .b-counter {
-    text-align: center;
-    margin: 10px auto 0;
-    width: 290px;
-    height: 130px; }
-    .promo .b-counter .title {
-      color: #303030;
-      font: 400 18px / 24px Open Sans;
-      display: inline-block;
-      width: 124px;
-      vertical-align: middle;
-      text-align: left; }
-    .promo .b-counter .digits {
-      display: inline-block; }
-    .promo .b-counter .digit {
-      position: relative;
-      display: inline-block;
-      background-color: #ececec;
-      width: 55px;
-      height: 55px;
-      line-height: 51px;
-      border: 2px solid #ffc000;
-      border-radius: 100px;
-      margin: 9px;
-      color: #434343;
-      font-size: 18px; }
 
   .s-get-calc .title {
     font: 700 36px / 48px Exo2;
