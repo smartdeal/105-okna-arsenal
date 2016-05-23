@@ -212,10 +212,15 @@
   .s-discount .text .text_1 {
     display: inline-block; }
 
-  .f-get-calc .btn {
-    width: 290px; }
-  .f-get-calc input {
-    padding: 10px 12px; }
+  .s-form-1 .f-get-calc .btn,
+  .s-form-2 .f-get-calc .btn,
+  .s-form-3 .f-get-calc .btn {
+    width: 40%; }
+  .s-form-1 .f-get-calc input,
+  .s-form-2 .f-get-calc input,
+  .s-form-3 .f-get-calc input {
+    padding: 10px;
+    width: 29%; }
 
   .b-bull-wrap .owl-nav {
     left: -73px;
@@ -302,7 +307,7 @@
     padding-bottom: 50px; }
 
   .b-how-many-list-wrap {
-    max-width: 500px;
+    width: 80%;
     margin: 0 auto; }
 
   .b-how-many-list .owl-nav {
@@ -448,7 +453,7 @@
     .s-form-1 .f-get-calc input {
       width: 100%;
       margin: 0 0 5px; }
-    .s-form-1 .f-get-calc button {
+    .s-form-1 .f-get-calc .btn {
       width: 100%;
       font-size: 24px;
       font-weight: 600;
@@ -551,6 +556,10 @@
 
   .s-title {
     font-size: 48px; }
+
+  .s-map .b-map-adr {
+    left: 120px;
+    margin-left: 0; }
 
   .s-footer-form {
     padding: 70px 0 40px; }

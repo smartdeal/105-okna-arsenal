@@ -1,2 +1,2 @@
-start git-bash
-start sass -w css\:css\
+start "git" /min git-bash
+start "sass" /min sass -w css\:css\
