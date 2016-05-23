@@ -1,5 +1,38 @@
 @charset "UTF-8";
 @import 'variables';
+#stickyheader {
+  .b-logo {
+    display: inline-block;
+    width: 18%;
+    vertical-align: middle;
+  }
+  ul {
+    display: inline-block;
+    width: 62%;
+    vertical-align: middle;
+    li {
+      border-right: 1px solid #ededed;
+      display: inline-block;
+      width: 20%;
+      text-align: center;
+      vertical-align: middle;
+      a {
+        padding: 10px 0;
+      }
+    }
+  }
+  .tel {
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+    color: black;
+    font-size: 15px;
+    a {
+      color: $dark;
+    }
+  }
+}
+
 .b_info .btn-blue {
   padding: 18px 5px;
   margin: 20px 0 0;
@@ -197,7 +230,8 @@
 
 .b-how-many-list {
   .itm {
-    border: 3px solid #0084ff;
+    a {border: 3px solid #0084ff; display: block;}
+    .description {display: none;}
   }
   &-wrap {
     margin: 20px 40px;
@@ -254,6 +288,9 @@
       vertical-align: middle;
       display: inline-block;
     }
+  }
+  .promo .b-counter .digits {
+    margin-bottom: 15px;
   }
   .s-top-title {
     padding-top: 50px;
@@ -348,6 +385,8 @@
   .b-sert-wrap {
     position: relative;
     padding-top: 40px;
+    width: 90%;
+    margin: 0 auto;
   }
   .b-sert-wrap:before {
     position: absolute;
@@ -359,10 +398,13 @@
     background: url(../images/line-grey.png) center no-repeat;
   }
   .b-sert {
-    font-size: 0;
-    .item {
-      width: 30.33%;
-      margin: 0 1%;
+    width: auto;
+    margin: 0;
+    display: block;
+    height: auto;
+    .owl-nav {
+      left: -43px;
+      right: -43px;
     }
   }
   .s-map .b-map-adr {
@@ -387,11 +429,19 @@
   }
   .b-how-many-list-wrap {
     width: 80%;
+    max-width: 500px;
     margin: 0 auto;
   }
   .b-how-many-list .owl-nav {
     left: -85px;
     right: -85px;
+  }
+
+  .b-how-many-list {
+    .itm {
+      .description {font-size: 16px; margin-top: 20px; display: block;}
+    }
+    .owl-nav {margin-top: -70px;}
   }
   .s-footer-form {
     padding: 40px 0 20px;
@@ -455,6 +505,14 @@
 }
 
 @media (min-width: 992px) {
+  #stickyheader {
+    ul li a {
+      font-size: 18px;
+      line-height: .8;
+    }
+    .tel {font-size: 17px;
+    font-weight: 700; p {line-height: 1.2;}}
+  }
   .s-header {
     .b_info {
       padding: 20px 0;
@@ -483,11 +541,10 @@
     }
   }
   .s-main-top {
-    background: url(../images/bg-s-how-many-big.jpg) bottom no-repeat;
+    background: url(../images/bg-s-main.jpg) bottom no-repeat;
     background-size: cover;
   }
   .s-top-title {
-    margin-bottom: 100px;
     .text_1,
     .text_2 {
       font-weight: 400;

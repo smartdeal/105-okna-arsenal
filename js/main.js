@@ -179,7 +179,7 @@ $(document).ready(function() {
 
     function init_sliders() {
 
-        var sliders = $('.b-spectr, .b-adv-list, .b-sert, .b-types-list, .b-services-list');
+        var sliders = $('.b-spectr, .b-adv-list, .b-types-list, .b-services-list');
         var slider_hello = $('#owl-hello');
         var slider_balk = $('#owl-balk');
         if ($(window).width() < 768) {
@@ -235,10 +235,23 @@ $(document).ready(function() {
         items: 1,
         loop: true,
         nav: true,
+        // responsive: {
+        //     992: {
+        //         items: 3,
+        //         margin: 10,
+        //     }
+        // }
+    });
+
+    $('.b-sert').owlCarousel({
+        items: 1,
+        loop: true,
+        nav: true,
+          autoHeight: true,
         responsive: {
-            992: {
+            768: {
                 items: 3,
-                margin: 10,
+                margin: 5,
             }
         }
     });
@@ -273,20 +286,20 @@ $(document).ready(function() {
     calculation_timer();
     var id_timer = setInterval(calculation_timer, 60000);
 
-    // $(window).scroll(function(){
-    //         if( $(window).scrollTop() > 60 ) {
-    //                 $('#stickyheader').css('display', 'block');
-    //         } else {
-    //                 $('#stickyheader').css('display', 'none');
-    //         }
-    // });
+    $(window).scroll(function(){
+            if( $(window).scrollTop() > 60 ) {
+                    $('#stickyheader').css('display', 'block');
+            } else {
+                    $('#stickyheader').css('display', 'none');
+            }
+    });
 
-    // $("#stickyheader").on("click","a", function (event) {
-    //     event.preventDefault();
-    //     var id  = $(this).attr('href'),
-    //         top = $(id).offset().top-30;
-    //     $('body,html').animate({scrollTop: top}, 1000);
-    // });
+    $("#stickyheader").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top-30;
+        $('body,html').animate({scrollTop: top}, 1000);
+    });
 
 
 

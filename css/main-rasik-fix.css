@@ -1,4 +1,29 @@
 @charset "UTF-8";
+#stickyheader .b-logo {
+  display: inline-block;
+  width: 18%;
+  vertical-align: middle; }
+#stickyheader ul {
+  display: inline-block;
+  width: 62%;
+  vertical-align: middle; }
+  #stickyheader ul li {
+    border-right: 1px solid #ededed;
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    vertical-align: middle; }
+    #stickyheader ul li a {
+      padding: 10px 0; }
+#stickyheader .tel {
+  width: 20%;
+  display: inline-block;
+  vertical-align: middle;
+  color: black;
+  font-size: 15px; }
+  #stickyheader .tel a {
+    color: #303030; }
+
 .b_info .btn-blue {
   padding: 18px 5px;
   margin: 20px 0 0;
@@ -145,8 +170,11 @@
 .s-how-many .tit {
   margin: 20px 0; }
 
-.b-how-many-list .itm {
-  border: 3px solid #0084ff; }
+.b-how-many-list .itm a {
+  border: 3px solid #0084ff;
+  display: block; }
+.b-how-many-list .itm .description {
+  display: none; }
 .b-how-many-list-wrap {
   margin: 20px 40px; }
 .b-how-many-list .owl-nav {
@@ -192,6 +220,9 @@
       margin: 0;
       vertical-align: middle;
       display: inline-block; }
+
+  .promo .b-counter .digits {
+    margin-bottom: 15px; }
 
   .s-top-title {
     padding-top: 50px; }
@@ -269,7 +300,9 @@
 
   .b-sert-wrap {
     position: relative;
-    padding-top: 40px; }
+    padding-top: 40px;
+    width: 90%;
+    margin: 0 auto; }
 
   .b-sert-wrap:before {
     position: absolute;
@@ -281,10 +314,13 @@
     background: url(../images/line-grey.png) center no-repeat; }
 
   .b-sert {
-    font-size: 0; }
-    .b-sert .item {
-      width: 30.33%;
-      margin: 0 1%; }
+    width: auto;
+    margin: 0;
+    display: block;
+    height: auto; }
+    .b-sert .owl-nav {
+      left: -43px;
+      right: -43px; }
 
   .s-map .b-map-adr {
     top: 0;
@@ -308,11 +344,19 @@
 
   .b-how-many-list-wrap {
     width: 80%;
+    max-width: 500px;
     margin: 0 auto; }
 
   .b-how-many-list .owl-nav {
     left: -85px;
     right: -85px; }
+
+  .b-how-many-list .itm .description {
+    font-size: 16px;
+    margin-top: 20px;
+    display: block; }
+  .b-how-many-list .owl-nav {
+    margin-top: -70px; }
 
   .s-footer-form {
     padding: 40px 0 20px; }
@@ -370,6 +414,15 @@
     .promo .b-counter .digit-min::after {
       content: 'мин.'; } }
 @media (min-width: 992px) {
+  #stickyheader ul li a {
+    font-size: 18px;
+    line-height: .8; }
+  #stickyheader .tel {
+    font-size: 17px;
+    font-weight: 700; }
+    #stickyheader .tel p {
+      line-height: 1.2; }
+
   .s-header .b_info {
     padding: 20px 0; }
     .s-header .b_info .title .sub-title {
@@ -389,19 +442,17 @@
       width: 26%; }
 
   .s-main-top {
-    background: url(../images/bg-s-how-many-big.jpg) bottom no-repeat;
+    background: url(../images/bg-s-main.jpg) bottom no-repeat;
     background-size: cover; }
 
-  .s-top-title {
-    margin-bottom: 100px; }
-    .s-top-title .text_1,
-    .s-top-title .text_2 {
-      font-weight: 400;
-      line-height: inherit;
-      font-size: 35px; }
-      .s-top-title .text_1 i,
-      .s-top-title .text_2 i {
-        font-size: inherit; }
+  .s-top-title .text_1,
+  .s-top-title .text_2 {
+    font-weight: 400;
+    line-height: inherit;
+    font-size: 35px; }
+    .s-top-title .text_1 i,
+    .s-top-title .text_2 i {
+      font-size: inherit; }
 
   .s-top-title-txt {
     padding: 20px;

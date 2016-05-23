@@ -12,38 +12,38 @@
 }
 
 ::-webkit-input-placeholder {
-  color: #afafaf;
+  color: #000;
   font-family: 'Open Sans';
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 :-moz-placeholder {
-  color: #afafaf;
+  color: #000;
   font-family: 'Open Sans';
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 ::-moz-placeholder {
-  color: #afafaf;
+  color: #000;
   font-family: 'Open Sans';
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 :-ms-input-placeholder {
-  color: #afafaf;
+  color: #000;
   font-family: 'Open Sans';
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 input[placeholder] {
-  color: #afafaf;
+  color: #000;
   font-family: 'Open Sans';
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 hr {
@@ -187,7 +187,7 @@ body {
   max-width: 100%;
   white-space: nowrap;
   font-weight: 600;
-  background-color: #ff8a00;
+  background-color: $yellow;
   box-shadow: 1px 2px 2px #9A5100;
   border-radius: 5px;
   -webkit-appearance: none;
@@ -198,6 +198,24 @@ body {
   position: relative;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.btn:hover {
+  animation: pulse 2s infinite;
+  position: relative;
+  top: 2px;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: inset 0 0 0 #FFDDB5;
+  }
+  50% {
+    box-shadow: inset 0 0 3px 3px #FFDDB5;
+  }
+  100% {
+    box-shadow: inset 0 0 0 #FFDDB5;
+  }
 }
 
 .btn-blue {
@@ -255,6 +273,7 @@ form input {
   background: #eee;
   border-radius: 5px;
   border: 2px solid transparent;
+  border-bottom: 2px solid $yellow;
   // box-shadow: inset 0.5px 0.9px 1px rgba(0, 0, 0, 0.14);
 }
 
@@ -805,6 +824,12 @@ form .field_error {
   z-index: 99;
   vertical-align: middle;
   display: inline-block;
+  .f-title {
+    font-size: 22px;
+    color: white;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
 }
 
 .polit-popup,
@@ -817,6 +842,7 @@ form .field_error {
   padding: 20px;
   border: 1px solid white;
   border-radius: 3px;
+  background: $blue;
 }
 
 .polit-popup {
@@ -836,7 +862,6 @@ form .field_error {
 .form-popup {
   background: $blue;
   .f-title {
-    color: #eee;
     font-size: 20px;
     line-height: 1;
     margin-bottom: 20px;
@@ -1165,5 +1190,4 @@ form .field_error {
     font-size: 18px;
     line-height: 1.4;
   }
-  
 }

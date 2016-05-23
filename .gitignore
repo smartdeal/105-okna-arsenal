@@ -5,7 +5,6 @@ _doc/
 node_modules/
 dist/
 .tmp/
-.sass-cache/
 bower_components/
 test/
 .idea/
@@ -62,3 +61,4 @@ Temporary Items
 config.codekit
 
 *.scssc
+/server.js
